@@ -1,0 +1,28 @@
+.ccl-e-total-summary {
+  // @extend .ccl__text;
+  // @extend .ccl__text--small-body-text;
+  display: flex;
+  flex-flow: column;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  &__item {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    white-space: nowrap;
+    text-align: right;
+    &--total {
+      // @extend .ccl__text--body-text-bold;
+
+      margin: 4px 0 0 0;
+    }
+
+    &__label {
+      margin: 0 8px;
+    }
+    &__value {
+      margin: 0 4px;
+      width: 81px;
+    }
+  }
+}

@@ -1,0 +1,115 @@
+[
+  {
+    "userType": {"value": "carer"},
+    "ageGroup": {"value": "not applicable"},
+    "hasCarers": {"value": false},
+    "name": "carer - scenario 1",
+    "path": "/sitecore/content/drx/us/Configuration/Privacy rules/carer - scenario 1",
+    "permissions": [
+      {
+        "firstName": {"value": "rw"},
+        "lastName": {"value": "rw"},
+        "email": {"value": "rw"},
+        "dateOfBirth": {"value": "rw"},
+        "familyConsent": {"value": "r"},
+        "phones": {"value": "rw"},
+        "relatedCarers": {"value": "not applicable"},
+        "appliesTo": {"value": "carer"},
+        "_metadata": {"readOnlyForm": false}
+      },
+      {
+        "firstName": {"value": "rw"},
+        "lastName": {"value": "rw"},
+        "email": {"value": "rw"},
+        "dateOfBirth": {"value": "rw"},
+        "familyConsent": {"value": "r"},
+        "phones": {"value": "rw"},
+        "relatedCarers": {"value": "rw"},
+        "appliesTo": {"value": "recipient"},
+        "_metadata": {"readOnlyForm": false}
+      }
+    ]
+  },
+  {
+    "userType": {"value": "recipient"},
+    "ageGroup": {"value": "older than update age"},
+    "hasCarers": {"value": false},
+    "name": "recipient - scenario 1",
+    "path": "/sitecore/content/drx/us/Configuration/Privacy rules/recipient - scenario 1",
+    "permissions": [
+      {
+        "firstName": {"value": "rw"},
+        "lastName": {"value": "rw"},
+        "email": {"value": "rw"},
+        "dateOfBirth": {"value": "rw"},
+        "familyConsent": {"value": "r"},
+        "phones": {"value": "rw"},
+        "relatedCarers": {"value": "not applicable"},
+        "appliesTo": {"value": "recipient"},
+        "_metadata": {"readOnlyForm": false}
+      }
+    ]
+  },
+  {
+    "userType": {"value": "recipient"},
+    "ageGroup": {"value": "younger than update age"},
+    "hasCarers": {"value": true},
+    "name": "recipient - scenario 2",
+    "path": "/sitecore/content/drx/us/Configuration/Privacy rules/recipient - scenario 2",
+    "permissions": [
+      {
+        "firstName": {"value": "r"},
+        "lastName": {"value": "r"},
+        "email": {"value": "not applicable"},
+        "dateOfBirth": {"value": "not applicable"},
+        "familyConsent": {"value": "not applicable"},
+        "phones": {"value": "not applicable"},
+        "relatedCarers": {"value": "not applicable"},
+        "appliesTo": {"value": "carer"},
+        "_metadata": {"readOnlyForm": true}
+      },
+      {
+        "firstName": {"value": "r"},
+        "lastName": {"value": "r"},
+        "email": {"value": "r"},
+        "dateOfBirth": {"value": "r"},
+        "familyConsent": {"value": "r"},
+        "phones": {"value": "r"},
+        "relatedCarers": {"value": "r"},
+        "appliesTo": {"value": "recipient"},
+        "_metadata": {"readOnlyForm": true}
+      }
+    ]
+  },
+  {
+    "userType": {"value": "recipient"},
+    "ageGroup": {"value": "older than update age"},
+    "hasCarers": {"value": true},
+    "name": "recipient - scenario 3",
+    "path": "/sitecore/content/drx/us/Configuration/Privacy rules/recipient - scenario 3",
+    "permissions": [
+      {
+        "firstName": {"value": "r"},
+        "lastName": {"value": "r"},
+        "email": {"value": "not applicable"},
+        "dateOfBirth": {"value": "not applicable"},
+        "familyConsent": {"value": "not applicable"},
+        "phones": {"value": "not applicable"},
+        "relatedCarers": {"value": "not applicable"},
+        "appliesTo": {"value": "carer"},
+        "_metadata": {"readOnlyForm": true}
+      },
+      {
+        "firstName": {"value": "rw"},
+        "lastName": {"value": "rw"},
+        "email": {"value": "rw"},
+        "dateOfBirth": {"value": "rw"},
+        "familyConsent": {"value": "rw"},
+        "phones": {"value": "rw"},
+        "relatedCarers": {"value": "rw"},
+        "appliesTo": {"value": "recipient"},
+        "_metadata": {"readOnlyForm": false}
+      }
+    ]
+  }
+]

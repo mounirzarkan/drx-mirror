@@ -1,0 +1,15 @@
+node_modules/
+.serverless/
+/*.swp
+profile/variables.json
+/website.txt
+.history
+.nyc_output/
+_optimize/
+_warmup/
+**/coverage/
+**/variables.json
+Session.vim
+tags
+.localTest/
+/serverless-plugin

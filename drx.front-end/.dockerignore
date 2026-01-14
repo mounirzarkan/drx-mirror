@@ -1,0 +1,13 @@
+.deploy
+.storybook
+.vs
+.vscode
+.git
+.dockerignore
+build
+build-output
+node_modules
+docker
+core
+*.core
+powershell

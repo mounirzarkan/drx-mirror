@@ -1,0 +1,30 @@
+{
+  "releaseVersion": "V1",
+  "stage": "${opt:stage}",
+  "region": "${opt:region}",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Account Service",
+  "Name": "Cochlear DRX APIG Lambda Account Service",
+  "Function": "Account Service",
+  "Environment": "DEV",
+  "Product": "API Gateway",
+  "SCEndpoint": "https://www2.cochlear.com/api/cochlear",
+  "SFHostname": "test.salesforce.com",
+  "SFClientID": "3MVG95AcBeaB55lVjl.H.8e5YFhCI_RsxJw7DIDshsBfE2T.8ON1.AuuB8HfOcIcrWzMVTQCmbz0Uiapyo8WR",
+  "SFUsername": "digitalrefresh_int@cochlear.com.sit01",
+  "SMSFIntegration": "dev/drx/sf/integration",
+  "RedisHostname": "master.cochlear-drx-redis.seorg1.apse2.cache.amazonaws.com",
+  "RedisPort": "6379",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "redisTokenKey": "drx-dev-integrationUser-token",
+  "userSessionPrefix": "drx-dev-",
+  "vpcCidr": "10.170.0.0/18",
+  "subnets": [
+    "subnet-0b1ae4abdb36eca70",
+    "subnet-0134e8c7d8be18b93",
+    "subnet-02b58e10aaf504744"
+  ],
+  "securityGroups": ["sg-046031c5a116bf4b1"], 
+  "vpc": "vpc-040fd0d5dddd78527"
+}

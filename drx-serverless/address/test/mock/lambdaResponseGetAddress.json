@@ -1,0 +1,46 @@
+{
+  "success": true,
+  "data": {
+    "address": {
+      "_metadata": {
+        "readOnlyForm": false
+      },
+      "addressId": {
+        "value": "a0H1j000006ICCKEA4",
+        "permission": "r"
+      },
+      "street1": {
+        "value": "1138 12th Ave N",
+        "permission": "rw"
+      },
+      "street2": {
+        "value": "Street 2",
+        "permission": "rw"
+      },
+      "street3": {
+        "value": null,
+        "permission": "rw"
+      },
+      "street4": {
+        "value": null,
+        "permission": "r"
+      },
+      "city": {
+        "value": "Cypress",
+        "permission": "rw"
+      },
+      "state": {
+        "value": "TX",
+        "permission": "rw"
+      },
+      "postalCode": {
+        "value": "77433-1047",
+        "permission": "rw"
+      },
+      "countryIso2Code": {
+        "value": "US",
+        "permission": "r"
+      }
+    }
+  }
+}

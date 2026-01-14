@@ -1,0 +1,217 @@
+{
+  "source": "sitecore",
+  "countryCode": "us",
+  "langCode": "en",
+  "mobileMenuMenuText": "menu text",
+  "mobileMenuCloseText": "close ",
+  "footerCopyright": "Copyright © 2019 Cochlear Ltd. All rights reserved",
+  "features": {
+    "universalHeader": false
+  },
+  "headerMainNavigation": {
+    "home": {
+      "href": "/cochlear-us/home",
+      "text": "Home",
+      "alternativeTitle": "cochlear.com"
+    },
+    "professional": {
+      "href": "/cochlear-us/professionals",
+      "text": "Professionals",
+      "alternativeTitle": "cochlear.com"
+    }
+  },
+  "headerLinks": [
+    {
+      "href": "https://support.cochlear.com/us/en/home",
+      "text": "Device Support",
+      "target": ""
+    },
+    {
+      "href": "/cochlear-us/connect/find-a-clinic",
+      "text": "Find a Clinic",
+      "target": ""
+    },
+    {
+      "href": "/cochlear-us/connect/contact-us",
+      "text": "Contact Us",
+      "target": ""
+    },
+    {
+      "href": "/cochlear-us/about-us",
+      "text": "About Us",
+      "target": ""
+    },
+    {
+      "href": "https://store.mycochlear.com/store/index.php",
+      "text": "Store",
+      "target": "_blank"
+    }
+  ],
+  "homepageLink": {
+    "text": "Home",
+    "href": "/cochlear-us/home",
+    "linkTarget": "none",
+    "target": ""
+  },
+  "loginLink": {
+    "text": "Login",
+    "href": "https://cochlear.force.com/Recipient/CIM_RecipientPortalLogin",
+    "linkTarget": "none",
+    "target": "_blank"
+  },
+  "mobileHeaderLinks": [
+    {
+      "href": "https://support.cochlear.com/us/en/home",
+      "text": "Device Support",
+      "target": ""
+    },
+    {
+      "href": "/cochlear-us/about-us",
+      "text": "About Us",
+      "target": ""
+    },
+    {
+      "href": "https://store.mycochlear.com/store/index.php",
+      "text": "Store",
+      "target": "_blank"
+    },
+    {
+      "href": "/cochlear-us/professionals",
+      "text": "Switch to Professional",
+      "target": ""
+    }
+  ],
+  "mobileMenuContact": {
+    "text": "Contact",
+    "href": "/cochlear-us/connect/contact-us",
+    "target": ""
+  },
+  "mobileMenuClinicfinder": {
+    "text": "Clinic Finder",
+    "href": "/cochlear-us/connect/find-a-clinic",
+    "target": ""
+  },
+  "footerLinks": {
+    "column1": [
+      {
+        "href": "/cochlear-us/corporate/investors",
+        "text": "Investors",
+        "target": ""
+      },
+      {
+        "href": "/cochlear-us/corporate/careers",
+        "text": "Careers",
+        "target": ""
+      }
+    ],
+    "column2": [
+      {
+        "href": "/cochlear-us/corporate/media/media-releases",
+        "text": "Media",
+        "target": ""
+      },
+      {
+        "href": "/cochlear-us/corporate/global-warnings",
+        "text": "Global warnings",
+        "target": ""
+      },
+      {
+        "href": "/cochlear-us/home/products-and-accessories/cochlear-nucleus-system/nucleus-implant-reliability",
+        "text": "Reliability reporting",
+        "target": ""
+      }
+    ],
+    "column3": [
+      {
+        "href": "/privacy",
+        "text": "Privacy",
+        "target": "_blank"
+      },
+      {
+        "href": "/cochlear-us/corporate/terms-of-use",
+        "text": "Terms of use",
+        "target": ""
+      }
+    ]
+  },
+  "footerSocialLinks": [
+    {
+      "link": {
+        "text": "Facebook",
+        "href": "https://www.facebook.com/Cochlear/",
+        "target": "_blank"
+      },
+      "icon": {
+        "height": 68,
+        "alt": "Facebook logo",
+        "width": 68,
+        "src": null
+      }
+    },
+    {
+      "link": {
+        "text": "Instagram",
+        "href": "https://www.instagram.com/cochlear_global",
+        "target": "_blank"
+      },
+      "icon": {
+        "height": 100,
+        "alt": "Instagram logo",
+        "width": 100,
+        "src": null
+      }
+    },
+    {
+      "link": {
+        "text": "LinkedIn",
+        "href": "https://www.linkedin.com/company/cochlear/",
+        "target": "_blank"
+      },
+      "icon": {
+        "height": 100,
+        "alt": "YouTube logo",
+        "width": 100,
+        "src": null
+      }
+    },
+    {
+      "link": {
+        "text": "Twitter",
+        "href": "https://twitter.com/CochlearGlobal",
+        "target": "_blank"
+      },
+      "icon": {
+        "height": 68,
+        "alt": "Twitter logo",
+        "width": 68,
+        "src": null
+      }
+    },
+    {
+      "link": {
+        "text": "Youtube",
+        "href": "https://www.youtube.com/CochlearGlobal",
+        "target": "_blank"
+      },
+      "icon": {
+        "height": 68,
+        "alt": "YouTube logo",
+        "width": 68,
+        "src": null
+      }
+    }
+  ],
+  "configUrls": {
+    "COCHLEAR_COOKIE_DOMAIN": "",
+    "AUTH_UH_DROPDOWN_MENU": "",
+    "AUTH_REVOKE": "",
+    "AUTH_AUTHORIZE": "",
+    "AUTH_CIM_RECIPIENT_LOGOUT": "",
+    "COCHLEAR_DRX_MAIN": "",
+    "STORE_LOGOUT": "",
+    "COCHLEAR_MCR": "",
+    "ASSETS_ENDPOINT": "",
+    "AUTHORIZE_USER_APP": "",
+    "AUTHORIZE_USER_APP_AUTHORIZE_PATH": ""
+  }
+}

@@ -1,0 +1,126 @@
+.ccl-e-table {
+  $this: &;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  // style table cells
+  &__thead__tr__th,
+  &__tbody__tr__td {
+    border: 1px solid $color__typography__primary;
+    border-width: 0 0 1px;
+    padding: 0.25em 0.25em;
+    vertical-align: bottom;
+    @include tablet {
+      padding: 0.5em;
+    }
+  }
+  &__tbody__tr__td {
+    padding: 0.5em 0.25em;
+    border-color: $brand-cool-grey75;
+    @include tablet {
+      padding: 0.75em 0.5em;
+    }
+  }
+
+  &__thead {
+    &__tr {
+      &__th {
+        &--restrict-width {
+          width: 1%;
+          white-space: nowrap;
+        }
+      }
+    }
+
+    // column header
+    &__column-title {
+      display: flex;
+      align-items: center;
+      color: $color__typography__primary;
+      font-size: 0.875rem; /* 14/16 */
+      font-family: $family-secondary;
+      font-weight: 500;
+      text-align: left;
+      line-height: 1.285714285714286; /* 18px/14 */
+      white-space: nowrap;
+      @include tablet {
+        font-size: 1.125rem; /* 18/16 */
+        line-height: 1.555555555555556; /* 28px/18 */
+      }
+      // if the arrow for sorting exists
+      .ccl__icon {
+        margin-left: $spacing1x;
+      }
+    }
+  }
+
+  // table body data
+  &__tbody {
+    &__tr {
+      // style odd rows inside table body
+      &:nth-child(odd) {
+        background-color: #fefcf6;
+      }
+      &:last-child {
+        .ccl-e-table__tbody__tr__td {
+          border-color: $brand-navy;
+        }
+      }
+      // style table cell text
+      &__td {
+        color: $brand-navy;
+        font-size: 0.875rem; /* 14/16 */
+        font-family: $family-primary;
+        font-weight: normal;
+        line-height: 1.285714285714286; /* 18px/14 */
+
+        @include tablet {
+          font-size: 1rem; /* 16/16 */
+          line-height: 1.5; /* 24px/16 */
+        }
+
+        .status {
+          white-space: nowrap;
+        }
+      }
+    }
+  }
+
+  &--list {
+    #{$this}__tbody {
+      &__tr {
+        &:hover {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+
+  // details view
+  &--details {
+    #{$this}__tbody {
+      &__tr {
+        &__td {
+          vertical-align: middle;
+        }
+      }
+    }
+  }
+}
+
+// temporary for the link button
+// this will be added eventually to the ccl as part of the buttons component
+.ccl-e-button {
+  display: flex;
+  align-items: center;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  &--text {
+    color: $color__baseline__digital-primary;
+    font-size: 16px;
+    font-family: $family-secondary;
+    font-weight: 500;
+    line-height: 24px;
+  }
+}

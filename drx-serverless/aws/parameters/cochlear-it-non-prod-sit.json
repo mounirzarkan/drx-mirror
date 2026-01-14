@@ -1,0 +1,10 @@
+[
+    {
+        "ParameterKey": "vpcId",
+        "ParameterValue": "vpc-040fd0d5dddd78527"
+    },
+    {
+        "ParameterKey": "vpcIPRange",
+        "ParameterValue": "10.170.0.0/18"
+    }
+]

@@ -1,0 +1,10 @@
+.ccl-c-form-section {
+  margin-top: $spacing-4x;
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+.ccl__view-edit-mode {
+  margin-top: $spacing-2x;
+}

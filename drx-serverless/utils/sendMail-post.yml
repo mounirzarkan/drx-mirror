@@ -1,0 +1,23 @@
+type: object
+required:
+  - firstName
+  - lastName
+  - email
+  - inquiryReason
+  - country
+  - comment
+properties:
+  firstName:
+    - type: string
+  lastName:
+    - type: string
+  email:
+    - type: string
+  inquiryReason:
+    - type: string
+  country:
+    - type: string
+  comment:
+    oneOf:
+      - type: string
+      - type: 'null'

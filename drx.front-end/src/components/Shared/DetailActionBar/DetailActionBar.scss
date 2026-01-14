@@ -1,0 +1,18 @@
+.ccl-e-detail-action-bar {
+  border-bottom: $grey 2px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &--highlight {
+    border-bottom: $yellow 2px solid;
+  }
+  &__title {
+    // @extend .ccl__text;
+    // @extend .ccl__title--heading-5;
+  }
+  &__action {
+    // @extend .ccl__text;
+    // @extend .ccl__text--interactive-text;
+    text-decoration: underline;
+  }
+}

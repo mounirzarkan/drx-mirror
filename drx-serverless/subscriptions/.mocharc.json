@@ -1,0 +1,7 @@
+{
+    "mochaExplorer.timeout": 10000,
+    "timeout": 10000,
+    "mochaExplorer": {
+        "timeout": 10000
+    }
+}

@@ -1,0 +1,9 @@
+type: object
+required:
+  - template
+  - params
+properties:
+  template:
+    type: string
+  params:
+    type: object

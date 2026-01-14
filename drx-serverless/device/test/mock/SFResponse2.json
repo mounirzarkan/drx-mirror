@@ -1,0 +1,102 @@
+{
+  "success": true,
+  "data": {
+    "soundProcessors": [
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010115702268",
+        "productName": "CP910 PROCESSING UNIT (MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285970",
+          "modelNumber": "CP900",
+          "itemId": "798665",
+          "description": "CP910 PROCESSING UNIT (MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E9E000000BQzpUAG",
+        "fittingDate": 1457654400000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 6",
+        "colour": "Mocha"
+      }
+    ],
+    "remoteAssistants": [
+      {
+        "serialNumber": "1040230806107",
+        "productName": "CR230 REMOTE ASSISTANT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z294703",
+          "modelNumber": "CR230",
+          "itemId": "830691",
+          "description": "CR230 REMOTE ASSISTANT"
+        },
+        "name": "CR230",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0E9E000000BR0DUAW",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      },
+      {
+        "serialNumber": "1040230807036",
+        "productName": "CR230 REMOTE ASSISTANT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z294703",
+          "modelNumber": "CR230",
+          "itemId": "830691",
+          "description": "CR230 REMOTE ASSISTANT"
+        },
+        "name": "CR230",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0E9E000000BR2rUAG",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      }
+    ],
+    "implants": [],
+    "contracts": [
+      {
+        "terminatedDate": null,
+        "startDate": 1457654400000,
+        "installBaseId": "a0E9E000000BQzpUAG",
+        "expirationDate": 1552176000000,
+        "description": "CUSTOMER: Jacqueline Charlton Warranty and Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "EW1154261",
+        "accessoryId": null
+      }
+    ],
+    "accessories": [
+      {
+        "serialNumber": null,
+        "productName": "REMOTE ASSISTANT BELT CASE (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z332268",
+          "modelNumber": "CP900",
+          "itemId": "1076693",
+          "description": "REMOTE ASSISTANT BELT CASE (BLACK)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCVlQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      }
+    ]
+  }
+}

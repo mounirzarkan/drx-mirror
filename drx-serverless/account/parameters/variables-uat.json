@@ -1,0 +1,19 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Account Service",
+  "Name": "Cochlear DRX APIG Lambda Account Service",
+  "Function": "Account Service",
+  "Environment": "UAT",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "privacyRulesSeconds": 21600,
+  "logLevel": "INFO",
+  "createAlarms": "true",
+  "pmEndpoint": "https://d8eb9dca-c90a-4760-bbe1-2660bde5887a.mock.pstmn.io",
+  "errorUsers": "[{\"cId\":\"164953829888180\",\"name\":\"patchUserInfo\"},{\"cId\":\"251206513188618\",\"name\":\"patchUserInfo\"},{\"cId\":\"235263819357646\",\"name\":\"patchUserInfo\"},{\"cId\":\"147115095649885\",\"name\":\"patchUserInfo\"},{\"cId\":\"168589761537931\",\"name\":\"patchUserInfo\"},{\"cId\":\"264275369740272\",\"name\":\"patchUserInfo\"},{\"cId\":\"243680123919697\",\"name\":\"patchUserInfo\"},{\"cId\":\"213424112447860\",\"name\":\"patchUserInfo\"},{\"cId\":\"220562695442867\",\"name\":\"getUserInfo\"},{\"cId\":\"189493216647327\",\"name\":\"getUserInfo\"},{\"cId\":\"218520776383457\",\"name\":\"getUserInfo\"}]",
+  "appConfigApplicationId": "jb6fxvo",
+  "appConfigEnvironmentId": "goou0t7",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_UAT/environments/UAT/configurations"
+}

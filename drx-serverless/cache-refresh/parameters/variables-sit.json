@@ -1,0 +1,12 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "dlippiatt@cochlear.com",
+  "Description": "Cochlear DRX Cache Refresh Lambda deleteCache Service",
+  "Name": "Cochlear DRX Cache Refresh Lambda deleteCache Service",
+  "Function": "deleteCache Service",
+  "Environment": "SIT",
+  "Product": "API Gateway",
+  "secretName": "cochlear-drx-sit-deleteCache",
+  "logLevel": "DEBUG",
+  "createAlarms": "false"
+}

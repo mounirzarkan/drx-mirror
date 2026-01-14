@@ -1,0 +1,32 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile.local
+      args:
+        CI_JOB_TOKEN: ${CI_JOB_TOKEN}
+        CDS_CI_JOB_TOKEN: ${CDS_CI_JOB_TOKEN}
+        BUILD_ENVIRONMENT: ${BUILD_ENVIRONMENT}
+    container_name: drx-main-local-${BUILD_ENVIRONMENT}
+    image: drx-main:${BUILD_ENVIRONMENT}
+    ports:
+      - "3000:3000"
+    volumes:  
+      - /var/website/node_modules
+    environment:
+      - CI_JOB_TOKEN=${CI_JOB_TOKEN}
+      - CDS_CI_JOB_TOKEN=${CDS_CI_JOB_TOKEN}
+      - BUILD_ENVIRONMENT=${BUILD_ENVIRONMENT}
+    develop:
+      watch:
+        - action: sync
+          path: ./src
+          target: /var/website/src
+          ignore:
+            - node_modules/
+        - action: rebuild
+          path: ./package.json
+          target: /var/website
+        - action: rebuild
+          path: ./package-lock.json
+          target: /var/website  

@@ -1,0 +1,24 @@
+.ccl-e-data-header {
+  // @extend .ccl__text;
+  // @extend .ccl__text--small-body-text;
+  display: flex;
+  flex-flow: column;
+  &__item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+
+    &__label {
+      margin: 0 4px;
+    }
+    &__value {
+      margin: 0 4px;
+      &__portion {
+        &--bold {
+          // @extend .ccl__text--body-text-bold;
+        }
+      }
+    }
+  }
+}

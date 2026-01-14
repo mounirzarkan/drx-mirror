@@ -1,0 +1,48 @@
+
+steps:
+  - command:
+      - source /etc/profile
+      - echo "REACT_APP_DRX_ENV=$(echo $BuildEnvironment | tr [a-z] [A-Z])" > $BUILDKITE_BUILD_CHECKOUT_PATH/.env
+      - cat $BUILDKITE_BUILD_CHECKOUT_PATH/.env
+    #  - BUILD_ARTIFACT_BUCKET=$(cat $BUILDKITE_BUILD_CHECKOUT_PATH/aws/parameters/$CFN_APP_PARAM_FILE | jq '.[]| select (.ParameterKey=="ArtifactS3Bucket")|.ParameterValue' -r)
+      - echo $$BUILD_ARTIFACT_BUCKET
+      - rm -f package-lock.json
+      - rm -f scjssconfig.json
+      - cp ./jss-build-parameters/scjssconfig.json.${BuildEnvironment}_node ./scjssconfig.json
+      - npm install || true 
+      - npm install 
+      - jss build
+      - mkdir -p node-headless-ssr-proxy/dist/drx
+      - cp -r ./build/* ./node-headless-ssr-proxy/dist/drx
+      - cd $BUILDKITE_BUILD_CHECKOUT_PATH/node-headless-ssr-proxy
+      - rm -f config.js
+      - cp ./jss-proxy-config/config-${BuildEnvironment}.js ./config.js
+      - cp ./newrelic-config/newrelic-${BuildEnvironment}.js ./newrelic.js
+      - npm install 
+      - zip -r build-$BUILDKITE_BUILD_NUMBER.zip ./ > /dev/null 2>&1
+      - aws s3 cp ./build-$BUILDKITE_BUILD_NUMBER.zip s3://$$BUILD_ARTIFACT_BUCKET/artifacts/$APP_STACK_NAME-$BUILDKITE_BUILD_NUMBER.zip
+      - echo "file uploaded as s3://$$BUILD_ARTIFACT_BUCKET/artifacts/$APP_STACK_NAME-$BUILDKITE_BUILD_NUMBER.zip"
+      - echo "build completed"
+    label: "Build and Upload to S3"
+    branches: $BUILDKITE_BRANCH
+    agents:
+      queue: $DEPLOY_QUEUE
+    concurrency: 1
+    concurrency_group: '$BUILDKITE_PIPELINE_SLUG'
+    timeout_in_minutes: 30
+
+  - wait 
+  - label: trigger develop environment deployment
+    trigger: $DEPLOY_PIPELINE
+    label: ":rocket: Deploy"
+    build:
+      message: "${BUILDKITE_MESSAGE}"
+      env:
+        BUILDKITE_PULL_REQUEST: "${BUILDKITE_PULL_REQUEST}"
+        BUILDKITE_PULL_REQUEST_BASE_BRANCH: "${BUILDKITE_PULL_REQUEST_BASE_BRANCH}"
+        BUILDKITE_PULL_REQUEST_REPO: "${BUILDKITE_PULL_REQUEST_REPO}"
+        BuildEnvironment: $BuildEnvironment
+        BuildNumber: $BUILDKITE_BUILD_NUMBER
+        APP_REGION: $APP_REGION
+        APP_STACK_NAME: $APP_STACK_NAME
+        

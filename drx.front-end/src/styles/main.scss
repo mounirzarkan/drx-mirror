@@ -1,0 +1,533 @@
+@charset "utf-8";
+
+// -----------------------------------------------------
+// 1. Import the initial variables
+// -----------------------------------------------------
+@import '~bulma/sass/utilities/initial-variables';
+@import '~bulma/sass/utilities/functions.sass';
+
+// -----------------------------------------------------
+// 2. Import CDS package variables
+// -----------------------------------------------------
+@import '@cochlear-design-system/foundation/dist/_shared/cds';
+@import '@cochlear-design-system/foundation/dist/index';
+@import '@cochlear-design-system/features.address/dist/index'; // needed for the typeahead dropdown styling
+@import '@cochlear-design-system/features.adaptiveForms/dist/index';
+@import '@cochlear-design-system/features.dataTable/dist/index';
+@import '@cochlear-design-system/features.universalHeader/dist/index';
+@import '@cochlear-design-system/projects.drx/dist/index';
+
+// -----------------------------------------------------
+// 3. Set project initial variables here
+// -----------------------------------------------------
+@import './initial-variables.scss';
+// -----------------------------------------------------
+
+// -----------------------------------------------------
+// 4. Project derived variables
+// -----------------------------------------------------
+// create a new set of custom variables for use in the drx-main app only to help facilitate
+// development of drx specific css only. Don't reference these directly in anything related to
+// the drx storybook, as they are usually more specific with toekn variables used
+// (interactive and non-interactive states) - so reference directly from the CCL instead.
+@import './derived-variables.scss';
+
+// -----------------------------------------------------
+// 5. Bulma component variables
+// -----------------------------------------------------
+
+// navbar/#variables
+// -----------------------------------------------------
+$navbar-breakpoint: $desktop;
+$navbar-height: 2.8125rem;
+/* 45px */
+$navbar-background-color: $white;
+$navbar-item-hover-color: $link;
+
+// footer
+// -----------------------------------------------------
+$footer-padding: 0;
+$footer-background-color: $secondary;
+
+// -----------------------------------------------------
+// 6. Import required Bulma utilities, layout and components
+// -----------------------------------------------------
+// I want to style components in isolation to help reusability between projects
+// without a reliance on a particular CSS framework so i have deliberately tried to
+// only include layout and utility based files. Component styles will exist within
+// thier corresponding component folder.
+// --------------------------------------------------------------------------------
+
+// Utilities
+@import 'bulma/sass/utilities/_all.sass';
+
+// Base
+@import 'bulma/sass/base/_all.sass';
+
+// Components
+@import 'bulma/sass/components/level.sass';
+@import 'bulma/sass/components/navbar.sass';
+
+// Grid
+@import 'bulma/sass/grid/columns.sass';
+
+// Layout
+@import 'bulma/sass/layout/_all.sass';
+
+// Elements
+// @import 'bulma/sass/elements/button.sass';
+// @import 'bulma/sass/elements/container.sass';
+@import 'bulma/sass/elements/icon.sass';
+@import 'bulma/sass/elements/image.sass';
+@import 'bulma/sass/elements/notification.sass';
+@import 'bulma/sass/elements/other.sass';
+
+
+// Form
+@import 'bulma/sass/form/_all.sass';
+
+// -----------------------------------------------------
+// 7. Import drx main app components
+// -----------------------------------------------------
+
+// Global Components
+// -----------------------------------------------------
+// Navigtion
+@import '../components/UniversalHeader/UniversalHeader';
+
+@import '../components/Footer/Footer.scss';
+
+// Container Components
+// -----------------------------------------------------
+@import '../components/Containers/CenteredContainer/CenteredContainer';
+@import '../components/Containers/BoxContainer/BoxContainer';
+
+// Layout Components
+// -----------------------------------------------------
+// @import '../components/Shared/Tabs/tabs';
+
+// Content Components
+// -----------------------------------------------------
+@import '../components/HeaderTitle/HeaderTitle';
+@import '../components/AdaptiveForm/AddressView/AddressView.scss';
+@import '../components/AdaptiveForm/FormView/EditMode.scss';
+@import '../components/AdaptiveForm/FormView/ReadMode.scss';
+@import '../components/AdaptiveForm/ListView/EditPhoneNumbers.scss';
+@import '../components/AdaptiveForm/ListView/EditMode.scss';
+@import '../components/AdaptiveForm/ListView/ReadMode.scss';
+
+// View
+@import '../components/AccountDetails/AccountDetails';
+
+// Elements
+// -----------------------------------------------------
+@import '../components/Shared/DataTable/dataTable-addon';
+@import '../components/Shared/ToolBar/ToolBar';
+@import '../components/Shared/Spinner/spinner';
+@import '../components/Shared/TotalSummary/TotalSummary';
+@import '../components/Shared/DataHeader/DataHeader';
+@import '../components/Shared/DetailActionBar/DetailActionBar';
+@import '../components/Shared/PhoneNumberField/PhoneNumberField';
+@import '../components/Shared/ReadModeComposite/ReadModeComposite';
+@import '../components/SecurityAndPrivacy/ConfirmationBlock';
+@import '../components/SecurityAndPrivacy/ContentElementBlock';
+@import '../components/SecurityAndPrivacy/SecurityAndPrivacyView';
+
+// Forms
+@import '../components/AdaptiveForm/adaptiveForm.scss';
+@import '../components/AdaptiveForm2/adaptiveForm2-addon';
+
+// LAYOUT
+// --------------------------------------------
+// Mobile Safari Bottom Navigation Bar
+// --------------------------------------------
+@include mobile {
+  html {
+    /* Allows content to fill the viewport and go beyond the bottom */
+    height: 100%;
+    overflow-y: visible;
+
+    &.is-clipped {
+      body.site {
+        overflow: hidden !important;
+      }
+    }
+  }
+
+  body.site,
+  #root {
+    height: 100%;
+  }
+
+  .site__content {
+    display: block;
+  }
+}
+
+// Skip to main content
+// --------------------------------------------
+#skiplink {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  display: block;
+  padding: 1em;
+  outline: 0;
+
+  &.is-sr-only-focusable:focus,
+  &.is-sr-only-focusable:active {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}
+
+// Sticky footer
+// --------------------------------------------
+@include tablet {
+  body.site,
+  #root {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  .site__content {
+    flex: 1 0 auto;
+  }
+}
+
+// @include desktop {
+//   .site__content {
+//     display: flex;
+//     > .section {
+//       flex: 1 0 auto;
+//     }
+//   }
+// }
+
+.content__wrapper {
+  margin: 20px 20px 50px;
+}
+
+// Animations and keyframes
+// --------------------------------------------
+@mixin keyframes($animation-name) {
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  animation: #{$str};
+}
+
+// Generic button/link with spinner
+// ---------------------------------------------
+
+.has-spinner {
+  &.is-submitting {
+    position: relative;
+
+    .lds-ring {
+      display: inline-block;
+      margin-left: 10px;
+      margin-top: -12px;
+      top: 7px;
+    }
+
+    > .drxi {
+      display: none;
+    }
+  }
+
+  &:active {
+    .lds-ring div,
+    .lds-ring span {
+      border-color: $digital-primary transparent transparent
+        transparent;
+    }
+  }
+
+  @include desktop {
+    &:hover {
+      .lds-ring div,
+      .lds-ring span {
+        border-color: $digital-primary transparent transparent
+          transparent;
+      }
+    }
+  }
+}
+
+// Spinner (used on buttons)
+// ---------------------------------------------
+
+.lds-ring {
+  display: none;
+  position: relative;
+  width: 29px;
+  height: 29px;
+
+  span,
+  div {
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin: 2px;
+    border: 2px solid $digital-primary;
+    border-radius: 50%;
+    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    border-color: $digital-primary transparent transparent transparent;
+
+    &:nth-child(1) {
+      animation-delay: -0.45s;
+    }
+
+    &:nth-child(2) {
+      animation-delay: -0.3s;
+    }
+
+    &:nth-child(3) {
+      animation-delay: -0.15s;
+    }
+  }
+}
+
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+// Spinner (page/section spinner)
+// --------------------------------------------
+.spinner {
+  position: relative;
+  height: 100vh;
+  height: 100%;
+  background: $grey-light;
+
+  .spinner--loading {
+    display: block;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -23px 0 0 -23px;
+
+    &:after {
+      @include animation('lds-dual-ring 1.2s linear infinite');
+      content: ' ';
+      display: block;
+      width: 46px;
+      height: 46px;
+      margin: 1px;
+      border-radius: 50%;
+      border: 5px solid $grey;
+      border-color: $grey transparent $grey transparent;
+    }
+  }
+}
+
+@include keyframes(lds-dual-ring) {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Not Found */
+// .content__not-found {
+//   .not-found {
+//     &__image {
+//       width: 276px;
+//       height: 276px;
+//     }
+//   }
+//   .title {
+//     font: 700 2em/1.25 $family-secondary;
+//     color: $black;
+//     margin-top: 1em;
+//     margin-bottom: 0.25em;
+//     font-weight: bold;
+//   }
+//   p {
+//     font: 500 1.125em/1.55 $family-primary;
+//     margin-bottom: 3em;
+//     @include tablet {
+//       margin-bottom: 5em;
+//     }
+//     a {
+//       font-weight: 700;
+//     }
+//   }
+//   .button--primary {
+//     margin-bottom: 3em;
+//     @include tablet {
+//       margin-bottom: 5em;
+//     }
+//   }
+// }
+// utility to hide content except for print
+.is-print-only {
+  display: none;
+}
+
+// utility to arrange elements in a row, centered vertically
+.ccl-l-row-centered {
+  display: flex;
+  align-items: center;
+}
+
+.ccl-e-timeline__item-title {
+  font-weight: 700;
+}
+
+@media print {
+  * {
+    -webkit-transition: none !important;
+    transition: none !important;
+  }
+  * {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hidden-tablet {
+    display: none;
+  }
+  .hidden-mobile {
+    display: table-cell;
+  }
+
+  // reveal otherwise hidden content
+  .is-print-only {
+    display: inherit;
+  }
+
+  nav.navbar,
+  header.header__title,
+  footer.footer {
+    display: none;
+  }
+
+  .ccl-l-tabs__content {
+    padding: 0;
+  }
+
+  // disclaimner used when insurance orders exist in list view or when
+  // viewing an insurance order
+  .insurance-disclaimer {
+    visibility: visible;
+  }
+
+  // timeline (dots and lines not visible on print by default)
+  .ccl-e-timeline__dot,
+  .ccl-e-timeline__icon__active,
+  .ccl-e-timeline__icon__cancel,
+  .ccl-e-timeline__container__list-items__item .badge,
+  .ccl-e-timeline__container__list-items__item::before {
+    print-color-adjust: exact;
+  }
+
+  .ccl-l-userTabs__content__inner * {
+    visibility: visible;
+
+    // specific to orders details
+    .ccl-e-tool-bar {
+      display: none;
+    }
+
+    .ccl-e-data-header,
+    .ccl-e-table__thead__tr__th .ccl-e-table__thead__column-title,
+    .ccl-e-table__tbody__tr__td,
+    .ccl-e-total-summary {
+      color: $black-bis;
+    }
+
+    .image--print-logo {
+      display: flex;
+
+      img {
+        margin-left: auto;
+      }
+    }
+
+    .ccl-e-data-header {
+      font-size: 0.875rem;
+      margin-bottom: $spacing-2x;
+
+      &__item {
+        margin: $spacing-half 0;
+      }
+    }
+
+    .ccl-e-table__thead__tr__th .ccl-e-table__thead__column-title {
+      font-size: 1rem;
+    }
+
+    .ccl-e-table__tbody__tr__td {
+      font-size: 0.875rem;
+    }
+
+    .ccl-e-table__tbody__tr {
+      background-color: transparent !important;
+
+      &:last-child .ccl-e-table__tbody__tr__td {
+        border-color: $grey-light;
+      }
+    }
+
+    .hr {
+      margin-top: $spacing-15x;
+      display: block;
+      height: 1px;
+      background: transparent;
+      width: 100%;
+      border: none;
+      border-top: solid 1px #404042;
+    }
+
+    .ccl-e-total-summary {
+      font-size: 0.75rem;
+
+      &__item {
+        margin: $spacing-half 0;
+
+        &__label {
+          &--total {
+            @include tablet {
+              margin-right: 0;
+            }
+          }
+        }
+
+        &__value {
+          @include tablet {
+            text-align: right;
+          }
+        }
+      }
+    }
+  }
+}

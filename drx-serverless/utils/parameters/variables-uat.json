@@ -1,0 +1,16 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "mzarkan@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Utils Service",
+  "Name": "Cochlear DRX APIG Lambda Utils Service",
+  "Function": "Utils Service",
+  "Environment": "UAT",
+  "Product": "API Gateway",
+  "logLevel": "INFO",
+  "createAlarms": "true",
+  "isScHttpAgent": true,
+  "dictionarySessionSeconds": 94608000,
+  "userSessionSeconds": 3600,
+  "tokenSessionSeconds": 7200,
+  "regionsEndpoint": "https://uat.api.cochlear.com/drx/v1/utils/regions"
+}

@@ -1,0 +1,429 @@
+[
+  {
+    "productId": "CP1000",
+    "partNumber": "P732093",
+    "serialNumber": "1010142916989",
+    "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+    "productFamily": "Nucleus",
+    "productDescription": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+    "fittingDate": null,
+    "earSide": "Unknown",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Nucleus 7",
+    "id": "a0E1j000000deFqEAI",
+    "purchaseDate": null,
+    "modelNumber": "CP1000",
+    "colour": "Black",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": null
+  },
+  {
+    "productId": "CP1000",
+    "partNumber": "P732093",
+    "serialNumber": "1010142921655",
+    "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+    "productFamily": "Nucleus",
+    "productDescription": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+    "fittingDate": 1565568000000,
+    "earSide": "Unknown",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Nucleus 7",
+    "id": "a0E1j000000djJZEAY",
+    "purchaseDate": 1565568000000,
+    "modelNumber": "CP1000",
+    "colour": "Black",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1660176000000
+  },
+  {
+    "productId": "CP1000",
+    "partNumber": "P732093",
+    "serialNumber": "1010142921006",
+    "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+    "productFamily": "Nucleus",
+    "productDescription": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+    "fittingDate": null,
+    "earSide": "Unknown",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Nucleus 7",
+    "id": "a0E1j000000djIgEAI",
+    "purchaseDate": null,
+    "modelNumber": "CP1000",
+    "colour": "Black",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": null
+  },
+  {
+    "productId": "CP1000",
+    "partNumber": "P732093",
+    "serialNumber": "1010142921655",
+    "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+    "productFamily": "Nucleus",
+    "productDescription": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+    "fittingDate": 1660176000000,
+    "earSide": "Unknown",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Nucleus 7",
+    "id": "a0E1j000000djJZEAY",
+    "purchaseDate": 1660176000000,
+    "modelNumber": "CP1000",
+    "colour": "Black",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1670176000000
+  },
+  {
+    "productId": "HYBRID",
+    "partNumber": "S159193",
+    "serialNumber": "1010080012256",
+    "productName": "HYBRID FOR FREEDOM SOUND PROCESSOR, BEIGE",
+    "productFamily": "Hybrid",
+    "productDescription": "HYBRID FOR FREEDOM SOUND PROCESSOR, BEIGE",
+    "fittingDate": 1262304000000,
+    "earSide": "Right",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Freedom Hybrid",
+    "id": "a0E1j0000053cGQEAY",
+    "purchaseDate": 1262304000000,
+    "modelNumber": "HYBRID",
+    "colour": "N/A",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1356912000000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1356912000000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "HYBRID",
+    "partNumber": "S159193",
+    "serialNumber": "1010080008471",
+    "productName": "HYBRID FOR FREEDOM SOUND PROCESSOR, BEIGE",
+    "productFamily": "Hybrid",
+    "productDescription": "HYBRID FOR FREEDOM SOUND PROCESSOR, BEIGE",
+    "fittingDate": 1325376000000,
+    "earSide": "Left",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Freedom Hybrid",
+    "id": "a0E1j000004f3leEAA",
+    "purchaseDate": 1325376000000,
+    "modelNumber": "HYBRID",
+    "colour": "N/A",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1419984000000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1419984000000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "OSIA 2",
+    "partNumber": "P1233400",
+    "serialNumber": "1170020028226",
+    "productName": "OSIA 2 SOUND PROCESSOR KIT",
+    "productFamily": "Osia",
+    "productDescription": "OSIA 2 SOUND PROCESSOR KIT",
+    "fittingDate": 1609977600000,
+    "earSide": "Unknown",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Osia",
+    "id": "a0E1j000002OYDHEA4",
+    "purchaseDate": 1609977600000,
+    "modelNumber": "OSIA 2",
+    "colour": "N/A",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1672963200000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1672963200000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "BAHA 6",
+    "partNumber": "P1809178",
+    "serialNumber": "3010170012270",
+    "productName": "BAHA 6 MAX, BLACK, 2MM",
+    "productFamily": "Baha",
+    "productDescription": "BAHA 6 MAX, BLACK, 2MM",
+    "fittingDate": 1635724800000,
+    "earSide": "Left",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Baha 6",
+    "id": "a0E1j0000053KwUEAU",
+    "purchaseDate": 1635724800000,
+    "modelNumber": "BAHA 6",
+    "colour": "Black",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1698710400000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1698710400000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "BAHA 6",
+    "partNumber": "P1809177",
+    "serialNumber": "3010175027613",
+    "productName": "BAHA 6 MAX, BLONDE, 2MM",
+    "productFamily": "Baha",
+    "productDescription": "BAHA 6 MAX, BLONDE, 2MM",
+    "fittingDate": 1652400000000,
+    "earSide": "Right",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Baha 6",
+    "id": "a0E1j0000053KwVEAU",
+    "purchaseDate": 1652400000000,
+    "modelNumber": "BAHA 6",
+    "colour": "N/A",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1715472000000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1715472000000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "HYBRID",
+    "partNumber": "S159193",
+    "serialNumber": "1010080009201",
+    "productName": "HYBRID FOR FREEDOM SOUND PROCESSOR, BEIGE",
+    "productFamily": "Hybrid",
+    "productDescription": "HYBRID FOR FREEDOM SOUND PROCESSOR, BEIGE",
+    "fittingDate": 1293840000000,
+    "earSide": "Right",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Freedom Hybrid",
+    "id": "a0E1j0000053cN0EAI",
+    "purchaseDate": 1293840000000,
+    "modelNumber": "HYBRID",
+    "colour": "N/A",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1388448000000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1388448000000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "BAHA 6",
+    "partNumber": "P1668389",
+    "serialNumber": "3010170207751",
+    "productName": "BAHA 6 MAX, BLONDE",
+    "productFamily": "Baha",
+    "productDescription": "BAHA 6 MAX, BLONDE",
+    "fittingDate": 1538611200000,
+    "earSide": "Left",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Baha 6",
+    "id": "a0E1j0000053cNAEAY",
+    "purchaseDate": 1538611200000,
+    "modelNumber": "BAHA 6",
+    "colour": "N/A",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1601683200000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1601683200000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "CP950",
+    "partNumber": "P702681",
+    "serialNumber": "1010131041477",
+    "productName": "CP950 PROCESSING UNIT (BLACK)",
+    "productFamily": "Nucleus",
+    "productDescription": "CP950 PROCESSING UNIT (BLACK)",
+    "fittingDate": 1536278400000,
+    "earSide": "Left",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Kanso",
+    "id": "a0E1p00000qJGimEAG",
+    "purchaseDate": 1536278400000,
+    "modelNumber": "CP950",
+    "colour": "Black",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1630886400000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1630886400000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "BAHA 6",
+    "partNumber": "P1809180",
+    "serialNumber": "3010175028818",
+    "productName": "BAHA 6 MAX, BROWN, 2MM",
+    "productFamily": "Baha",
+    "productDescription": "BAHA 6 MAX, BROWN, 2MM",
+    "fittingDate": 1601510400000,
+    "earSide": "Right",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Baha 6",
+    "id": "a0E1j0000053cNGEAY",
+    "purchaseDate": 1601510400000,
+    "modelNumber": "BAHA 6",
+    "colour": "Brown",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1664496000000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1664496000000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "OSIA 2",
+    "partNumber": "P1233400",
+    "serialNumber": "1170020028202",
+    "productName": "OSIA 2 SOUND PROCESSOR KIT",
+    "productFamily": "Osia",
+    "productDescription": "OSIA 2 SOUND PROCESSOR KIT",
+    "fittingDate": 1609459200000,
+    "earSide": "Left",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Osia",
+    "id": "a0E1j0000053cMDEAY",
+    "purchaseDate": 1609459200000,
+    "modelNumber": "OSIA 2",
+    "colour": "N/A",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1672444800000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1672444800000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "BAHA 6",
+    "partNumber": "P1809180",
+    "serialNumber": "3010175021888",
+    "productName": "BAHA 6 MAX, BROWN, 2MM",
+    "productFamily": "Baha",
+    "productDescription": "BAHA 6 MAX, BROWN, 2MM",
+    "fittingDate": 1633046400000,
+    "earSide": "Left",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Baha 6",
+    "id": "a0E1j0000053cM8EAI",
+    "purchaseDate": 1633046400000,
+    "modelNumber": "BAHA 6",
+    "colour": "Brown",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1696032000000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1696032000000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "BAHA 6",
+    "partNumber": "P1809179",
+    "serialNumber": "3010175024865",
+    "productName": "BAHA 6 MAX, SILVER, 2MM",
+    "productFamily": "Baha",
+    "productDescription": "BAHA 6 MAX, SILVER, 2MM",
+    "fittingDate": 1646092800000,
+    "earSide": "Left",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Baha 6",
+    "id": "a0E1j0000053cNFEAY",
+    "purchaseDate": 1646092800000,
+    "modelNumber": "BAHA 6",
+    "colour": "Silver",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1709164800000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1709164800000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  },
+  {
+    "productId": "BAHA 6",
+    "partNumber": "P1809179",
+    "serialNumber": "3010175024919",
+    "productName": "BAHA 6 MAX, SILVER, 2MM",
+    "productFamily": "Baha",
+    "productDescription": "BAHA 6 MAX, SILVER, 2MM",
+    "fittingDate": 1653350400000,
+    "earSide": "Left",
+    "deviceType": "Speech Processor",
+    "deviceStatus": "Current",
+    "customerFacingName": "Baha 6",
+    "id": "a0E1j0000053cM9EAI",
+    "purchaseDate": 1653350400000,
+    "modelNumber": "BAHA 6",
+    "colour": "Silver",
+    "classDeviceType": "Speech Processor",
+    "latestWarrantyDate": 1716422400000,
+    "warrantyDescription": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract",
+    "contracts": [
+      {
+        "end": 1716422400000,
+        "description": "CUSTOMER: Krystal Lopez Warranty and Extended Warranty Contract"
+      }
+    ],
+    "type": "soundProcessors"
+  }
+]

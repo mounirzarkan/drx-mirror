@@ -1,0 +1,20 @@
+{
+  "@odata.context": "$metadata#OrderStatus(OrderType,OrderCreatationDate,InsAuthStartDate,PrepShipStartDate,OrderId,OrderStatus,RecipientId,GathDocStartDate,ShippedDate)",
+  "@odata.count": 1,
+  "value": [
+    {
+      "OrderType": "CAM-SALE",
+      "OrderCreatationDate": "2023-09-15",
+      "InsAuthStartDate": null,
+      "PrepShipStartDate": null,
+      "OrderId": 60290311,
+      "OrderStatus": "BOOKED",
+      "RecipientId": "159897323159424",
+      "GathDocStartDate": null,
+      "ShippedDate": null,
+      "ShippingUrl": null,
+      "LastUpdateDate": null,
+      "TrackingNumber": null
+    }
+  ]
+}

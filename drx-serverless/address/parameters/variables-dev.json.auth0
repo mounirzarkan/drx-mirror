@@ -1,0 +1,18 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Address Service",
+  "Name": "Cochlear DRX APIG Lambda Address Service",
+  "Function": "Address Service",
+  "Environment": "DEV",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "DEBUG",
+  "createAlarms": "false",
+  "pmEndpoint": "https://d8eb9dca-c90a-4760-bbe1-2660bde5887a.mock.pstmn.io",
+  "errorUsers": "[]",
+  "appConfigApplicationId": "pe6vtu0",
+  "appConfigEnvironmentId": "u2wlti5",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_DEV/environments/DEV/configurations"
+}

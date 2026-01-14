@@ -1,0 +1,33 @@
+{
+  "requestDetails": {
+    "id": "18447376",
+    "serviceRequestNumber": "7773180",
+    "name": "Cp1150 Sound Processor (Silver) - Single Pack",
+    "type": "Speech Processor",
+    "status": "Open",
+    "createdDate": "2024-07-19",
+    "clinic": "NYU Medical Center",
+    "partNumber": "P1320275",
+    "activated": "2022-04-12",
+    "warranty": true,
+    "problem": {
+      "code": "Unknown",
+      "description": "",
+      "details": ""
+    }
+  },
+  "shippingDetails": {
+    "shippedTo": {
+      "patient": {
+        "cochlearId": "259913555448708"
+      }
+    },
+    "address": {
+      "street": ["1500 Broadway"],
+      "city": "BUFFALO",
+      "state": "NY",
+      "postalCode": "14212",
+      "countryCode": "US"
+    }
+  }
+}

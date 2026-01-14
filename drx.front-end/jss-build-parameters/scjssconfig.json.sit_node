@@ -1,0 +1,31 @@
+{
+  "sitecore": {
+    "instancePath": "",
+    "apiKey": "{C373F5B9-AE6C-4E7B-B746-EEACB3D8EA0C}",
+    "deploySecret": "cvu0hljr6965cb8zw4poj6dcwa2hvyfqdkoiydjb9uuf",
+    "deployUrl": "https://node10-4.sit.cms.cochlear.cloud/sitecore/api/jss/import",
+    "layoutServiceHost": "https://dmsit.cx.nonp.cochlear.cloud"
+  },
+  "drx": {
+    "siteNameTemplateRoute": "${siteName}",
+    "googleMapsApiKey": "AIzaSyDCf0m5h2KlZmqNn4J_DNjvv8KKgPFKs60",
+    "storeLogoutToken": "c3RvcmVmcm9udDpHUytFVzIxLUdyZWF0QzBjaGxlYXI=",
+    "gqlUrlToken": "ZGV2czpHcmVhdEMwY2hsZWFy",
+    "cookieDomain": ".cochlear.cloud",
+    "deviceSupport": "https://sit-drx.cx.nonp.cochlear.cloud/",
+    "cochlearDotCom": "https://node10-4.sit.cms.cochlear.cloud",
+    "drxMain": "https://dmsit.cx.nonp.cochlear.cloud",
+    "authorizeUser": "https://authnz-sit.cx.nonp.cochlear.cloud",
+    "cochlearMCR": "https://recipients-sit.mycochlear.com",
+    "apiEndpoint": "https://sit.api.cochlear.com/drx/v1",
+    "storeLogout": "https://bfrl-004.sandbox.us01.dx.commercecloud.salesforce.com/s/Cochlear",
+    "cimRecipientLogout": "https://cochlear--sit01.sandbox.my.site.com/Recipient/CIM_RecipientLogout",
+    "auth0CustomDomain": "https://sit.id.cochlear.com",
+    "auth0Host": "https://cochlear-sit.eu.auth0.com",
+    "auth0ClientId": "fPARxTBd5XUM8T4i2Xhk8RMTPdABdqZg",
+    "auth0LogoutRedirectUrl": "https://authnz-sit.cx.nonp.cochlear.cloud/callback",
+    "auth0AlmClientId": "8BlZSwMNTgR5B1EGBTfLT8GEVokI34Ka",
+    "globalStoreDisabled": true,
+    "almRoot": "https://sit.accounts.cochlear.com"
+  }
+}

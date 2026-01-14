@@ -1,0 +1,28 @@
+.ccl__list-edit-phone-numbers {
+  display: flex;
+  position: relative;
+
+  &__phone {
+    margin-bottom: 20px;
+    flex-grow: 1;
+    flex: 1;
+  }
+  &__remove {
+    position: absolute;
+    display: flex;
+    height: 84px;
+    right: 0;
+    justify-content: flex-end;
+    align-items: flex-end;
+    @include tablet {
+      position: relative;
+      width: 10%;
+      min-width: 50px;
+    }
+    &__button {
+      display: flex;
+      height: 44px;
+      width: 44px;
+    }
+  }
+}

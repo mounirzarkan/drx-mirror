@@ -1,0 +1,95 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Creates Custom domains and add DNS Record <EnvPrefix>-<ProjectName>-api.<HostZoneName> or <EnvPrefix>-<ProjectName>-api-<version>.<HostZoneName>
+Conditions:
+  NoVersionRequired: !Equals [ !Ref Version, "" ]
+
+Parameters:
+  EnvPrefix:
+    Type: String
+    Description: Cochlear environment 
+    Default: dev
+  
+  Version:
+    Type: String
+    Description: Version add to the custom domain name
+  CertArn: 
+    Description: Regional Certficate Arn for custom Domain Name 
+    Type: String
+
+  ProjectName:
+    Type: String
+    Description: Project Name or Code, such as dpx
+
+  HostedZoneName:
+    Type: String
+    Description: Hosted zone Name such as cx.nonp.cochlear.cloud
+    # Default: cx.nonp.cochlear.cloud
+
+
+Resources:
+  HttpApiDomainName:
+    Type: AWS::ApiGatewayV2::DomainName
+    Properties:
+      DomainName: 
+        !If 
+          - NoVersionRequired
+          - !Join
+            - "-"
+            - - !Ref EnvPrefix
+              - !Ref ProjectName
+              - !Sub "api.${HostedZoneName}"
+          - !Join
+            - "-"
+            - - !Ref EnvPrefix
+              - !Ref ProjectName
+              - "api"
+              - !Sub "${Version}.${HostedZoneName}"
+
+        # !Join
+        #   - "-"
+        #   - - !Ref EnvPrefix
+        #     - !Ref ProjectName
+        #     - !Sub "api.${HostedZoneName}"
+      DomainNameConfigurations: 
+        - EndpointType: REGIONAL
+          CertificateArn: !Ref CertArn
+          CertificateName: !Sub "${EnvPrefix}-custom-domain-certificate"
+
+  Route53record:
+    Type: AWS::Route53::RecordSet
+    Properties:
+      AliasTarget:
+        DNSName: !GetAtt HttpApiDomainName.RegionalDomainName
+        EvaluateTargetHealth: false
+        HostedZoneId: !GetAtt HttpApiDomainName.RegionalHostedZoneId
+      HostedZoneName: !Sub "${HostedZoneName}."
+      Name:  
+        !If 
+          - NoVersionRequired
+          - !Join
+            - "-"
+            - - !Ref EnvPrefix
+              - !Ref ProjectName
+              - !Sub "api.${HostedZoneName}"
+          - !Join
+            - "-"
+            - - !Ref EnvPrefix
+              - !Ref ProjectName
+              - "api"
+              - !Sub "${Version}.${HostedZoneName}"
+        # !Join
+        #   - "-"
+        #   - - !Ref EnvPrefix
+        #     - !Ref ProjectName
+        #     - !Sub "api.${HostedZoneName}"
+      Type: "A"
+
+Outputs:
+  CustomDomainName:
+    Value: !GetAtt HttpApiDomainName.RegionalDomainName
+    Description: "custom domain name"
+  DomainName:
+    Value: !Ref HttpApiDomainName
+    Description: "domain record"
+    Export:
+      Name: !Sub ${ProjectName}-${EnvPrefix}-api-custom-domain

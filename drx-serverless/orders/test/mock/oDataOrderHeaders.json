@@ -1,0 +1,31 @@
+{
+  "@odata.context": "$metadata#OrderHeaders(OrderType,BillToPartyName,LimitedOrderTaxesTotal,OrderNumber,ShipToPartyName,LastUpdateDate,OnlineStoreOrderNumber,OrderStatus,OrderedDate,HeaderId,LimitedOrderLinesTotal,ShippingMethodCode,DateCreated,ShipmentPriority,BillToAccountName,ShipToAccountName,LimitedOrderChargesTotal,SoldToAccountName,OrderCurrency,ShippingInstructions,SoldToPartyName,ShippingMethod,ShipmentPriorityCode)",
+  "@odata.count": 1,
+  "value": [
+    {
+      "OrderType": "CAM-SALE",
+      "BillToPartyName": "William Tortora",
+      "LimitedOrderTaxesTotal": "0",
+      "OrderNumber": "4698481",
+      "ShipToPartyName": "William Tortora",
+      "LastUpdateDate": "2023-11-29",
+      "OnlineStoreOrderNumber": null,
+      "OrderStatus": "Closed",
+      "OrderedDate": "2023-11-29",
+      "HeaderId": 68435181,
+      "LimitedOrderLinesTotal": "0",
+      "ShippingMethodCode": "000001_UPS_A_2DA",
+      "DateCreated": "2023-11-29",
+      "ShipmentPriority": "High Priority",
+      "BillToAccountName": "William Tortora",
+      "ShipToAccountName": "William Tortora",
+      "LimitedOrderChargesTotal": "0",
+      "SoldToAccountName": "William Tortora",
+      "OrderCurrency": "USD",
+      "ShippingInstructions": null,
+      "SoldToPartyName": "William Tortora",
+      "ShippingMethod": "UPS-2nd Day Air",
+      "ShipmentPriorityCode": "High"
+    }
+  ]
+}

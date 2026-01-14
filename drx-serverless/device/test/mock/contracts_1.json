@@ -1,0 +1,15 @@
+{
+  "contracts": [
+    {
+      "terminatedDate": null,
+      "startDate": 1457654400000,
+      "installBaseId": "a0E9E000000BQzpUAG",
+      "expirationDate": 1921034073000,
+      "description": "CUSTOMER: Jacqueline Charlton Warranty and Extended Warranty Contract",
+      "coverageStatus": "ACTIVE",
+      "contractType": "Warranty",
+      "contractNumber": "EW1154261",
+      "accessoryId": null
+    }
+  ]
+}

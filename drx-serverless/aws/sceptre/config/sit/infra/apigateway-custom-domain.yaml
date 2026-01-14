@@ -1,0 +1,10 @@
+template: 
+  type: file
+  path: apigateway-custom-domain.yaml
+
+parameters:
+  EnvPrefix: {{ stack_group_config.environment }}
+  CertArn: arn:aws:acm:ap-southeast-2:402435212363:certificate/e0b934ff-fe43-4783-a275-8ca78913b9ca
+  ProjectName: !environment_variable PROJECT_CODE
+  Version: ""
+  HostedZoneName: cx.nonp.cochlear.cloud

@@ -1,0 +1,138 @@
+.ccl-e-table {
+  /* this addon changes the mouse cursor on table rows */
+  &__tbody__tr {
+    &:hover,
+    &:focus {
+      cursor: pointer;
+    }
+  }
+
+  // reset for details view
+  &--details {
+    .ccl-e-table__tbody__tr {
+      &:hover,
+      &:focus {
+        cursor: inherit;
+      }
+    }
+  }
+
+  /* this addon helps with long table column titles and allows them to wrap onto a second line */
+
+  &__thead__tr__th,
+  &__tbody__tr__td {
+    vertical-align: middle;
+  }
+
+  &__thead {
+    // column header
+    &__column-title {
+      @include tablet {
+        min-height: 28px;
+        font-size: 1.125rem;
+        /* 18/16 */
+        line-height: 1.111111111111111;
+        /* 20px/18 */
+
+        white-space: normal;
+      }
+    }
+  }
+
+  &[data-nw-currency-format='USD'] {
+    // table body data
+    .ccl-e-table__tbody {
+      .ccl-e-table__tbody__tr {
+        // style odd rows inside table body
+
+        // style table cell text
+        .ccl-e-table__tbody__tr__td {
+          .status {
+            white-space: normal !important;
+          }
+        }
+      }
+    }
+  }
+
+  .ccl__e__service-request--list-mode {
+    .ccl-e-table {
+      &__thead {
+        &__tr {
+          &__th {
+            &--restrict-width {
+              // column header
+              .ccl-e-table__thead__column-title {
+                @include tablet {
+                  white-space: nowrap;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      /* service requests table */
+      &__tbody {
+        [data-nw-table-row='requestNo'] {
+          color: #3f1482;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+/* *************/
+/* Orders mode - add * to insurance order totals */
+/* ********************************************* */
+
+// list view
+.ccl-order-list {
+  tr[data-nw-table-row-group-name='insurance'] {
+    td[data-nw-table-row='OrderCharges'] {
+      .ccl-e-formatted-currency {
+        &:after {
+          content: '*';
+        }
+      }
+    }
+  }
+}
+
+// details view
+.ccl-e-table.details--insurance-order {
+  td[data-nw-table-row='total'],
+  td[data-nw-table-row='totalPrice'] {
+    .ccl-e-formatted-currency {
+      &:after {
+        content: '*';
+      }
+    }
+  }
+  ~ .ccl-e-total-summary {
+    [data-nw-total-value='total'] {
+      &:after {
+        content: '*';
+      }
+    }
+  }
+}
+
+// list view. amount column title isnt allowed to wrap
+.ccl-e-table--list {
+  th[data-nw-table-headers='OrderCharges'] {
+    .ccl-e-table__thead__column-title {
+      white-space: nowrap;
+    }
+  }
+}
+
+// details view. HCPC column title isnt allowed to wrap
+.ccl-e-table--details {
+  th[data-nw-table-headers='hcpc'] {
+    .ccl-e-table__thead__column-title {
+      white-space: nowrap;
+    }
+  }
+}

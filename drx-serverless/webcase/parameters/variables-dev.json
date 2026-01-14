@@ -1,0 +1,16 @@
+{
+  "releaseVersion": "V1",
+  "owner": "DRX",
+  "description": "Cochlear DRX API Gateway Lambda WebCase Service",
+  "name": "Cochlear DRX APIG Lambda Service WebCase Service",
+  "function": "WebCase Service",
+  "environment": "DEV",
+  "product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "DEBUG",
+  "createAlarms": "false",
+  "appConfigApplicationId": "pe6vtu0",
+  "appConfigEnvironmentId": "u2wlti5",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_DEV/environments/DEV/configurations"
+}

@@ -1,0 +1,137 @@
+.tabs {
+  @include tablet {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  ul {
+    display: flex;
+
+    > li {
+      flex: 1 1 0px;
+      height: 55px;
+      border-left: 1px solid $grey-light;
+      &.is-active {
+        margin-top: -3px;
+        border-top: 3px solid $primary;
+        button {
+          background: #fff;
+          padding-top: 13px;
+          .drxi {
+            transform: rotate(90deg);
+          }
+        }
+      }
+      button {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        background: #f6f6f6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px 10px 15px;
+        @include tablet {
+          padding: 10px 22px 10px 38px;
+        }
+
+        p {
+          text-align: left;
+          color: #491a8b;
+          font-family: $family-secondary;
+          font-size: 16px;
+          font-weight: bold;
+          width: 100%;
+          .drxi {
+            float: right;
+            top: 2px;
+            position: relative;
+            transform: rotate(-90deg);
+            transition: transform 0.15s ease-in-out;
+          }
+        }
+        span {
+          text-align: right;
+          color: $grey-dark;
+          font-family: $family-primary;
+          font-size: 16px;
+          font-style: italic;
+          margin-left: 4px;
+        }
+      }
+    }
+  }
+}
+
+.recipients__list {
+  min-height: 500px;
+
+  @include tablet {
+    margin-left: -40px;
+    margin-right: -40px;
+  }
+  ul {
+    > li {
+      height: 58px;
+      border-bottom: 2px solid rgb(239, 239, 239);
+      &.is-active {
+        margin-left: -2px;
+        border-left: 3px solid $primary;
+      }
+      button {
+        width: 100%;
+        height: 100%;
+        border: 0;
+        background: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px 10px 15px;
+        @include tablet {
+          padding-left: 38px;
+        }
+      }
+      p {
+        text-align: left;
+        color: #491a8b;
+        font-family: $family-secondary;
+        font-size: 16px;
+        font-weight: bold;
+      }
+      span {
+        text-align: right;
+        color: $grey-dark;
+        font-family: $family-primary;
+        font-size: 16px;
+        font-style: italic;
+        .drxi {
+          color: $digital-primary;
+          margin-left: 5px;
+          top: 2px;
+          position: relative;
+        }
+      }
+    }
+  }
+
+  // hide form sections when this is open
+  + .form__wrapper {
+    // first sibling seciton
+    @include tablet {
+      margin-top: 30px;
+    }
+  }
+  ~ .error-message--container,
+  ~ .form__wrapper {
+    // all siblings
+    display: none;
+  }
+
+  &.has-2-recipients {
+    ~ .error-message--container,
+    ~ .form__wrapper {
+      @include tablet {
+        display: block;
+      }
+    }
+  }
+}

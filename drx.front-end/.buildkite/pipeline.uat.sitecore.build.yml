@@ -1,0 +1,42 @@
+env:
+  PROJECT_NAME: cochlear-drx
+  TARGET_DIRECTORY:    $BUILDKITE_BUILD_CHECKOUT_PATH/working/
+  DEPLOY_ARTIFACTS_DIRECTORY: $BUILDKITE_BUILD_CHECKOUT_PATH/deploy_artifacts
+  ARTIFACTS_DIRECTORY: $BUILDKITE_BUILD_CHECKOUT_PATH/artifacts
+  SCJSSCONFIG_FILE:    $BUILDKITE_BUILD_CHECKOUT_PATH/jss-build-parameters/scjssconfig.json.uat
+  BUILD_ARTIFACT_BUCKET: sc-uat-deployment-bucket
+steps:
+  - command:
+      - echo "--- Package sitecore config"
+      - mkdir -p ${ARTIFACTS_DIRECTORY}  
+      - zip -r DRX.Config.${BUILDKITE_BUILD_NUMBER}.zip sitecore/cochlear-drx/
+      - mv DRX.Config.${BUILDKITE_BUILD_NUMBER}.zip ${BUILDKITE_BUILD_CHECKOUT_PATH}/artifacts  
+      - echo "--- Install node packages for JSS"
+      - npm install
+      - echo "--- Build JSS package for Content Management server"
+      - cp -r ${SCJSSCONFIG_FILE}_cm ${BUILDKITE_BUILD_CHECKOUT_PATH}/scjssconfig.json
+      - npm run jss setup -- --nonInteractive
+      - CI=false npm run jss build
+      - zip -r DRX.JSS.CM.${BUILDKITE_BUILD_NUMBER}.zip build/
+      - mv DRX.JSS.CM.${BUILDKITE_BUILD_NUMBER}.zip ${BUILDKITE_BUILD_CHECKOUT_PATH}/artifacts
+      - echo "--- Build JSS package for Content Delivery server"
+      - cp -r ${SCJSSCONFIG_FILE}_cd ${BUILDKITE_BUILD_CHECKOUT_PATH}/scjssconfig.json
+      - npm run jss setup -- --nonInteractive
+      - CI=false npm run jss build
+      - zip -r DRX.JSS.CD.${BUILDKITE_BUILD_NUMBER}.zip build/
+      - mv DRX.JSS.CD.${BUILDKITE_BUILD_NUMBER}.zip ${BUILDKITE_BUILD_CHECKOUT_PATH}/artifacts
+      - echo "--- Upload build packages to S3"
+      - aws s3 cp ${BUILDKITE_BUILD_CHECKOUT_PATH}/artifacts/ s3://${BUILD_ARTIFACT_BUCKET}/artifacts/drx --recursive --include '*.zip'
+    label: "Build Packages"
+    branches: $DEPLOY_BRANCH
+    agents:
+      queue: $DEPLOY_QUEUE
+
+  - wait 
+  - label: "trigger sitecore deployment pipeline"
+    trigger: "drx-jss-app-deployment-equals-sitecore-uat"
+    label: ":rocket: Deploy"
+    async: false
+    build: 
+      env:
+        PACKAGE_BUILD_NUMBER: ${BUILDKITE_BUILD_NUMBER}

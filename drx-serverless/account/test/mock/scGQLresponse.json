@@ -1,0 +1,250 @@
+{
+  "data": {
+    "item": {
+      "scenarios": [
+        {
+          "userType": {
+            "value": "carer"
+          },
+          "ageGroup": {
+            "value": "not applicable"
+          },
+          "hasCarers": {
+            "value": false
+          },
+          "name": "carer - scenario 1",
+          "path": "/sitecore/content/drx/us/Configuration/Privacy rules/carer - scenario 1",
+          "permissions": [
+            {
+              "appliesTo": {
+                "value": "carer"
+              },
+              "firstName": {
+                "value": "read and write"
+              },
+              "lastName": {
+                "value": "read and write"
+              },
+              "email": {
+                "value": "read and write"
+              },
+              "dateOfBirth": {
+                "value": "read and write"
+              },
+              "familyConsent": {
+                "value": "read only"
+              },
+              "phones": {
+                "value": "read and write"
+              },
+              "relatedCarers": {
+                "value": "not applicable"
+              }
+            },
+            {
+              "appliesTo": {
+                "value": "recipient"
+              },
+              "firstName": {
+                "value": "read and write"
+              },
+              "lastName": {
+                "value": "read and write"
+              },
+              "email": {
+                "value": "read and write"
+              },
+              "dateOfBirth": {
+                "value": "read and write"
+              },
+              "familyConsent": {
+                "value": "read only"
+              },
+              "phones": {
+                "value": "read and write"
+              },
+              "relatedCarers": {
+                "value": "read and write"
+              }
+            }
+          ]
+        },
+        {
+          "userType": {
+            "value": "recipient"
+          },
+          "ageGroup": {
+            "value": "older than update age"
+          },
+          "hasCarers": {
+            "value": false
+          },
+          "name": "recipient - scenario 1",
+          "path": "/sitecore/content/drx/us/Configuration/Privacy rules/recipient - scenario 1",
+          "permissions": [
+            {
+              "appliesTo": {
+                "value": "recipient"
+              },
+              "firstName": {
+                "value": "read and write"
+              },
+              "lastName": {
+                "value": "read and write"
+              },
+              "email": {
+                "value": "read and write"
+              },
+              "dateOfBirth": {
+                "value": "read and write"
+              },
+              "familyConsent": {
+                "value": "read only"
+              },
+              "phones": {
+                "value": "read and write"
+              },
+              "relatedCarers": {
+                "value": "not applicable"
+              }
+            }
+          ]
+        },
+        {
+          "userType": {
+            "value": "recipient"
+          },
+          "ageGroup": {
+            "value": "younger than update age"
+          },
+          "hasCarers": {
+            "value": true
+          },
+          "name": "recipient - scenario 2",
+          "path": "/sitecore/content/drx/us/Configuration/Privacy rules/recipient - scenario 2",
+          "permissions": [
+            {
+              "appliesTo": {
+                "value": "carer"
+              },
+              "firstName": {
+                "value": "read only"
+              },
+              "lastName": {
+                "value": "read only"
+              },
+              "email": {
+                "value": "not applicable"
+              },
+              "dateOfBirth": {
+                "value": "not applicable"
+              },
+              "familyConsent": {
+                "value": "not applicable"
+              },
+              "phones": {
+                "value": "not applicable"
+              },
+              "relatedCarers": {
+                "value": "not applicable"
+              }
+            },
+            {
+              "appliesTo": {
+                "value": "recipient"
+              },
+              "firstName": {
+                "value": "read only"
+              },
+              "lastName": {
+                "value": "read only"
+              },
+              "email": {
+                "value": "read only"
+              },
+              "dateOfBirth": {
+                "value": "read only"
+              },
+              "familyConsent": {
+                "value": "read only"
+              },
+              "phones": {
+                "value": "read only"
+              },
+              "relatedCarers": {
+                "value": "read only"
+              }
+            }
+          ]
+        },
+        {
+          "userType": {
+            "value": "recipient"
+          },
+          "ageGroup": {
+            "value": "older than update age"
+          },
+          "hasCarers": {
+            "value": true
+          },
+          "name": "recipient - scenario 3",
+          "path": "/sitecore/content/drx/us/Configuration/Privacy rules/recipient - scenario 3",
+          "permissions": [
+            {
+              "appliesTo": {
+                "value": "carer"
+              },
+              "firstName": {
+                "value": "read only"
+              },
+              "lastName": {
+                "value": "read only"
+              },
+              "email": {
+                "value": "not applicable"
+              },
+              "dateOfBirth": {
+                "value": "not applicable"
+              },
+              "familyConsent": {
+                "value": "not applicable"
+              },
+              "phones": {
+                "value": "not applicable"
+              },
+              "relatedCarers": {
+                "value": "not applicable"
+              }
+            },
+            {
+              "appliesTo": {
+                "value": "recipient"
+              },
+              "firstName": {
+                "value": "read and write"
+              },
+              "lastName": {
+                "value": "read and write"
+              },
+              "email": {
+                "value": "read and write"
+              },
+              "dateOfBirth": {
+                "value": "read and write"
+              },
+              "familyConsent": {
+                "value": "read and write"
+              },
+              "phones": {
+                "value": "read and write"
+              },
+              "relatedCarers": {
+                "value": "read and write"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

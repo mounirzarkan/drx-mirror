@@ -1,0 +1,14 @@
+{
+    "ContentProfessional": "ContentProfessional",
+    "RegistrationProfessional": "RegistrationProfessional",
+    "OnlineSupportProfessional": "OnlineSupportProfessional",
+    "OnlineSupportDistributor": "OnlineSupportDistributor",
+    "RegistrationDistributor": "RegistrationDistributor",
+    "Recipient": "Recipient",
+    "Carer": "Carer",
+    "Guest": "Guest",
+    "ProvisionalRecipient": "Provisional Recipient",
+    "ProvisionalCarer": "Provisional Carer",
+    "ProvisionalUnknown": "Provisional Unknown",
+    "Staff": "Staff"
+}

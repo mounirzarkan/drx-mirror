@@ -1,0 +1,7 @@
+bash << EOF
+if [ -n "$COMSPEC" ] && [ -x "$COMSPEC" ]; then
+  pwsh -File ./check-branch-name.ps1
+else
+  bash ./check-branch-name.sh
+fi
+EOF

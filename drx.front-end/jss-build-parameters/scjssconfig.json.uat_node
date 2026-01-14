@@ -1,0 +1,33 @@
+{
+  "sitecore": {
+    "instancePath": "",
+    "apiKey": "{8802F4A2-D528-4422-BAE3-4373372DE1AD}",
+    "deploySecret": "cvu0hljr6965cb8zw4poj6dcwa2hvyfqdkoiydjb9uuf",
+    "deployUrl": "https://node10-4.uat.cms.cochlear.cloud/sitecore/api/jss/import",
+    "layoutServiceHost": "https://www2.cochlear.com"
+  }, 
+  "drx": {
+    "siteNameTemplateRoute": "${siteName}",
+    "googleMapsApiKey":"AIzaSyDCf0m5h2KlZmqNn4J_DNjvv8KKgPFKs60",
+    "storeLogoutToken":"ZGV2czpncmVlbmF2b2NhZG8=",
+    "gqlUrlToken":"ZGV2czpncmVlbmF2b2NhZG8=",
+    "cookieDomain":".cochlear.com",
+    "deviceSupport":"https://www2.cochlear.com/",
+    "cochlearDotCom":"https://www2.cochlear.com",
+    "drxMain":"https://www2.cochlear.com",
+    "authorizeUser":"https://id-uat.cochlear.com",
+    "cochlearMCR":"https://recipients-uat.mycochlear.com",
+    "apiEndpoint":"https://uat.api.cochlear.com/drx/v1",
+    "storeLogout":"https://www2.cochlear.com/",
+    "cimRecipientLogout":"https://cochlear--uat.sandbox.my.site.com/Recipient/CIM_RecipientLogout",
+    "auth0CustomDomain": "https://uat.id.cochlear.com",
+    "auth0Host": "https://cochlear-uat.eu.auth0.com",
+    "auth0ClientId": "5WOxA6WfyBh1h2mFlJlbqAtdzpUUwKuR",
+    "auth0LogoutRedirectUrl": "https://id-uat.cochlear.com/callback",
+    "auth0AlmClientId": "",
+    "globalStoreDisabled": false,
+    "almRoot": "https://uat.accounts.cochlear.com"
+
+
+  }
+}

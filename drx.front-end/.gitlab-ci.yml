@@ -1,0 +1,87 @@
+# image: ${CI_REGISTRY}/common/env/3musketeers:v1-0-0
+image: ${CI_REGISTRY}/devops/gitlab-ci-build-image:3musketeers
+
+services:
+  - name: ${CI_REGISTRY}/devops/gitlab-ci-build-image:docker-20.10.12-dind
+    alias: docker
+
+variables:
+  DOCKER_HOST: tcp://docker:2376
+  DOCKER_DRIVER: overlay2
+  APP_STACK_NAME: cochlear-drx-main-$BUILD_ENVIRONMENT-webservice
+
+stages:
+  - install
+  - tests
+  - notification
+  - build-and-upload
+  - trigger-deployment
+
+before_script:
+  - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN ${CI_REGISTRY}
+
+'📦  Install Dependencies':
+  stage: install
+  environment:
+    name: $CI_COMMIT_BRANCH
+  only:
+    variables:
+      - $BUILD_ENVIRONMENT =~ /^dev|^sit|^uat|^prd|^preview-dev|^preview-sit|^preview-uat|^preview-prd/
+  script:
+    - make install-dependencies
+  tags:
+    - 'cross-account'
+  artifacts:
+    paths:
+      - ./node_modules
+      - ./node-headless-ssr-proxy/node_modules
+
+'🤞 Tests':
+  stage: tests
+  allow_failure: true
+  only:
+    - merge_requests
+    - $CI_OPEN_MERGE_REQUESTS
+  script:
+    - make tests
+  tags:
+    - 'cross-account'
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - test-report.xml
+
+'Slack Notification':
+  stage: notification
+  only:
+    - merge_requests
+    - $CI_OPEN_MERGE_REQUESTS
+  script:
+    - make slack
+  tags:
+    - 'cross-account'
+
+'🏛  Build and Upload to S3':
+  stage: build-and-upload
+  only:
+    variables:
+      - $BUILD_ENVIRONMENT =~ /^dev|^sit|^uat|^prd|^preview-dev|^preview-sit|^preview-uat|^preview-prd/
+  environment:
+    name: $CI_COMMIT_REF_SLUG
+  script:
+    - make build-and-upload
+  tags:
+    - 'cross-account'
+
+'🚀  Deploy':
+  stage: trigger-deployment
+  environment:
+    name: $CI_COMMIT_REF_SLUG
+  only:
+    variables:
+      - $BUILD_ENVIRONMENT =~ /^dev|^sit|^uat|^prd|^preview-dev|^preview-sit|^preview-uat|^preview-prd/
+  script:
+    - make deploy
+  tags:
+    - 'cross-account'

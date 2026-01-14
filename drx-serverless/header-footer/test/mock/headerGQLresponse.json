@@ -1,0 +1,219 @@
+{
+  "item": {
+    "id": "50277EA9C3994F3290CCCF9D6BB88834",
+    "name": "DRX Header",
+    "path": "/sitecore/content/drx/us/Configuration/Header/DRX Header",
+    "storeLogoutToken": null,
+    "Shared": {
+      "data": {
+        "topNavList": {
+          "links": [
+            {
+              "name": "Device Support",
+              "link": {
+                "url": "https://support.cochlear.com/us/en/home",
+                "target": ""
+              }
+            },
+            {
+              "name": "Find a Clinic",
+              "link": {
+                "url": "https://www.cochlear.com/us/en/connect/find-a-clinic",
+                "target": ""
+              }
+            },
+            {
+              "name": "Contact Us",
+              "link": {
+                "url": "https://www.cochlear.com/us/en/connect/contact-us",
+                "target": ""
+              }
+            },
+            {
+              "name": "About Us",
+              "link": {
+                "url": "https://www.cochlear.com/us/en/about-us",
+                "target": ""
+              }
+            },
+            {
+              "name": "Store",
+              "link": {
+                "url": "https://www.cochlear.com/us/en/shop/home",
+                "target": "_blank"
+              }
+            }
+          ]
+        },
+        "homeLink": {
+          "url": "https://www.cochlear.com/us/en/home",
+          "text": "Cochlear.com",
+          "target": ""
+        },
+        "professionalsLink": {
+          "url": "https://www.cochlear.com/us/en/professionals",
+          "text": "Professionals"
+        },
+        "loginLink": {
+          "url": "https://api.cochlear.com/drx-auth/v1/authorize",
+          "text": "Login",
+          "target": ""
+        },
+        "rootItem": {
+          "target": {
+            "url": "/us/en/account/cochlear-us-shared"
+          }
+        },
+        "contactLink": {
+          "url": "https://www.cochlear.com/us/en/connect/contact-us",
+          "text": "Contact",
+          "target": ""
+        },
+        "menuText": {
+          "value": "Menu"
+        },
+        "closeText": {
+          "value": "Close menu"
+        },
+        "clinicFinderLink": {
+          "url": "https://www.cochlear.com/us/en/connect/find-a-clinic",
+          "text": "Clinic Finder",
+          "target": ""
+        },
+        "additionalList": {
+          "links": [
+            {
+              "name": "Device Support",
+              "link": {
+                "url": "https://support.cochlear.com/us/en/home",
+                "text": "Device Support",
+                "target": ""
+              }
+            },
+            {
+              "name": "About Us",
+              "link": {
+                "url": "https://www.cochlear.com/us/en/about-us",
+                "text": "About Us",
+                "target": ""
+              }
+            },
+            {
+              "name": "Store",
+              "link": {
+                "url": "https://www.cochlear.com/us/en/shop/home",
+                "text": "Store",
+                "target": "_blank"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "languageCode": {
+      "value": "en"
+    },
+    "languageText": {
+      "value": "English"
+    },
+    "countryFlag": {
+      "value": "<image stylelabs-content-id=\"988060\" thumbnailsrc=\"https://cochlearmediaportal.stylelabs.cloud/api/gateway/988060/thumbnail\" src=\"https://mss-p-007-delivery.stylelabs.cloud/api/public/content/a695d1164ad24af786281e1596e6a7ac?v=31297206\" mediaid=\"\" stylelabs-content-type=\"Image\" alt=\"us.png\" height=\"64\" width=\"64\" />",
+      "src": null,
+      "alt": "us.png",
+      "id": "CE032616019E465CA637ABC53C06E593",
+      "width": 64
+    },
+    "useUniversalHeader": {
+      "value": true
+    },
+    "showProfileLogo": {
+      "value": true
+    },
+    "showGivenNameLast": {
+      "value": false
+    },
+    "COCHLEAR_COOKIE_DOMAIN": {
+      "value": ".cochlear.com"
+    },
+    "AUTH_UH_DROPDOWN_MENU": {
+      "value": "https://api.cochlear.com/drx-uhmenu/v1/headerList"
+    },
+    "AUTH_REVOKE": {
+      "value": "https://api.cochlear.com/drx-auth/v1/revoke"
+    },
+    "AUTH_AUTHORIZE": {
+      "value": "https://api.cochlear.com/drx-auth/v1/authorize"
+    },
+    "AUTH_CIM_RECIPIENT_LOGOUT": {
+      "value": "https://community.cochlear.com/Recipient/CIM_RecipientLogout"
+    },
+    "COCHLEAR_DRX_MAIN": {
+      "value": "https://www.cochlear.com"
+    },
+    "STORE_LOGOUT": {
+      "value": "https://www1.cochlear.com/"
+    },
+    "COCHLEAR_MCR": {
+      "value": "https://recipients.mycochlear.com"
+    },
+    "ASSETS_ENDPOINT": {
+      "value": "https://assets.cochlear.com"
+    },
+    "AUTHORIZE_USER_APP": {
+      "value": "https://id-prd.cochlear.com/"
+    },
+    "AUTHORIZE_USER_APP_AUTHORIZE_PATH": {
+      "value": "authorize"
+    },
+    "uhmenuTitle": {
+      "value": "My profile"
+    },
+    "logoutLabel": {
+      "value": "Log out"
+    },
+    "dropDownList": null,
+    "popupClose": {
+      "value": "Dismiss"
+    },
+    "popupLabel": {
+      "value": "What's new in your profile"
+    },
+    "version": {
+      "value": "3"
+    },
+    "content": {
+      "slides": [
+        {
+          "url": "/us/en/account/cochlear-us-drx/configuration/header/whats-new/new-look-personal-details",
+          "name": "New look personal details",
+          "action": null,
+          "style": null,
+          "jmage": {
+            "value": "<image mediaid=\"{6590E671-6D5E-449C-A85D-9D4BA36DC56B}\" />"
+          },
+          "title": {
+            "value": "New look personal details"
+          },
+          "field": {
+            "value": "We have a new and simpler way for you to view and edit your personal details. Just select About me from your profile menu and check your details."
+          }
+        },
+        {
+          "url": "/us/en/account/cochlear-us-drx/configuration/header/whats-new/you-still-have-access-to-my-cochlear",
+          "name": "You still have access to My Cochlear",
+          "action": null,
+          "style": null,
+          "jmage": {
+            "value": "<image mediaid=\"{6590E671-6D5E-449C-A85D-9D4BA36DC56B}\" alt=\"access mycochlear dashboard\" height=\"\" width=\"\" hspace=\"\" vspace=\"\" />"
+          },
+          "title": {
+            "value": "You still have access to My Cochlear"
+          },
+          "field": {
+            "value": "If at any time you need to see your information in the old view, just select View MyCochlear from your profile menu."
+          }
+        }
+      ]
+    }
+  }
+}

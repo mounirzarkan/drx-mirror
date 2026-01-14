@@ -1,0 +1,149 @@
+{
+  "item": {
+    "id": "50277EA9C3994F3290CCCF9D6BB88834",
+    "name": "DRX Header",
+    "path": "/sitecore/content/drx/us/Configuration/Header/DRX Header",
+    "useUniversalHeader": {
+      "value": true
+    },
+    "uhmenuTitle": {
+      "value": "My profile"
+    },
+    "logoutLabel": {
+      "value": "Log out"
+    },
+    "dropDownList": {
+      "links": [
+        {
+          "icon": {
+            "value": "chevron"
+          },
+          "link": {
+            "url": "/us/en/account/my-profile/about-me",
+            "target": "",
+            "text": "About me"
+          }
+        },
+        {
+          "icon": {
+            "value": "external"
+          },
+          "link": {
+            "url": "/wps/myportal/myrecipient/myequipment",
+            "target": "",
+            "text": "My devices"
+          }
+        },
+        {
+          "icon": {
+            "value": "external"
+          },
+          "link": {
+            "url": "/wps/myportal/myrecipient/myprofile/?sectionLink=sr",
+            "target": "_blank",
+            "text": "My service requests"
+          }
+        },
+        {
+          "icon": {
+            "value": "external"
+          },
+          "link": {
+            "url": "/wps/myportal/myrecipient/myprofile/?sectionLink=order",
+            "target": "_blank",
+            "text": "My orders"
+          }
+        },
+        {
+          "icon": {
+            "value": "external"
+          },
+          "link": {
+            "url": "/wps/myportal/myrecipient/",
+            "target": "_blank",
+            "text": "View MyCochlear"
+          }
+        },
+        {
+          "icon": {
+            "value": ""
+          },
+          "link": {
+            "url": "##popup",
+            "target": "",
+            "text": "What's new in your profile"
+          }
+        }
+      ]
+    },
+    "whatsNewToggle": {
+      "value": true
+    },
+    "whatsNewCloseButton": {
+      "value": "Close this window"
+    },
+    "whatsNewPopupClose": {
+      "value": "Dismiss"
+    },
+    "whatsNewPopupLabel": {
+      "value": "What's new in your profile"
+    },
+    "whatsNewVersion": {
+      "value": "3"
+    },
+    "whatsNewContent": {
+      "slides": [
+        {
+          "url": "/us/en/account/cochlear-us-drx/configuration/header/whats-new/new-look-personal-details",
+          "name": "New look personal details",
+          "buttonAction": {
+            "value": "next"
+          },
+          "buttonStyle": {
+            "value": "primary"
+          },
+          "buttonText": {
+            "value": "See what’s changed"
+          },
+          "text": {
+            "value": "We have a new and simpler way for you to view and edit your personal details. Just select About me from your profile menu and check your details."
+          },
+          "title": {
+            "value": "New look personal details"
+          },
+          "jmage": {
+            "alt": "Personal details",
+            "src": null,
+            "id": "A3F6966498BE43FAB1B922C0DBCF1B4A",
+            "value": "<image mediaid=\"\" stylelabs-content-id=\"106612\" thumbnailsrc=\"https://cochlearmediaportal.stylelabs.cloud/api/gateway/106612/thumbnail\" src=\"https://mss-p-007-delivery.sitecorecontenthub.cloud/api/public/content/75772b8b4348410981571749318937f9?v=4dbc1258\" stylelabs-content-type=\"Image\" alt=\"Personal details\" height=\"280\" width=\"280\" />"
+          }
+        },
+        {
+          "url": "/us/en/account/cochlear-us-drx/configuration/header/whats-new/you-still-have-access-to-my-cochlear",
+          "name": "You still have access to My Cochlear",
+          "buttonAction": {
+            "value": "close"
+          },
+          "buttonStyle": {
+            "value": "primary"
+          },
+          "buttonText": {
+            "value": "OK, got it"
+          },
+          "text": {
+            "value": "If at any time you need to see your information in the old view, just select View MyCochlear from your profile menu."
+          },
+          "title": {
+            "value": "You still have access to My Cochlear"
+          },
+          "jmage": {
+            "alt": "Access myCochlear dashboard",
+            "src": null,
+            "id": "A3F6966498BE43FAB1B922C0DBCF1B4A",
+            "value": "<image mediaid=\"\" alt=\"Access myCochlear dashboard\" height=\"280\" width=\"280\" hspace=\"\" vspace=\"\" stylelabs-content-id=\"106744\" thumbnailsrc=\"https://cochlearmediaportal.stylelabs.cloud/api/gateway/106744/thumbnail\" src=\"https://mss-p-007-delivery.sitecorecontenthub.cloud/api/public/content/35d659a0116b4674a420efb1965485a9?v=e6173fc1\" stylelabs-content-type=\"Image\" />"
+          }
+        }
+      ]
+    }
+  }
+}

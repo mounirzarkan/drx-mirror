@@ -1,0 +1,134 @@
+AWSTemplateFormatVersion: 2010-09-09
+Resources:
+  HttpApiIntegration:
+    Type: 'AWS::ApiGatewayV2::Integration'
+    Properties:
+      IntegrationMethod: ANY
+      Description: API integration calling
+      ApiId: !Ref HttpApi
+      PayloadFormatVersion: '1.0'
+      IntegrationUri: !Ref ProxyEndpoint
+      IntegrationType: HTTP_PROXY
+  HttpApiIntegrationSecond:
+    Type: 'AWS::ApiGatewayV2::Integration'
+    Properties:
+      IntegrationMethod: ANY
+      Description: API integration calling
+      ApiId: !Ref HttpApi
+      PayloadFormatVersion: '1.0'
+      IntegrationUri: !Ref ProxyEndpointSecond
+      IntegrationType: HTTP_PROXY
+  HttpApiStage:
+    Type: 'AWS::ApiGatewayV2::Stage'
+    Properties:
+      ApiId: !Ref HttpApi
+      AutoDeploy: true
+      StageName: !Ref EnvPrefix
+      AccessLogSettings:
+        DestinationArn: !GetAtt ApiCloudWatchLog.Arn
+        Format: >
+          {
+          "integrationStatus":"$context.integrationStatus","integrationLatency":"$context.integrationLatency","requestId":"$context.requestId","path":"$context.path",
+          "ip": "$context.identity.sourceIp",
+          "caller":"$context.identity.caller",
+          "user":"$context.identity.user","requestTime":"$context.requestTime",
+          "httpMethod":"$context.httpMethod","resourcePath":"$context.resourcePath",
+          "status":"$context.status","protocol":"$context.protocol",
+          "responseLength":"$context.responseLength" }
+  ApiCloudWatchLog:
+    Type: 'AWS::Logs::LogGroup'
+    Properties:
+      RetentionInDays: !Ref logRetention
+      LogGroupName: !Sub /aws/vendedlogs/${AWS::StackName}
+  ApiRoute:
+    Type: 'AWS::ApiGatewayV2::Route'
+    Properties:
+      ApiId: !Ref HttpApi
+      RouteKey: !Ref Path
+      Target: !Join 
+        - /
+        - - integrations
+          - !Ref HttpApiIntegration
+  ApiRouteSecond:
+    Type: 'AWS::ApiGatewayV2::Route'
+    Properties:
+      ApiId: !Ref HttpApi
+      RouteKey: !Ref PathSecond
+      Target: !Join 
+        - /
+        - - integrations
+          - !Ref HttpApiIntegrationSecond
+  # ApiRouteProxy:
+  #   Type: 'AWS::ApiGatewayV2::Route'
+  #   Properties:
+  #     ApiId: !Ref HttpApi
+  #     RouteKey: !Join 
+  #       - ''
+  #       - - ANY
+  #         - ' '
+  #         - '/{proxy+}'
+  #     Target: !Join 
+  #       - /
+  #       - - integrations
+  #         - !Ref HttpApiIntegrationProxy
+  HttpApiMapping:
+    Type: 'AWS::ApiGatewayV2::ApiMapping'
+    Properties:
+      ApiId: !Ref HttpApi
+      Stage: !Ref HttpApiStage
+      ApiMappingKey: !Ref basePath
+      DomainName: !Ref DomainName
+  HttpApi:
+    Type: 'AWS::ApiGatewayV2::Api'
+    Properties:
+      ProtocolType: HTTP
+      Description: !Sub 'API GW used for resource in ${EnvPrefix} environment.'
+      Name: !Sub '${AWS::StackName}'
+  # HttpApiIntegrationProxy:
+  #   Type: 'AWS::ApiGatewayV2::Integration'
+  #   Properties:
+  #     IntegrationMethod: ANY
+  #     Description: API integration calling
+  #     ApiId: !Ref HttpApi
+  #     PayloadFormatVersion: '1.0'
+  #     IntegrationUri: !Join 
+  #       - ''
+  #       - - !Ref ProxyEndpoint
+  #         - /
+  #         - '{proxy}'
+  #     IntegrationType: HTTP_PROXY
+Description: AWS SAM template with path proxy
+Parameters:
+  EnvPrefix:
+    Default: prd
+    Type: String
+    Description: Cochlear environment
+    AllowedValues:
+      - dev
+      - sit
+      - uat
+      - prd
+  basePath:
+    Default: drx-orders
+    Type: String
+  logRetention:
+    Default: '1'
+    Type: Number
+    Description: How many days to keep the logs
+  ProxyEndpoint:
+    Default: 'https://api.cochlear.com/drx/v1/patients/me/orders'
+    Type: String
+  ProxyEndpointSecond:
+    Default: 'https://api.cochlear.com/drx/v1/patients/me/orders/{proxy}/lines'
+    # Default: 'https://uat.api.cochlear.com/drx/v1/patients/me/orders/{proxy}/lines'
+    Type: String
+  DomainName:
+    Default: api.cochlear.com
+    Type: String
+  Path:
+    Default: ANY /v1/orders
+    Type: String
+  PathSecond:
+    Default: ANY /v1/orders/{proxy}/lines
+    # Default: ANY /v1/orders/{proxy}/lines
+    Type: String

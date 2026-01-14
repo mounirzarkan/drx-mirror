@@ -1,0 +1,9 @@
+# dist
+/dist
+
+# config files
+config.js
+newrelic.js
+
+# Zip files
+*.zip

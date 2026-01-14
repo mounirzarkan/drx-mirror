@@ -1,0 +1,17 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "DRX",
+  "Description": "Cochlear DRX API Gateway Lambda Service Requests Service",
+  "Name": "Cochlear DRX APIG Lambda Service Requests Service",
+  "Function": "Service Requests Service",
+  "Environment": "SIT",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "DEBUG",
+  "createAlarms": "false",
+  "pmEndpoint": "https://d8eb9dca-c90a-4760-bbe1-2660bde5887a.mock.pstmn.io",
+  "appConfigApplicationId": "ykkihm7",
+  "appConfigEnvironmentId": "zsjg9d6",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_SIT/environments/SIT/configurations"
+} 

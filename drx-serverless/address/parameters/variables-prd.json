@@ -1,0 +1,18 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Address Service",
+  "Name": "Cochlear DRX APIG Lambda Address Service",
+  "Function": "Address Service",
+  "Environment": "PRD",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "ERROR",
+  "createAlarms": "true",
+  "pmEndpoint": "",
+  "errorUsers": "[]",
+  "appConfigApplicationId": "npbi26a",
+  "appConfigEnvironmentId": "gn051xu",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_PRD/environments/PRD/configurations"
+}

@@ -1,0 +1,11 @@
+.ccl__edit-mode {
+  &__element {
+    margin-top: $spacing-3x;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  &__submit {
+    margin-top: $spacing-3x;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda API Authorizer Service",
+  "Name": "Cochlear DRX APIG Lambda API Authorizer Service",
+  "Function": "API Authorizer Service",
+  "Environment": "DEV",
+  "Product": "API Gateway",
+  "userSessionSeconds": "1209600",
+  "logLevel": "DEBUG",
+  "createAlarms": "false",
+  "publicKey": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArORn60MX4VIzhgSy0cOX\nDOYB+UJa5wYxvgq6dzzQLEzPdJ+UMUpQ+k+1HsInFOoO7ym1TpM1PmRRoMC577Df\nsN7j4Epop+9jeO9eh0RAdEPLHwmz/XhOpM7sjnui/7XlL63e3L+7/DkER6/VHNvU\nIVZbLTLdjFxgS51T0w4eehPD+z6IlOuE7yNw+zW4ujr5VycPi3kQ7TGBq/MZ1vB1\njnRLqZ49UdZqDvf+29iF9vAq1O32cV5pYkKpy1XBGaG3js42eDF1TZ16Eu/bfks8\nszx5dqyELpgIF0wvjR2oEgg6da+u0BmOJDUPzLvnk0GUA0895ifBHeBjrQC61q3c\njQIDAQAB\n-----END PUBLIC KEY-----\n",
+  "auth0Host": "https://dev.id.cochlear.com",
+  "auth0Audience": "https://cochlear.com/drx",
+  "auth0ClientId": "j7JQUr4JeH7p16eLQAXIZ1diTrj1Z60u"
+}

@@ -1,0 +1,16 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Uhmenu Service",
+  "Name": "Cochlear DRX APIG Lambda Uhmenu Service",
+  "Function": "Uhmenu Service",
+  "Environment": "DEV",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "DEBUG",
+  "createAlarms": "false",
+  "isScHttpAgent": "true",
+  "RedisHostname": "master.cochlear-drx-redis.seorg1.apse2.cache.amazonaws.com",
+  "RedisPort": "6379"
+}

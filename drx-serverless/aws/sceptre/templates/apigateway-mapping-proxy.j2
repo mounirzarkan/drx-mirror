@@ -1,0 +1,151 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: Deploys the HTTP gateway in API-GW Account.
+
+
+Parameters:
+
+  DomainName: 
+    Type: "String"
+    Default: "dev-dpx-api.cx.nonp.cochlear.cloud"
+  DestDomainName: 
+    Type: "String"
+    Default: "dev-dpx-api.cx.nonp.cochlear.cloud"
+  PatientDestEndpointV1:
+    Type: "String"
+    Default: "drx-account-v1"
+  PatientPathV1:
+    Type: "String"
+    Default: "v1/patient"
+
+  apiGatewayStageName:
+    Type: "String"
+    AllowedPattern: "^[a-z0-9]+$"
+    Default: "dev"
+  basePath:
+    Type: "String"
+    Default: "drx"
+  logRetention:
+    Type: "Number"
+    Description: "How many days to keep the logs"
+    Default: "1"
+  project: 
+    Type: "String"
+    Description: "project"
+    Default: "dpx"
+
+Resources:
+
+  ApiCloudWatchLog:
+    Type: AWS::Logs::LogGroup
+    Properties: 
+      LogGroupName: !Ref AWS::StackName
+      RetentionInDays: !Ref logRetention
+
+  HttpApiMapping:
+    Type: 'AWS::ApiGatewayV2::ApiMapping'
+    DependsOn: HttpApiStage
+    Properties:
+      DomainName: !Ref DomainName
+      ApiId: !Ref HttpApi
+      Stage: !Ref apiGatewayStageName
+      ApiMappingKey: !Ref basePath
+
+  HttpApi:
+    Type: AWS::ApiGatewayV2::Api
+    Properties:
+      Description: !Sub " ${project} resource in ${apiGatewayStageName} environment."
+      ProtocolType: HTTP
+      Name:  !Sub "${AWS::StackName}"
+
+# Clinic Settings
+  {% if sceptre_user_data.PathProxy is defined %}{% for record in sceptre_user_data.PathProxy %}
+  {{record.name }}HTTPApiIntegration:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      Description: API integration calling {{record.name}}
+      ApiId: !Ref HttpApi
+      IntegrationType: HTTP_PROXY
+      IntegrationMethod: ANY
+      PayloadFormatVersion: "1.0"
+      IntegrationUri: !Join
+        - ""
+        - - "https://"
+          - !Ref DestDomainName
+          - "/"
+          - {{record.endpoint}}
+      ResponseParameters:
+        "200":
+          ResponseParameters:
+            - Source: "nosniff"
+              Destination: "append:header.X-Content-Type-Options" 
+            - Source: "no-store, max-age=0"
+              Destination: "append:header.Cache-Control" 
+ 
+  {{record.name }}HttpApiIntegrationProxy:
+    Type: AWS::ApiGatewayV2::Integration
+    Properties:
+      Description: API integration calling {{record.name}}/{proxy+}
+      ApiId: !Ref HttpApi
+      IntegrationType: HTTP_PROXY
+      IntegrationMethod: ANY
+      PayloadFormatVersion: "1.0"
+      IntegrationUri: !Join
+        - ""
+        - - "https://"
+          - !Ref DestDomainName
+          - "/"
+          - {{record.endpoint}}
+          - "/"
+          - "{proxy}"
+      ResponseParameters:
+        "200":
+          ResponseParameters:
+            - Source: "nosniff"
+              Destination: "append:header.X-Content-Type-Options" 
+            - Source: "no-store, max-age=0"
+              Destination: "append:header.Cache-Control" 
+ 
+  {{record.name }}Route:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      RouteKey: !Join 
+        - ""
+        - - ANY
+          - " "
+          - "/"
+          - {{record.path}}
+      ApiId: !Ref HttpApi
+      Target: !Join
+        - /
+        - - integrations
+          - !Ref {{record.name }}HTTPApiIntegration
+
+
+  {{record.name }}RouteProxy:
+    Type: AWS::ApiGatewayV2::Route
+    Properties:
+      RouteKey: !Join 
+        - ""
+        - - ANY
+          - " "
+          - "/"
+          - {{record.path}}
+          - "/{proxy+}"
+
+      ApiId: !Ref HttpApi
+      Target: !Join
+        - /
+        - - integrations
+          - !Ref {{record.name }}HttpApiIntegrationProxy
+  {% endfor %}{% endif %}
+  HttpApiStage:
+    Type: AWS::ApiGatewayV2::Stage
+    Properties:
+      StageName: !Ref apiGatewayStageName
+      ApiId: !Ref HttpApi
+      AutoDeploy: true
+      AccessLogSettings:
+        DestinationArn: !GetAtt "ApiCloudWatchLog.Arn"
+        Format: |
+         { "integrationStatus":"$context.integrationStatus","integrationLatency":"$context.integrationLatency","requestId":"$context.requestId","path":"$context.path", "ip": "$context.identity.sourceIp", "caller":"$context.identity.caller", "user":"$context.identity.user","requestTime":"$context.requestTime", "httpMethod":"$context.httpMethod","resourcePath":"$context.resourcePath", "status":"$context.status","protocol":"$context.protocol", "responseLength":"$context.responseLength" }
+ 

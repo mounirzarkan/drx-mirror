@@ -1,0 +1,47 @@
+{
+  "errorUsers": {
+    "account": {
+      "getUserInfo": [],
+      "patchUserInfo": []
+    },
+    "address": {
+      "getAddress": [],
+      "postAddress": []
+    },
+    "device": {
+      "getDevice": [],
+      "getDevicesList": []
+    },
+    "orders": {
+      "getOrderHeaders": [],
+      "getOrderLines": []
+    },
+    "serviceRequests": {
+      "getServiceRequests": [],
+      "getServiceRequest": []
+    }
+  },
+  "successUsers": {
+    "lambdaMock": {
+      "account": [],
+      "address": [],
+      "device": [],
+      "orders": []
+    },
+    "sageMock": {
+      "account": [],
+      "address": [],
+      "device": [],
+      "orders": []
+    },
+    "sage": {
+      "account": [],
+      "address": [],
+      "device": [],
+      "orders": []
+    }
+  },
+  "variables": {
+    "orderLimit": 60
+  }
+}

@@ -1,0 +1,83 @@
+.ccl__view-edit-mode--address-view {
+  max-width: 45rem;
+  .ccl__text.ccl__text--small-body-text-italic {
+    color: $black-bis;
+    font-size: 0.875rem;
+    line-height: 1.142857142857143;
+    margin: $spacing-1x $spacing-2x 0 $spacing-2x;
+  }
+  .ccl__form-input {
+    margin-bottom: $spacing-2x;
+  }
+  .button--group {
+    margin-top: $spacing-5x;
+  }
+}
+
+.ccl__form-input__typeahead {
+  position: relative;
+  .ccl__icon {
+    position: absolute;
+    right: $spacing-1x;
+    top: 50%;
+    &:before {
+      content: '';
+      width: 1px;
+      height: $spacing-4x;
+      display: block;
+      background: $black-ter;
+      margin-top: -4px;
+      margin-bottom: -4px;
+      left: -$spacing-1x;
+      position: relative;
+    }
+  }
+  &.ccl__form-input--has-error {
+    .ccl__icon {
+      &:before {
+        background: $red;
+      }
+    }
+  }
+}
+
+.ccl-c-city-state {
+  .columns {
+    margin-top: 0;
+    margin-bottom: 0;
+    .column {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+  // postcode field
+  .ccl__form-input--is-number {
+    @include tablet {
+      width: 200px;
+    }
+  }
+}
+
+.button--group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  @include tablet {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  &__button {
+    width: 100%;
+    @include tablet {
+      width: auto;
+    }
+  }
+
+  .button--group__button + .button--group__button {
+    margin-top: 1em;
+    @include tablet {
+      margin-top: 0;
+      margin-left: 100px;
+    }
+  }
+}

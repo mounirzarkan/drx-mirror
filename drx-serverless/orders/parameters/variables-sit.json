@@ -1,0 +1,19 @@
+{
+  "releaseVersion": "V1",
+  "owner": "dlippiatt@cochlear.com",
+  "description": "Cochlear DRX API Gateway Lambda orders Service",
+  "name": "Cochlear DRX APIG Lambda orders Service",
+  "function": "orders Service",
+  "environment": "SIT",
+  "product": "API Gateway",
+  "prefixName": "drx",
+  "logLevel": "DEBUG",
+  "createAlarms": "false",
+  "pmEndpoint": "https://d8eb9dca-c90a-4760-bbe1-2660bde5887a.mock.pstmn.io",
+  "odEndpoint": "https://odata4.sit.cochlear.cloud/odata4/odata4.svc",
+  "userSessionSeconds": 21600,
+  "oDataOrderTypes": "(OrderType eq 'CCN-SALE' or OrderType eq 'CTR-SALE' or OrderType eq 'CLTD-SALE-LN-ADD' or OrderType eq 'CEL-SALE' or OrderType eq 'CIT-SALE' or OrderType eq 'CSG-SALE' or OrderType eq 'NCC-SALE-LN' or OrderType eq 'CFR-SALE' or OrderType eq 'CCN-SALE-LN' or OrderType eq 'CLTD-SALE-LN' or OrderType eq 'CLA-SALE' or OrderType eq 'CSG-SALE-LN' or OrderType eq 'CLTD-SALE' or OrderType eq 'CKR-SALE-LN' or OrderType eq 'CKR-SALE' or OrderType eq 'CHK-SALE-LN' or OrderType eq 'CHK-SALE' or OrderType eq 'CDE-SALE' or OrderType eq 'NCC-SALE' or OrderType eq 'CAM-SALE' or OrderType eq 'CIN-SALE-LN' or OrderType eq 'CNO-SALE' or OrderType eq 'CAM-SA-SALES-LN' or OrderType eq 'CLA-SA-SALES-LN' or OrderType eq 'CIN-SALE' or OrderType eq 'CAM-REIMBURSEMENT-ORD')",
+  "appConfigApplicationId": "ykkihm7",
+  "appConfigEnvironmentId": "zsjg9d6",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_SIT/environments/SIT/configurations"
+}

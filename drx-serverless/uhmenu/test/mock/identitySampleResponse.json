@@ -1,0 +1,24 @@
+{
+  "relatedAccounts": [
+    {
+      "RecordType": "Requester|Recipient",
+      "LastName": "P1",
+      "IsCIMEnabled": true,
+      "FirstName": "parent 1",
+      "DateOfBirth": 1823333334,
+      "CIMUserType": "Carer|Recipient|NA",
+      "CochlearId": "_CochlearId",
+      "RelationshipType": "Relative|Parent|Spouse|Guardian"
+    }
+  ],
+  "RecordType": "Requester|Recipient",
+  "LastName": "Robison",
+  "FirstName": "Vincent",
+  "DateOfBirth": 1823333334,
+  "CIMUserType": "Recipient|Null",
+  "CochlearUserName": "VincentRobisonUS@SIT.com",
+  "LoginAppName": "DRXMain",
+  "LanguageCode": "en_US",
+  "CountryCode": "US",
+  "CochlearId": "_CochlearId"
+}

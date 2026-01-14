@@ -1,0 +1,11 @@
+template: 
+  type: file
+  path: kms.yaml
+
+parameters:
+  Description: DRX project related Custom Managed Key
+  AdminRole: core/DeveloperRole
+  Project: !environment_variable PROJECT_CODE
+  Environment: {{ stack_group_config.environment }}
+  # ProjectRolePattern: drx*
+

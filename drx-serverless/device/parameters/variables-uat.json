@@ -1,0 +1,22 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Device Service",
+  "Name": "Cochlear DRX APIG Lambda Device Service",
+  "Function": "Devices Service",
+  "Environment": "UAT",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "pmEndpoint": "https://d8eb9dca-c90a-4760-bbe1-2660bde5887a.mock.pstmn.io",
+  "webToCaseUrl": "https://cochlear--uat.sandbox.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8",
+  "sfOrgId": "00D7a0000005Pn0",
+  "srDescriptionJsonKey": "00N1p00000K4LbT",
+  "logLevel": "INFO",
+  "createAlarms": "true",
+  "errorUsers": "[{\"cId\":\"235595595438289\",\"name\":\"getDevicesList\"},{\"cId\":\"201255392603661\",\"name\":\"getDevicesList\"},{\"cId\":\"229421684085613\",\"name\":\"getDevicesList\"},{\"cId\":\"235976424530016\",\"name\":\"getDevicesList\"},{\"cId\":\"280909644767776\",\"name\":\"getDevicesList\"},{\"cId\":\"228286143898142\",\"name\":\"getDevicesList\"},{\"cId\":\"164862996235552\",\"name\":\"getDevicesList\"},{\"cId\":\"220621589881743\",\"name\":\"getDevicesList\"},{\"cId\":\"256775060468406\",\"name\":\"getDevice\"},{\"cId\":\"227344814702350\",\"name\":\"getDevice\"},{\"cId\":\"165495736727087\",\"name\":\"getDevice\"},{\"cId\":\"169404684989295\",\"name\":\"getDevice\"},{\"cId\":\"218623311583523\",\"name\":\"getDevice\"},{\"cId\":\"155277238971756\",\"name\":\"getDevice\"},{\"cId\":\"208001528857194\",\"name\":\"getDevice\"},{\"cId\":\"279879889614709\",\"name\":\"getDevice\"}]",
+  "deviceSupportCountries": "[\"US\"]",
+  "appConfigApplicationId": "jb6fxvo",
+  "appConfigEnvironmentId": "goou0t7",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_UAT/environments/UAT/configurations"
+}

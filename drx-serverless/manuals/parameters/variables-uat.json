@@ -1,0 +1,16 @@
+{
+  "releaseVersion": "V1",
+  "owner": "DRX",
+  "description": "Cochlear DRX API Gateway Lambda Manuals Service",
+  "name": "Cochlear DRX APIG Lambda Service Manuals Service",
+  "function": "Manuals Service",
+  "environment": "UAT",
+  "product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "INFO",
+  "createAlarms": "true",
+  "appConfigApplicationId": "jb6fxvo",
+  "appConfigEnvironmentId": "goou0t7",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_UAT/environments/UAT/configurations"
+}

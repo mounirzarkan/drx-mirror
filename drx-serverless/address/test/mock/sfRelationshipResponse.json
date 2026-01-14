@@ -1,0 +1,26 @@
+{
+  "RelatedAccounts": [
+    {
+      "RelationshipType": "PARENT",
+      "RecordType": "Recipient",
+      "LastName": "Ward",
+      "IsCIMEnabled": true,
+      "FirstName": "masked by logUtils",
+      "CochlearId": "162748173278165"
+    },
+    {
+      "RelationshipType": "SPOUSE",
+      "RecordType": "Requester",
+      "LastName": "Ward",
+      "IsCIMEnabled": true,
+      "FirstName": "masked by logUtils",
+      "CochlearId": "182512471537556"
+    }
+  ],
+  "RecordType": "Recipient",
+  "LastName": "Ward",
+  "IsCIMEnabled": true,
+  "FirstName": "masked by logUtils",
+  "DateOfBirth": 686188800000,
+  "CochlearId": "162748173278165"
+}

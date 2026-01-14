@@ -1,0 +1,13 @@
+{
+  "dm": [
+    "account",
+    "address",
+    "uhmenu",
+    "regions",
+    "orders",
+    "device",
+    "sageServiceRequests"
+  ],
+  "ds": ["serviceRequest", "profile", "device", "uhmenu", "regions"],
+  "uh": ["uhmenu", "regions"]
+}

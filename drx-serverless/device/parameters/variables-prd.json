@@ -1,0 +1,22 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Device Service",
+  "Name": "Cochlear DRX APIG Lambda Device Service",
+  "Function": "Devices Service",
+  "Environment": "PRD",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "pmEndpoint": "",
+  "webToCaseUrl": "https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8",
+  "sfOrgId": "00DE0000000dnBO",
+  "srDescriptionJsonKey": "00N1p00000K4LbT",
+  "logLevel": "ERROR",
+  "createAlarms": "true",
+  "errorUsers": "[]",
+  "deviceSupportCountries": "[\"US\"]",
+  "appConfigApplicationId": "npbi26a",
+  "appConfigEnvironmentId": "gn051xu",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_PRD/environments/PRD/configurations"
+}

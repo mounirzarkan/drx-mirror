@@ -1,0 +1,30 @@
+template: 
+  type: file
+  path: redis.yaml
+
+parameters:
+  AtRestEncryptionEnabled: "true"
+  CacheName: cochlear-{{ environment_variable.PROJECT_CODE }}-redis-{{ stack_group_config.environment }}
+  CacheNodeType: cache.t2.small
+  CidrIp: "10.114.48.0/20"
+  EngineVersion: "6.x"
+  Environment: {{ stack_group_config.environment }}
+  KMSId: !stack_output {{ stack_group_config.environment }}/infra/kms.yaml::ProjectCustomManagedKeyArn
+  MultiAZSupport: "false"
+  NumCacheClusters: "1"
+  PreferredMaintenanceWindow: "sun:22:00-sun:23:30"
+  RedisPort: "6379"
+  ReplicationGroupDescription: DPX replication group
+  SecruityGroupName: cochlear-{{ environment_variable.PROJECT_CODE }}-redis-{{ stack_group_config.environment }}
+  SnapshotRetentionLimit: "7"
+  SnapshotWindow: "05:00-09:00"
+  SubnetA: subnet-054b7b95c2e542272
+  SubnetB: subnet-06d2bc98677df5d48
+  SubnetC: subnet-00b70232ddcfc6571
+  TransitEncryption: "true"
+  VpcId: vpc-0c1eba8691a6f7bdd
+  Project: !environment_variable PROJECT_CODE
+
+
+  # ProjectRolePattern: drx*
+

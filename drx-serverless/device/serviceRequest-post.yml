@@ -1,0 +1,79 @@
+type: object
+# additionalProperties: false
+required:
+  - serialNumber
+  - productName
+  - productDescription
+  - earSide
+  - deviceType
+  - fittingDate
+  - lastWarrantyDate
+  - firstName
+  - lastName
+  - email
+  - clinic
+  - audiologist
+  - problemTopic
+  - problemDescription
+  - termsConditionTicked
+  - shippingAddress
+properties:
+  serialNumber:
+    type: string
+  productName:
+    type: string
+  customerFacingName:
+    type: string
+  productDescription:
+    type: string
+  deviceType:
+    type: string
+  earSide:
+    type: string
+  fittingDate:
+    type: number
+  lastWarrantyDate:
+    type: number
+  firstName:
+    type: string
+  lastName:
+    type: string
+  mobilePhone:
+    oneOf:
+      - type: string
+      - type: 'null'
+  email:
+    type: string
+  clinic:
+    type: string
+  audiologist:
+    type: string
+  problemTopic:
+    type: string
+  problemDescription:
+    type: string
+  termsConditionTicked:
+    type: boolean
+  shippingAddress:
+    type: object
+    properties:
+      address1:
+        type: string
+      address2:
+        type: string
+      address3:
+        type: string
+      city:
+        type: string
+      state:
+        type: string
+      postcode:
+        type: string
+      country:
+        type: string
+    required:
+      - address1
+      - city
+      - state
+      - postcode
+      - country

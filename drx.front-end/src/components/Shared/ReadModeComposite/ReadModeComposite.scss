@@ -1,0 +1,13 @@
+.ccl-e-read-mode-composite {
+  &__element {
+    margin-top: $spacing-3x;
+    &:first-child {
+      margin-top: $spacing-2x;
+    }
+    &__error {
+      margin-left: $spacing-half;
+      // @extend .ccl__text;
+      // @extend .ccl__text--error-text;
+    }
+  }
+}

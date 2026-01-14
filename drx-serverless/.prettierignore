@@ -1,0 +1,6 @@
+# Ignore node:
+**/node_modules
+
+**/*.json*
+**/*.xml*
+**/*.yml*

@@ -1,0 +1,51 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Description: DRX security group
+
+
+Parameters:
+    SNSArn:
+        Type: String
+        Default: "arn:aws:sns:ap-southeast-2:094551496269:cochlear-drx-uat-email-notification"
+        Description: SNS topic to notify alarms
+
+Resources:
+    DMRedirectAlarm:
+        Type: AWS::CloudWatch::Alarm
+        Properties:
+            AlarmDescription: Alarm for Error handling
+            # AlarmName: LambdaInvocationsAlarm
+            # ComparisonOperator: LessThanLowerOrGreaterThanUpperThreshold
+            # EvaluationPeriods: 1
+            ComparisonOperator: GreaterThanOrEqualToThreshold
+            EvaluationPeriods: 1
+            MetricName: DMRedirect
+            Namespace: DRX-DEV
+            OKActions:
+            - !Ref SNSArn
+            AlarmActions: 
+            - !Ref SNSArn
+            Statistic: Sum
+            Threshold: 5
+            Period: 300
+            TreatMissingData: notBreaching
+  
+
+    DSRedirectAlarm:
+        Type: AWS::CloudWatch::Alarm
+        Properties:
+            AlarmDescription: Alarm for Error handling
+            # AlarmName: LambdaInvocationsAlarm
+            # ComparisonOperator: LessThanLowerOrGreaterThanUpperThreshold
+            # EvaluationPeriods: 1
+            ComparisonOperator: GreaterThanOrEqualToThreshold
+            EvaluationPeriods: 1
+            MetricName: DSRedirect
+            Namespace: DRX-DEV
+            OKActions:
+            - !Ref SNSArn
+            AlarmActions: 
+            - !Ref SNSArn
+            Statistic: Sum
+            Threshold: 5
+            Period: 300
+            TreatMissingData: notBreaching          

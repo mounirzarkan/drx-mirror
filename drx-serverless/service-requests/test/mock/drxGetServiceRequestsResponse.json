@@ -1,0 +1,148 @@
+{
+  "requestList": [
+    {
+      "type": "Accessory",
+      "partNumber": "Z202218",
+      "name": "Cp800 Series Compact Rechargeable Battery Module (Sand)",
+      "id": "609241",
+      "serviceRequestNumber": "609117",
+      "status": "Closed",
+      "createdDate": "2012-07-27"
+    },
+    {
+      "type": "Remote Assistant",
+      "partNumber": "Z159280",
+      "name": "Cr110 Remote Assistant (White)",
+      "id": "651116",
+      "serviceRequestNumber": "650964",
+      "status": "Closed",
+      "createdDate": "2012-10-30"
+    },
+    {
+      "type": "Speech Processor",
+      "partNumber": "Z185553",
+      "name": "Cp800 Series Processing Unit (Sand)",
+      "id": "1167428",
+      "serviceRequestNumber": "1166034",
+      "status": "Closed",
+      "createdDate": "2014-09-25"
+    },
+    {
+      "type": "Speech Processor",
+      "partNumber": "Z185553R",
+      "name": "Cp800 Series Processing Unit (Sand), Refurbished",
+      "id": "1287746",
+      "serviceRequestNumber": "1284378",
+      "status": "Closed",
+      "createdDate": "2015-01-17"
+    },
+    {
+      "type": "Accessory",
+      "partNumber": "Z407015",
+      "name": "Cp800 Series Standard Rechargeable Battery Module (Sand)",
+      "id": "1612486",
+      "serviceRequestNumber": "1607622",
+      "status": "Closed",
+      "createdDate": "2015-10-29"
+    },
+    {
+      "type": "Speech Processor",
+      "partNumber": "Z185553R",
+      "name": "Cp800 Series Processing Unit (Sand), Refurbished",
+      "id": "1612500",
+      "serviceRequestNumber": "1607636",
+      "status": "Closed",
+      "createdDate": "2015-10-29"
+    },
+    {
+      "type": "Speech Processor",
+      "partNumber": "Z185553R",
+      "name": "Cp800 Series Processing Unit (Sand), Refurbished",
+      "id": "1910124",
+      "serviceRequestNumber": "1903200",
+      "status": "Closed",
+      "createdDate": "2016-07-07"
+    },
+    {
+      "type": "Accessory",
+      "partNumber": "Z407015",
+      "name": "Cp800 Series Standard Rechargeable Battery Module (Sand)",
+      "id": "2069718",
+      "serviceRequestNumber": "2061994",
+      "status": "Closed",
+      "createdDate": "2016-10-12"
+    },
+    {
+      "type": "Accessory",
+      "partNumber": "Z597509",
+      "name": "Cp1000 Coil, White, 6cm",
+      "id": "5960500",
+      "serviceRequestNumber": "3556444",
+      "status": "Closed",
+      "createdDate": "2019-11-08"
+    },
+    {
+      "type": "Accessory",
+      "partNumber": "Z544553",
+      "name": "Cp1000 Standard Rechargeable Battery Module Packed (Sand)",
+      "id": "7025172",
+      "serviceRequestNumber": "3915656",
+      "status": "Closed",
+      "createdDate": "2020-06-10"
+    },
+    {
+      "type": "Accessory",
+      "partNumber": "Z597499",
+      "name": "Cp1000 Coil, Sand, 6cm",
+      "id": "9503782",
+      "serviceRequestNumber": "5146434",
+      "status": "Closed",
+      "createdDate": "2021-11-30"
+    },
+    {
+      "type": "Speech Processor",
+      "partNumber": "P732101",
+      "name": "Cp1000 Processing Unit Bulk, Sand",
+      "id": "10583718",
+      "serviceRequestNumber": "5323696",
+      "status": "Closed",
+      "createdDate": "2022-02-05"
+    },
+    {
+      "type": "Speech Processor",
+      "partNumber": "P732101R",
+      "name": "Cp1000 Processing Unit Bulk, Sand Refurbished",
+      "id": "13054218",
+      "serviceRequestNumber": "6706378",
+      "status": "Closed",
+      "createdDate": "2023-09-19"
+    },
+    {
+      "type": "Speech Processor",
+      "partNumber": "P1840403",
+      "name": "Cp1110 Processing Unit, Sand - Single Pack",
+      "id": "13054860",
+      "serviceRequestNumber": "6706588",
+      "status": "Closed",
+      "createdDate": "2023-09-19"
+    },
+    {
+      "type": "Speech Processor",
+      "partNumber": "P1840403",
+      "name": "Cp1110 Processing Unit, Sand - Single Pack",
+      "id": "15164894",
+      "serviceRequestNumber": "7112756",
+      "status": "Open",
+      "createdDate": "2023-12-08"
+    },
+    {
+      "type": "Implant",
+      "partNumber": "Z60132",
+      "name": "Cochlear Implant, Ci24re (St)",
+      "id": "18447380",
+      "serviceRequestNumber": "7773184",
+      "status": "Open",
+      "createdDate": "2024-07-19"
+    }
+  ]
+}

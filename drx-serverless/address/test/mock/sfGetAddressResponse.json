@@ -1,0 +1,21 @@
+{
+  "items": [
+    {
+      "street4": null,
+      "street3": null,
+      "street2": null,
+      "street1": "33 fdoe Ttu",
+      "state": "TX",
+      "postalCode": "79406-0016",
+      "isPrimaryShipping": true,
+      "isPrimaryBilling": true,
+      "isMailing": true,
+      "isCurrentResidence": true,
+      "customerIdentifier": "162748173278165",
+      "countryIso2Code": "US",
+      "city": "ddock",
+      "addressId": "a0H7Y000005GBX4UAO"
+    }
+  ],
+  "size": 1
+}

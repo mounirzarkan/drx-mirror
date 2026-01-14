@@ -1,0 +1,34 @@
+
+AWSTemplateFormatVersion: "2010-09-09"
+Description: DRX security group
+
+Parameters:
+    vpcId:
+        Type: String
+        Default: "vpc-040fd0d5dddd78527"
+        Description: VPC-ID
+    vpcIPRange:
+        Type: String
+        Default: "10.170.0.0/18"
+        Description: VPC-IP Range
+Resources:
+    LambdaSecurityGroup:
+        Type: AWS::EC2::SecurityGroup
+        Properties: 
+            GroupDescription: "LambdaSecurityGroup"
+            # GroupName: "DRX-Lambda-SecurityGroup"
+            VpcId: !Ref vpcId
+            SecurityGroupIngress:
+                - IpProtocol: tcp
+                  FromPort: 6379
+                  ToPort: 6379
+                  CidrIp: !Ref vpcIPRange
+            SecurityGroupEgress:
+                - IpProtocol: -1
+                  FromPort: -1
+                  ToPort: -1
+                  CidrIp: 0.0.0.0/0
+Outputs:
+    DRXLambdaSecurityGroupId:
+        Description: 'DRXLambdaSecurityGroup id'
+        Value: !Ref LambdaSecurityGroup

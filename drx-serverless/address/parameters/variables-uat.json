@@ -1,0 +1,18 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Address Service",
+  "Name": "Cochlear DRX APIG Lambda Address Service",
+  "Function": "Address Service",
+  "Environment": "UAT",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "INFO",
+  "createAlarms": "true",
+  "pmEndpoint": "https://d8eb9dca-c90a-4760-bbe1-2660bde5887a.mock.pstmn.io",
+  "errorUsers": "[{\"cId\":\"251206513188618\",\"name\":\"postAddress\"},{\"cId\":\"235263819357646\",\"name\":\"postAddress\"},{\"cId\":\"147115095649885\",\"name\":\"postAddress\"},{\"cId\":\"168589761537931\",\"name\":\"postAddress\"},{\"cId\":\"264275369740272\",\"name\":\"postAddress\"},{\"cId\":\"243680123919697\",\"name\":\"postAddress\"},{\"cId\":\"213424112447860\",\"name\":\"postAddress\"},{\"cId\":\"220562695442867\",\"name\":\"getAddress\"},{\"cId\":\"189493216647327\",\"name\":\"getAddress\"},{\"cId\":\"218520776383457\",\"name\":\"getAddress\"}]",
+  "appConfigApplicationId": "jb6fxvo",
+  "appConfigEnvironmentId": "goou0t7",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_UAT/environments/UAT/configurations"
+}

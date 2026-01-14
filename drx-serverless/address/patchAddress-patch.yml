@@ -1,0 +1,25 @@
+
+type: object
+required:
+    - customerIdentifier
+properties:
+    customerIdentifier:
+        type: string
+    isBilling:
+        oneOf:
+            - type: boolean
+            - type: "null"
+    isShipping:
+        oneOf:
+            - type: boolean
+            - type: "null"
+    isMailing:
+        oneOf:
+            - type: boolean
+            - type: "null"
+    modifiedByApp:
+        description: which app made this change
+        oneOf:
+            - type: string
+            - type: "null"
+

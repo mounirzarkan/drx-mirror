@@ -1,0 +1,31 @@
+{
+  "firstName": "Tom",
+  "lastName": "Ward",
+  "email": "amandawardus@sit.com",
+  "dateOfBirth": "1991-09-30",
+  "familyConsent": "Given",
+  "phones": [
+    {
+      "type": "Mobile",
+      "phoneNumber": "0411123123",
+      "ocSms": "Given",
+      "isValid": true,
+      "isPrimary": true
+    },
+    {
+      "type": "Home",
+      "phoneNumber": "0421123123",
+      "ocSms": null,
+      "isValid": true,
+      "isPrimary": false
+    },
+    {
+      "type": "Mobile",
+      "phoneNumber": "0423234234",
+      "ocSms": null,
+      "isValid": true,
+      "isPrimary": false
+    }
+  ],
+  "relatedCarers": ["Peter Ward"]
+}

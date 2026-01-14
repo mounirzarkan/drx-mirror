@@ -1,0 +1,54 @@
+# Stage 1: Build
+FROM node:20-alpine AS build
+
+# Define build arguments for CI tokens and environment
+ARG CI_JOB_TOKEN
+ARG CDS_CI_JOB_TOKEN
+ARG BUILD_ENVIRONMENT
+
+# Set environment variables for CI tokens and build environment
+ENV CI_JOB_TOKEN=$CI_JOB_TOKEN
+ENV CDS_CI_JOB_TOKEN=$CDS_CI_JOB_TOKEN
+ENV BUILD_ENVIRONMENT=$BUILD_ENVIRONMENT
+
+# Set the working directory inside the container
+WORKDIR /var/website
+
+# Copy pnpm configuration and package files
+COPY package.json .npmrc ./
+
+RUN npm install -g pnpm@latest && \
+    pnpm config set store-dir /pnpm_store && \
+    pnpm config set package-import-method copy && \
+    pnpm install --prefer-offline && \
+    npm cache clean --force && \
+    rm -rf /root/.npm /root/.pnpm-store /usr/local/share/.cache /tmp/*
+
+# Copy the rest of the application files
+COPY . .
+
+# Stage 2: Runtime
+FROM node:20-alpine
+
+# Set environment variables for CI tokens and build environment
+ENV CI_JOB_TOKEN=$CI_JOB_TOKEN
+ENV CDS_CI_JOB_TOKEN=$CDS_CI_JOB_TOKEN
+ENV BUILD_ENVIRONMENT=$BUILD_ENVIRONMENT
+
+# Set the working directory inside the container
+WORKDIR /var/website
+
+# Create the node user
+RUN adduser -D -s /bin/sh appuser
+
+# Copy only the necessary files from the build stage with correct ownership
+COPY --from=build --chown=appuser:appuser /var/website /var/website
+
+# Expose port 3000 for the application
+EXPOSE 3000
+
+# Switch to the node user
+USER appuser
+
+# Command to run the application
+CMD ["npm", "run", "start:connected"]

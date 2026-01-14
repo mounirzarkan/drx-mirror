@@ -1,0 +1,38 @@
+.ccl__my-profile-button{
+    padding-top: 0.4rem;
+}
+
+.ccl__nav-bar__menu{
+    padding:0px;
+}
+
+// .ccl__nav-bar__menu{
+//     padding:0
+// }
+
+// .ccl__nav-bar .container {        
+//     --bs-gutter-x: 1rem;
+//     max-width: 854px;
+//     margin-left: auto;
+//     margin-right: auto;
+// }
+
+.ccl__nav-bar .row{        
+    margin: 0;
+}
+
+@media (min-width: 1025px) {
+    .ccl__nav-bar .container {
+        margin: 0;
+        --bs-gutter-x: 6.3rem !important;
+    }
+}
+
+// @media (max-width: 1025px) {
+//     .ccl__nav-bar .container {
+//         max-width: 100%;
+//         padding: 0;
+//     }
+// }
+
+

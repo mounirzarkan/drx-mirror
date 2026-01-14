@@ -1,0 +1,19 @@
+
+type: object
+required:
+    - key
+    - value
+properties:
+    key:
+        type: string
+    value:
+        type: object
+        required:
+            - token
+            - sub
+        properties:
+            token:
+                type: string
+            sub:
+                type: string
+

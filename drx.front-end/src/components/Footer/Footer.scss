@@ -1,0 +1,125 @@
+// Footer
+// --------------------------------------------
+.footer {
+  &__cochlear {
+    padding: 3.75rem 1.25rem;
+
+    .cochlear-logo {
+      width: 180px;
+      height: 180px;
+      margin: 0 auto;
+      position: relative;
+
+      >img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    &__links {
+      display: flex;
+      flex-flow: column nowrap;
+
+      @include desktop {
+        flex-flow: row nowrap;
+        width: 90%;
+        margin: 1rem 0 0 2rem;
+
+        .col-a {
+          flex-grow: 2; // twice as wide as the last column
+        }
+      }
+
+      li>a {
+        font: 500 1.125rem/1.2 $family-primary;
+        color: #fff;
+        text-decoration: none;
+
+        &:hover,
+        &:focus {
+          text-decoration: underline;
+        }
+      }
+
+      .col-a,
+      .col-b {
+        padding-top: 1rem;
+        padding-left: 1rem;
+
+        @include desktop {
+          padding-top: 0;
+        }
+
+        li {
+          margin-top: 0.5rem;
+        }
+      }
+
+      .col-a {
+        padding-top: 0;
+
+        >ul {
+          display: flex;
+          flex-flow: row nowrap;
+
+          >li {
+            flex: 1 1 auto;
+          }
+        }
+
+        .col-a-a,
+        .col-a-b {
+          margin-top: 0;
+        }
+
+        .col-a-a {
+          margin-right: 1em;
+        }
+      }
+    }
+
+    .social-media {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+
+      @include desktop {
+        margin-top: 1rem;
+      }
+
+      li {
+        padding: 10px;
+
+        a {
+          display: block;
+          color: #fff;
+          font-size: 1.75em;
+          line-height: 1;
+        }
+      }
+
+      &__icon {
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 30px;
+        width: 30px;
+        display: block;
+      }
+    }
+  }
+
+  &__copyright {
+    padding: 2rem 1.5rem 5.125rem; // compensate for the mobile fixed nav
+
+    @include desktop {
+      padding: 2rem 1.5rem;
+    }
+
+    p {
+      font: 400 0.875rem/1.71 $family-secondary;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "totalItemsAmount": "58.00",
+  "totalAmount": "58.00",
+  "totalShipping": "0.00",
+  "totalTax": "0.00",
+  "orderStatus": "Created",
+  "orderType": "CAM-SALE",
+  "orderCreationDate": "2024-06-04",
+  "gatheringDocStartedDate": null,
+  "insuranceAuthorisationStartedDate": null,
+  "prepareShippingStartedDate": null,
+  "shippedDate": null,
+  "lastUpdateDate": "2024-06-04",
+  "trackingNumber": null,
+  "shippingUrl": null,
+  "orderLines": [
+    {
+      "HeaderId": 76409149,
+      "OrderNumber": "4799677",
+      "OrderLineNumber": 1,
+      "QuantityOrdered": 1,
+      "OrderedItem": "P1324401",
+      "ItemDescription": "BAHA SOUNDARC EXTRA SMALL",
+      "LineStatus": "In Progress",
+      "UnitSellingPrice": "58.00",
+      "TotalSellingPrice": "58.00",
+      "TaxAmount": "0",
+      "Hcpc": null
+    }
+  ]
+}

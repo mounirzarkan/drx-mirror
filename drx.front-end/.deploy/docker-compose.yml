@@ -1,0 +1,38 @@
+version: '3.4'
+
+services:
+  aws:
+    image: ${CI_REGISTRY}/devops/gitlab-ci-build-image:alpine-awscli
+    entrypoint: '/bin/bash -c'
+    env_file:
+      - .env
+      - .env.auth
+      - .env.assume
+  build:
+    image: ${CI_REGISTRY}/devops/gitlab-ci-build-image:amazonlinux-nodejs-gitlab-ci-build
+    working_dir: /work
+    entrypoint: ['/bin/bash', '-c']
+    env_file:
+      - .env
+      - .env.auth
+      - .env.assume
+    volumes:
+      - ./..:/work
+  slack:
+    image: technosophos/slack-notify
+    working_dir: /work
+    entrypoint: ['/bin/bash', '-c']
+    env_file:
+      - .env
+    volumes:
+      - ./..:/work
+  shell:
+    image: ${CI_REGISTRY}/devops/gitlab-ci-build-image:amazonlinux-nodejs-gitlab-ci-build
+    working_dir: /work
+    entrypoint: ['/bin/bash']
+    env_file:
+      - .env
+      - .env.auth
+      - .env.assume
+    volumes:
+      - ./..:/work

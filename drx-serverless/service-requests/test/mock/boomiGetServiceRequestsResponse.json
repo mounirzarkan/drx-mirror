@@ -1,0 +1,934 @@
+{
+  "patientServiceRequests": [
+    {
+      "id": "609241",
+      "serviceRequestNumber": "609117",
+      "createdDate": "2012-07-27",
+      "closeDate": "2013-03-15",
+      "status": "Closed",
+      "asset": {
+        "id": "15009286",
+        "device": {
+          "product": {
+            "id": "471608",
+            "name": "Cp800 Series Compact Rechargeable Battery Module (Sand)",
+            "type": "Accessory",
+            "partNumber": "Z202218"
+          }
+        }
+      },
+      "problemCode": "1546",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "15009286"
+          },
+          "problemCode": "exchange for std size"
+        }
+      ],
+      "billingAddress": {
+        "street": ["2638 Route 8 Box 829"],
+        "city": "LAKE PLEASANT",
+        "state": "NY",
+        "postalCode": "12108",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["2638 Route 8 Box 829"],
+        "city": "LAKE PLEASANT",
+        "state": "NY",
+        "postalCode": "12108",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "problemDescription": "No suitable code",
+      "problemDetails": "Reported symptom cannot be described by existing codes. Customer description of symptom must be captured in free text fields.",
+      "activeWarranty": false,
+      "serviceRequestType": "NSI Repair/Replace",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    },
+    {
+      "id": "651116",
+      "serviceRequestNumber": "650964",
+      "createdDate": "2012-10-30",
+      "closeDate": "2013-03-15",
+      "status": "Closed",
+      "asset": {
+        "id": "14145864",
+        "device": {
+          "product": {
+            "id": "470603",
+            "name": "Cr110 Remote Assistant (White)",
+            "type": "Remote Assistant",
+            "partNumber": "Z159280"
+          }
+        }
+      },
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "14145864"
+          },
+          "problemCode": "will not turn on"
+        }
+      ],
+      "billingAddress": {
+        "street": ["2638 Route 8 Box 829"],
+        "city": "LAKE PLEASANT",
+        "state": "NY",
+        "postalCode": "12108",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["2638 Route 8 Box 829"],
+        "city": "LAKE PLEASANT",
+        "state": "NY",
+        "postalCode": "12108",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "activeWarranty": false,
+      "serviceRequestType": "SP No Program Needed",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    },
+    {
+      "id": "1167428",
+      "serviceRequestNumber": "1166034",
+      "createdDate": "2014-09-25",
+      "closeDate": "2015-01-17",
+      "status": "Closed",
+      "asset": {
+        "id": "14575898",
+        "device": {
+          "product": {
+            "id": "479604",
+            "name": "Cp800 Series Processing Unit (Sand)",
+            "type": "Speech Processor",
+            "partNumber": "Z185553"
+          }
+        }
+      },
+      "problemCode": "1578",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "14575898"
+          },
+          "problemCode": "Processor will not power on"
+        }
+      ],
+      "billingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "problemDescription": "Will not power on",
+      "problemDetails": "When charged battery is connected to processor, device cannot be turned on",
+      "note": "\r\nFitting Date = 2012-07-23T01:39:00.000+10:00\r\nInvestigation Indicator = N\r\nEar Side = RIGHT\r\nClinic Name = Capital Region Ear Institute\r\nAudiologist Name = Sharon Rende\r\nClinic Party Id = 3116936\r\n",
+      "earSide": "RIGHT",
+      "activeWarranty": false,
+      "serviceRequestType": "SP Awaiting Program",
+      "patient": {
+        "cochlearId": "260244345608487"
+      },
+      "investigationRequired": false
+    },
+    {
+      "id": "1287746",
+      "serviceRequestNumber": "1284378",
+      "createdDate": "2015-01-17",
+      "closeDate": "2015-02-18",
+      "status": "Closed",
+      "asset": {
+        "id": "20754336",
+        "device": {
+          "product": {
+            "id": "551616",
+            "name": "Cp800 Series Processing Unit (Sand), Refurbished",
+            "type": "Speech Processor",
+            "partNumber": "Z185553R"
+          }
+        }
+      },
+      "problemCode": "1548",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "20754336"
+          },
+          "problemCode": "Missing gasket. Very loose connection."
+        }
+      ],
+      "billingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "problemDescription": "Outer Seal Loose / Missing",
+      "problemDetails": "O-Ring or similar seal cannot be retained normally on device or is missing",
+      "note": "\r\nFitting Date = 2014-09-26T02:19:03.000+10:00\r\nInvestigation Indicator = N\r\nEar Side = RIGHT\r\nClinic Name = Capital Region Ear Institute\r\nAudiologist Name = Sharon Rende\r\nClinic Party Id = 3116936\r\n",
+      "earSide": "LEFT",
+      "activeWarranty": false,
+      "serviceRequestType": "SP Awaiting Program",
+      "patient": {
+        "cochlearId": "260244345608487"
+      },
+      "investigationRequired": false
+    },
+    {
+      "id": "1612486",
+      "serviceRequestNumber": "1607622",
+      "createdDate": "2015-10-29",
+      "closeDate": "2016-01-30",
+      "status": "Closed",
+      "asset": {
+        "id": "21956896",
+        "device": {
+          "product": {
+            "id": "1200722",
+            "name": "Cp800 Series Standard Rechargeable Battery Module (Sand)",
+            "type": "Accessory",
+            "partNumber": "Z407015"
+          }
+        }
+      },
+      "problemCode": "1574",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "21956896"
+          },
+          "problemCode": "not charging"
+        }
+      ],
+      "billingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "problemDescription": "Will not Charge",
+      "problemDetails": "Rechargeable batteries or chargers cannot be charged as expected",
+      "activeWarranty": false,
+      "serviceRequestType": "NSI Repair/Replace",
+      "patient": {
+        "cochlearId": "260244345608487"
+      },
+      "investigationRequired": false
+    },
+    {
+      "id": "1612500",
+      "serviceRequestNumber": "1607636",
+      "createdDate": "2015-10-29",
+      "closeDate": "2016-04-09",
+      "status": "Closed",
+      "asset": {
+        "id": "21896043",
+        "device": {
+          "product": {
+            "id": "551616",
+            "name": "Cp800 Series Processing Unit (Sand), Refurbished",
+            "type": "Speech Processor",
+            "partNumber": "Z185553R"
+          }
+        }
+      },
+      "problemCode": "1560",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "21896043"
+          },
+          "problemCode": "sound intermittent "
+        }
+      ],
+      "billingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "problemDescription": "Sound Intermittent",
+      "problemDetails": "Recipient reports intermittent interruption to hearing",
+      "note": "\r\nFitting Date = 2015-01-20T06:58:51.000+11:00\r\nInsurance Type = MEDICARE\r\nInsurance Country = US\r\nInsurance Status = NO\r\nInvestigation Indicator = N\r\nEar Side = RIGHT\r\nClinic Name = Capital Region Ear Institute\r\nAudiologist Name = Sharon Rende\r\nClinic Party Id = 3116936\r\n",
+      "earSide": "RIGHT",
+      "activeWarranty": false,
+      "serviceRequestType": "Reimb SP Awaiting Program",
+      "patient": {
+        "cochlearId": "260244345608487"
+      },
+      "investigationRequired": false
+    },
+    {
+      "id": "1910124",
+      "serviceRequestNumber": "1903200",
+      "createdDate": "2016-07-07",
+      "closeDate": "2016-09-10",
+      "status": "Closed",
+      "asset": {
+        "id": "25501023",
+        "device": {
+          "product": {
+            "id": "551616",
+            "name": "Cp800 Series Processing Unit (Sand), Refurbished",
+            "type": "Speech Processor",
+            "partNumber": "Z185553R"
+          }
+        }
+      },
+      "problemCode": "1578",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "25501023"
+          },
+          "problemCode": "Will not power on"
+        }
+      ],
+      "billingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "problemDescription": "Will not power on",
+      "problemDetails": "When charged battery is connected to processor, device cannot be turned on",
+      "note": "\r\nFitting Date = 2015-10-30T09:35:22.000+11:00\r\nInsurance Type = MEDICARE\r\nInsurance Country = US\r\nInsurance Status = NO\r\nInvestigation Indicator = N\r\nEar Side = RIGHT\r\nClinic Name = Munroe Regional Medical Center\r\nAudiologist Name = Michelle Lang\r\nClinic Party Id = 3702021\r\n",
+      "earSide": "LEFT",
+      "activeWarranty": false,
+      "serviceRequestType": "Reimb SP Awaiting Program",
+      "patient": {
+        "cochlearId": "260244345608487"
+      },
+      "investigationRequired": false
+    },
+    {
+      "id": "2069718",
+      "serviceRequestNumber": "2061994",
+      "createdDate": "2016-10-12",
+      "closeDate": "2017-01-14",
+      "status": "Closed",
+      "asset": {
+        "id": "28344577",
+        "device": {
+          "product": {
+            "id": "1200722",
+            "name": "Cp800 Series Standard Rechargeable Battery Module (Sand)",
+            "type": "Accessory",
+            "partNumber": "Z407015"
+          }
+        }
+      },
+      "problemCode": "1574",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "28344577"
+          },
+          "problemCode": "Not holding a charge"
+        }
+      ],
+      "billingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["2607 Jupiter Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32163",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "problemDescription": "Will not Charge",
+      "problemDetails": "Rechargeable batteries or chargers cannot be charged as expected",
+      "activeWarranty": false,
+      "serviceRequestType": "NSI Repair/Replace",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    },
+    {
+      "id": "5960500",
+      "serviceRequestNumber": "3556444",
+      "createdDate": "2019-11-08",
+      "closeDate": "2020-02-08",
+      "status": "Closed",
+      "asset": {
+        "id": "35180624",
+        "device": {
+          "product": {
+            "id": "2580782",
+            "name": "Cp1000 Coil, White, 6cm",
+            "type": "Accessory",
+            "partNumber": "Z597509"
+          }
+        }
+      },
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "35180624"
+          },
+          "problemCode": "Needing replacement - should be under warranty"
+        }
+      ],
+      "billingAddress": {
+        "street": ["1998 Altamonte Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["1998 Altamonte Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "activeWarranty": false,
+      "serviceRequestType": "SP No Program Needed",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    },
+    {
+      "id": "7025172",
+      "serviceRequestNumber": "3915656",
+      "createdDate": "2020-06-10",
+      "closeDate": "2020-09-19",
+      "status": "Closed",
+      "asset": {
+        "id": "54506951",
+        "device": {
+          "product": {
+            "id": "2568784",
+            "name": "Cp1000 Standard Rechargeable Battery Module Packed (Sand)",
+            "type": "Accessory",
+            "partNumber": "Z544553"
+          }
+        }
+      },
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "54506951"
+          },
+          "problemCode": "Needing replacement - won't hold a charge"
+        }
+      ],
+      "billingAddress": {
+        "street": ["1998 Altamonte Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["1998 Altamonte Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "activeWarranty": false,
+      "serviceRequestType": "SP No Program Needed",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    },
+    {
+      "id": "9503782",
+      "serviceRequestNumber": "5146434",
+      "createdDate": "2021-11-30",
+      "closeDate": "2022-03-05",
+      "status": "Closed",
+      "asset": {
+        "id": "54506952",
+        "device": {
+          "product": {
+            "id": "2581779",
+            "name": "Cp1000 Coil, Sand, 6cm",
+            "type": "Accessory",
+            "partNumber": "Z597499"
+          }
+        }
+      },
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "54506952"
+          },
+          "problemCode": "intermitted sound"
+        }
+      ],
+      "billingAddress": {
+        "street": ["1998 Altamonte Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["1998 Altamonte Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "activeWarranty": false,
+      "serviceRequestType": "NSI Repair/Replace",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    },
+    {
+      "id": "10583718",
+      "serviceRequestNumber": "5323696",
+      "createdDate": "2022-02-05",
+      "closeDate": "2022-03-24",
+      "status": "Closed",
+      "asset": {
+        "id": "34009583",
+        "device": {
+          "product": {
+            "id": "2313762",
+            "name": "Cp1000 Processing Unit Bulk, Sand",
+            "type": "Speech Processor",
+            "partNumber": "P732101"
+          }
+        }
+      },
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "34009583"
+          },
+          "problemCode": "va repair PO-673-R21444"
+        }
+      ],
+      "billingAddress": {
+        "street": ["1998 Altamonte Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["1998 Altamonte Way"],
+        "city": "THE VILLAGES",
+        "state": "FL",
+        "postalCode": "32162",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "activeWarranty": false,
+      "serviceRequestType": "SP No Program Needed",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    },
+    {
+      "id": "13054218",
+      "serviceRequestNumber": "6706378",
+      "createdDate": "2023-09-19",
+      "closeDate": "2023-10-26",
+      "status": "Closed",
+      "asset": {
+        "id": "68184595",
+        "device": {
+          "product": {
+            "id": "3135785",
+            "name": "Cp1000 Processing Unit Bulk, Sand Refurbished",
+            "type": "Speech Processor",
+            "partNumber": "P732101R"
+          }
+        }
+      },
+      "problemCode": "1556",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "68184595"
+          },
+          "problemCode": "\"Very weak and won't pair\""
+        }
+      ],
+      "billingAddress": {
+        "street": ["950 Willow Valley Lakes Dr", "Apt J302"],
+        "city": "WILLOW STREET",
+        "state": "PA",
+        "postalCode": "17584-9663",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["University Dr", "126A-U"],
+        "city": "PITTSBURGH",
+        "state": "PA",
+        "postalCode": "15240",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "provider": {
+          "cochlearId": "221272834516945"
+        }
+      },
+      "problemDescription": "Processor - will not Pair",
+      "problemDetails": "Processor will not pair with any Remote Control or Assistant when tuned on and battery adequately charged",
+      "earSide": "LEFT",
+      "activeWarranty": false,
+      "serviceRequestType": "SP No Program Needed",
+      "patient": {
+        "cochlearId": "260244345608487"
+      },
+      "investigationRequired": false
+    },
+    {
+      "id": "13054860",
+      "serviceRequestNumber": "6706588",
+      "createdDate": "2023-09-19",
+      "closeDate": "2023-12-09",
+      "status": "Closed",
+      "asset": {
+        "id": "90019048",
+        "device": {
+          "product": {
+            "id": "6414780",
+            "name": "Cp1110 Processing Unit, Sand - Single Pack",
+            "type": "Speech Processor",
+            "partNumber": "P1840403"
+          }
+        }
+      },
+      "problemCode": "1556",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "90019048"
+          },
+          "problemCode": "N8 RT SP will not pair to iPhone. SP kept flashing back and forth in the hearing devices screen, from connected to not connected."
+        }
+      ],
+      "billingAddress": {
+        "street": ["950 Willow Valley Lakes Dr", "Apt J302"],
+        "city": "WILLOW STREET",
+        "state": "PA",
+        "postalCode": "17584-9663",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["University Drive C", "112AU-U"],
+        "city": "PITTSBURGH",
+        "state": "PA",
+        "postalCode": "15240",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "provider": {
+          "cochlearId": "221272834516945"
+        }
+      },
+      "problemDescription": "Processor - will not Pair",
+      "problemDetails": "Processor will not pair with any Remote Control or Assistant when tuned on and battery adequately charged",
+      "note": "\r\nFitting Date = 2023-09-18T00:00:00.000+10:00\r\nInvestigation Indicator = N\r\nClinic Name = VA Medical Center Pittsburgh\r\nAudiologist Name = Maureen Wargo\r\nClinic Party Id = 48651\r\n",
+      "earSide": "RIGHT",
+      "activeWarranty": false,
+      "serviceRequestType": "SP No Program Needed",
+      "patient": {
+        "cochlearId": "260244345608487"
+      },
+      "investigationRequired": false
+    },
+    {
+      "id": "15164894",
+      "serviceRequestNumber": "7112756",
+      "createdDate": "2023-12-08",
+      "status": "Open",
+      "asset": {
+        "id": "90019048",
+        "device": {
+          "product": {
+            "id": "6414780",
+            "name": "Cp1110 Processing Unit, Sand - Single Pack",
+            "type": "Speech Processor",
+            "partNumber": "P1840403"
+          }
+        }
+      },
+      "problemCode": "1546",
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "90019048"
+          },
+          "problemCode": "Not working. Exception to send mapped per Christy Miller to rule out possible software issue"
+        }
+      ],
+      "billingAddress": {
+        "street": ["950 Willow Valley Lakes Dr", "Apt J302"],
+        "city": "WILLOW STREET",
+        "state": "PA",
+        "postalCode": "17584-9663",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["University Dr", "126A-U"],
+        "city": "PITTSBURGH",
+        "state": "PA",
+        "postalCode": "15240",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "provider": {
+          "cochlearId": "221272834516945"
+        }
+      },
+      "problemDescription": "No suitable code",
+      "problemDetails": "Reported symptom cannot be described by existing codes. Customer description of symptom must be captured in free text fields.",
+      "note": "Incident Address \nAddress : 950 Willow Valley Lakes Dr;Apt J302\nCity : WILLOW STREET\nState : PA\nPostal Code : 17584-9663\nCountry : US",
+      "earSide": "RIGHT",
+      "activeWarranty": false,
+      "serviceRequestType": "SP Awaiting Program",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    },
+    {
+      "id": "18447380",
+      "serviceRequestNumber": "7773184",
+      "createdDate": "2024-07-19",
+      "status": "Open",
+      "asset": {
+        "id": "14407063",
+        "device": {
+          "product": {
+            "id": "86",
+            "name": "Cochlear Implant, Ci24re (St)",
+            "type": "Implant",
+            "partNumber": "Z60132"
+          }
+        }
+      },
+      "accessoryProblems": [
+        {
+          "accessory": {
+            "id": "14407063"
+          },
+          "problemCode": "Service request"
+        }
+      ],
+      "billingAddress": {
+        "street": ["1234 Market Street"],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19107",
+        "countryCode": "US"
+      },
+      "billingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "shippingAddress": {
+        "street": ["1234 Market Street"],
+        "city": "PHILADELPHIA",
+        "state": "PA",
+        "postalCode": "19107",
+        "countryCode": "US"
+      },
+      "shippingContact": {
+        "patient": {
+          "cochlearId": "260244345608487"
+        }
+      },
+      "note": "\r\nClinic Name = Albany Medical Center Hospital\r\nAudiologist Name = David Foyt\r\nClinic Party Id = 48477\r\n",
+      "earSide": "RIGHT",
+      "activeWarranty": false,
+      "serviceRequestType": "Other Request",
+      "patient": {
+        "cochlearId": "260244345608487"
+      }
+    }
+  ]
+}

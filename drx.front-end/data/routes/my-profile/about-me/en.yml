@@ -1,0 +1,19 @@
+id: about-me
+fields:
+  pageTitle: About me
+placeholders:
+  drx-main:
+    - componentName: CenteredContainer
+      placeholders:
+        drx-content-centered-default:
+          - componentName: HeaderTitle
+            fields:
+              heading: About me
+              description: Review personal and contact details for yourself and people you care for.
+          - componentName: AccountDetails
+
+    #       - componentName: BoxContainer
+    #         placeholders:
+    #           content-box:
+    #             - componentName: AccountDetails
+    

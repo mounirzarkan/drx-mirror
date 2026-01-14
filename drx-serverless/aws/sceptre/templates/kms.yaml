@@ -1,0 +1,111 @@
+
+AWSTemplateFormatVersion: "2010-09-09"
+Description: DRX project CMK
+Parameters:
+    Description:
+        Description: Description for Key
+        Type: String
+        Default: project related Custom Managed Key
+    AdminRole:
+        Description: Admin role that can manage the key
+        Type: String
+        Default: CochlearAdminRole
+    Project: 
+        Description: Project Name
+        Type: String
+        Default: DRX
+    Environment: 
+        Description: Environment 
+        Type: String
+        Default: nonp                  
+    # ProjectRolePattern:
+    #     Description: The Prefix that for Project IAM Role
+    #     Type: String
+    #     Default: 'drx*'        
+
+Resources:
+    projectCMK:
+        Type: AWS::KMS::Key
+        Properties:
+            Description: !Ref Description
+            EnableKeyRotation: false
+            KeyPolicy:
+                Version: '2012-10-17'
+                Id: key-default
+                Statement:
+                -   Sid: Enable IAM User Permissions
+                    Effect: Allow
+                    Principal:
+                        AWS: 
+                            Fn::Join:
+                                - ''
+                                - - 'arn:aws:iam::'
+                                  - Ref: AWS::AccountId
+                                  - :root
+                    Action: kms:*
+                    Resource: '*'
+                -   Sid: Allow administration of the key
+                    Effect: Allow
+                    Principal:
+                        AWS: 
+                            Fn::Join:
+                                - ''
+                                - - 'arn:aws:iam::'
+                                  - Ref: AWS::AccountId
+                                  - ':role/'
+                                  - Ref: AdminRole
+                    Action:
+                        - kms:Create*
+                        - kms:Describe*
+                        - kms:Enable*
+                        - kms:List*
+                        - kms:Put*
+                        - kms:Update*
+                        - kms:Revoke*
+                        - kms:Disable*
+                        - kms:Get*
+                        - kms:Delete*
+                        - kms:ScheduleKeyDeletion
+                        - kms:CancelKeyDeletion
+                    Resource: '*'
+                # -   Sid: Allow use of the key
+                #     Effect: Allow
+                #     Principal:
+                #         AWS: 
+                #             Fn::Join:
+                #                 - ''
+                #                 - - 'arn:aws:iam::'
+                #                   - Ref: AWS::AccountId
+                #                   - ':role/'
+                #                   - Ref: ProjectRolePattern
+                #     Action:
+                #         - kms:DescribeKey
+                #         - kms:Encrypt
+                #         - kms:Decrypt
+                #         - kms:ReEncrypt*
+                #         - kms:GenerateDataKey
+                #         - kms:GenerateDataKeyWithoutPlaintext
+                #     Resource: '*'
+
+
+    myAlias:
+        Type: AWS::KMS::Alias
+        Properties:
+            AliasName: 
+                Fn::Join:
+                    - '-'
+                    - - 'alias/CMK'
+                      - Ref: Project
+                      - Ref: Environment
+            TargetKeyId:
+                Ref: projectCMK
+Outputs:
+    ProjectCustomManagedKeyID:
+        Description: 'Custom Managed Key ID'
+        Value: !Ref projectCMK
+    ProjectCustomManagedKeyArn:
+        Description: 'Custom Managed Key Arn'
+        Value: 
+            Fn::GetAtt: projectCMK.Arn
+        Export:
+          Name: !Sub ${Project}-${Environment}-kms-arn

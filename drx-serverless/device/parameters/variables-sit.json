@@ -1,0 +1,22 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Device Service",
+  "Name": "Cochlear DRX APIG Lambda Device Service",
+  "Function": "Devices Service",
+  "Environment": "SIT",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "pmEndpoint": "https://d8eb9dca-c90a-4760-bbe1-2660bde5887a.mock.pstmn.io",
+  "webToCaseUrl": "https://cochlear--sit01.sandbox.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8",
+  "sfOrgId": "00D9E000000APQY",
+  "srDescriptionJsonKey": "00N1p00000K4LbT",
+  "logLevel": "DEBUG",
+  "createAlarms": "false",
+  "errorUsers": "[{\"cId\":\"187283254909847\",\"name\":\"getDevice\"},{\"cId\":\"210384646793668\",\"name\":\"getDevice\"},{\"cId\":\"264114432424739\",\"name\":\"getDevice\"},{\"cId\":\"167478976445830\",\"name\":\"getDevice\"},{\"cId\":\"179342976178685\",\"name\":\"getDevice\"},{\"cId\":\"217053229692511\",\"name\":\"getDevice\"},{\"cId\":\"168910696787512\",\"name\":\"getDevice\"},{\"cId\":\"198370346926146\",\"name\":\"getDevice\"},{\"cId\":\"209956903474338\",\"name\":\"getDevice\"},{\"cId\":\"169558253760574\",\"name\":\"getDevice\"},{\"cId\":\"222521020277064\",\"name\":\"getDevice\"},{\"cId\":\"181502805478194\",\"name\":\"getDevice\"},{\"cId\":\"174754785448474\",\"name\":\"getDevicesList\"},{\"cId\":\"174754785448474\",\"name\":\"getDevice\"},{\"cId\":\"237329836590737\",\"name\":\"getDevicesList\"},{\"cId\":\"237329836590737\",\"name\":\"getDevice\"},{\"cId\":\"275828987054544\",\"name\":\"getDevicesList\"},{\"cId\":\"275828987054544\",\"name\":\"getDevice\"},{\"cId\":\"254358432760487\",\"name\":\"getDevicesList\"},{\"cId\":\"254358432760487\",\"name\":\"getDevice\"},{\"cId\":\"256468141777097\",\"name\":\"getDevicesList\"},{\"cId\":\"256468141777097\",\"name\":\"getDevice\"},{\"cId\":\"245262561374915\",\"name\":\"getDevicesList\"},{\"cId\":\"245262561374915\",\"name\":\"getDevice\"},{\"cId\":\"264114432424739\",\"name\":\"getDevicesList\"},{\"cId\":\"172983979266355\",\"name\":\"getDevicesList\"},{\"cId\":\"153739251811922\",\"name\":\"getDevicesList\"},{\"cId\":\"237690034821703\",\"name\":\"getDevicesList\"},{\"cId\":\"210895846805361\",\"name\":\"getDevicesList\"}]",
+  "deviceSupportCountries": "[\"US\"]",
+  "appConfigApplicationId": "ykkihm7",
+  "appConfigEnvironmentId": "zsjg9d6",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_SIT/environments/SIT/configurations"
+}

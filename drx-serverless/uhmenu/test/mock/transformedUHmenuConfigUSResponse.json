@@ -1,0 +1,72 @@
+{
+  "uhmenuTitle": "My profile",
+  "logoutLabel": "Log out",
+  "dropDownList": [
+    {
+      "icon": "chevron",
+      "target": "",
+      "label": "About me",
+      "url": "/us/en/account/my-profile/about-me"
+    },
+    {
+      "icon": "external",
+      "target": "",
+      "label": "My devices",
+      "url": "/wps/myportal/myrecipient/myequipment"
+    },
+    {
+      "icon": "external",
+      "target": "_blank",
+      "label": "My service requests",
+      "url": "/wps/myportal/myrecipient/myprofile/?sectionLink=sr"
+    },
+    {
+      "icon": "external",
+      "target": "_blank",
+      "label": "My orders",
+      "url": "/wps/myportal/myrecipient/myprofile/?sectionLink=order"
+    },
+    {
+      "icon": "external",
+      "target": "_blank",
+      "label": "View MyCochlear",
+      "url": "/wps/myportal/myrecipient/"
+    },
+    {
+      "icon": "",
+      "target": "",
+      "label": "What's new in your profile",
+      "url": "##popup"
+    }
+  ],
+  "whatsnew": {
+    "toggle": "on",
+    "popup": {"label": "What's new in your profile", "close": "Dismiss"},
+    "version": "3",
+    "closeBtn": "Close this window",
+    "content": [
+      {
+        "image": {
+          "href": "https://mss-p-007-delivery.sitecorecontenthub.cloud/api/public/content/75772b8b4348410981571749318937f9?v=4dbc1258",
+          "alt-text": "Personal details"
+        },
+        "title": "New look personal details",
+        "text": "We have a new and simpler way for you to view and edit your personal details. Just select About me from your profile menu and check your details.",
+        "button": {
+          "text": "See what’s changed",
+          "action": "next",
+          "style": "primary"
+        }
+      },
+      {
+        "image": {
+          "href": "https://mss-p-007-delivery.sitecorecontenthub.cloud/api/public/content/35d659a0116b4674a420efb1965485a9?v=e6173fc1",
+          "alt-text": "Access myCochlear dashboard"
+        },
+        "title": "You still have access to My Cochlear",
+        "text": "If at any time you need to see your information in the old view, just select View MyCochlear from your profile menu.",
+        "button": {"text": "OK, got it", "action": "close", "style": "primary"}
+      }
+    ]
+  }
+}

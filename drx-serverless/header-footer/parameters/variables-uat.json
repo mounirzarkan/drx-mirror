@@ -1,0 +1,20 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda headerFooter Service",
+  "Name": "Cochlear DRX APIG Lambda headerFooter Service",
+  "Function": "headerFooter Service",
+  "Environment": "UAT",
+  "Product": "API Gateway",
+  "secretName": "cochlear-drx-uat-headerfooter",
+  "userSessionSeconds": 7200,
+  "tokenSessionSeconds": 7200,
+  "webToCaseUrl": "https://cochlear--sit01.my.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8",
+  "sfOrgId": "00D1j0000008arI",
+  "srDescriptionJsonKey": "00N1j00000242xK",
+  "logLevel": "INFO",
+  "createAlarms": "true",
+  "cacheSeconds": 21600,
+  "scApiKey": "%7BC373F5B9-AE6C-4E7B-B746-EEACB3D8EA0C%7D",
+  "isScHttpAgent": "true"
+}

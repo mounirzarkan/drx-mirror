@@ -1,0 +1,190 @@
+{
+  "name": "drx",
+  "description": "Application utilizing Sitecore JavaScript Services and React (create-react-app).",
+  "version": "12.0.0",
+  "private": true,
+  "homepage": "us/en/account/my-profile/about-me",
+  "config": {
+    "appName": "drx",
+    "rootPlaceholders": [
+      "drx-main"
+    ],
+    "sitecoreDistPath": "/dist/drx",
+    "sitecoreConfigPath": "/App_Config/Include/zzz",
+    "graphQLEndpointPath": "/api/cochlear",
+    "language": "en"
+  },
+  "engines": {
+    "node": ">=8.1",
+    "npm": ">=5.6.0",
+    "yarn": "yarn is not supported, please use npm"
+  },
+  "author": {
+    "name": "Sitecore Corporation",
+    "url": "https://jss.sitecore.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sitecore/jss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sitecore/jss/issues"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@cochlear-design-system/features.adaptiveForms": "2.0.187",
+    "@cochlear-design-system/features.address": "2.0.95",
+    "@cochlear-design-system/features.dataTable": "2.0.106",
+    "@cochlear-design-system/features.universalHeader": "^3.0.43",
+    "@cochlear-design-system/foundation": "2.0.207",
+    "@cochlear-design-system/projects.drx": "2.0.74",
+    "@react-google-maps/api": "^2.2.0",
+    "@sitecore-jss/sitecore-jss-proxy": "~18.0.2",
+    "@sitecore-jss/sitecore-jss-react": "~20.4.0",
+    "@storybook/storybook-deployer": "^2.8.10",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^12.0.0",
+    "axios": "^0.19.2",
+    "bulma": "^0.8.2",
+    "cors": "^2.8.5",
+    "dateformat": "^5.0.1",
+    "dompurify": "^2.3.3",
+    "dotenv": "^6.2.0",
+    "express": "^4.17.0",
+    "file-loader": "^6.2.0",
+    "flag-icon-css": "^3.5.0",
+    "formik": "^2.1.4",
+    "history": "^4.10.1",
+    "html-react-parser": "^1.2.8",
+    "i18next": "^20.6.1",
+    "i18next-chained-backend": "^3.0.2",
+    "i18next-fetch-backend": "~2.2.0",
+    "i18next-localstorage-backend": "^3.1.3",
+    "isomorphic-fetch": "^2.2.1",
+    "js-cookie": "^2.2.1",
+    "jwt-decode": "^2.2.0",
+    "libphonenumber-js": "^1.7.54",
+    "lodash": "^4.17.21",
+    "md5": "^2.3.0",
+    "moment": "^2.29.1",
+    "mustache": "^4.2.0",
+    "newrelic": "^6.9.0",
+    "node-html-parser": "^5.0.0",
+    "postcss": "^8.4.47",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.13.1",
+    "react": "^18.1.0",
+    "react-apollo": "^3.1.5",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^18.1.0",
+    "react-gtm-module": "^2.0.11",
+    "react-helmet": "^6.1.0",
+    "react-i18next": "~10.13.0",
+    "react-loadable": "^5.5.0",
+    "react-mustache-template-component": "^1.0.1",
+    "react-places-autocomplete": "^7.3.0",
+    "react-router-dom": "~5.1.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^3.1.0",
+    "react-slick": "^0.27.11",
+    "rxjs": "^6.5.5",
+    "serialize-javascript": "^2.1.2",
+    "url-exist": "^3.0.0",
+    "yup": "^0.28.5"
+  },
+  "devDependencies": {
+    "@sitecore-jss/sitecore-jss-manifest": "~19.0.2",
+    "@sitecore-jss/sitecore-jss-cli": "~20.4.0",
+    "@sitecore-jss/sitecore-jss-dev-tools": "~20.4.0",
+    "@babel/core": "^7.10.2",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/register": "~7.6.2",
+    "@storybook/addon-actions": "^6.3.7",
+    "@storybook/addon-essentials": "^6.3.7",
+    "@storybook/addon-ie11": "0.0.6",
+    "@storybook/addon-links": "^6.3.7",
+    "@storybook/node-logger": "^6.3.7",
+    "@storybook/preset-create-react-app": "^3.2.0",
+    "@storybook/react": "^6.3.7",
+    "ajv": "^8.17.1",
+    "babel-preset-react-app": "~9.0.2",
+    "chalk": "~2.4.2",
+    "chokidar": "~3.1.1",
+    "cross-env": "~6.0.0",
+    "eslint": "7.32.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-import": "^2.21.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.4.1",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^1.7.0",
+    "html-loader": "~0.5.5",
+    "http-proxy-middleware": "~0.20.0",
+    "jest-junit-reporter": "^1.1.0",
+    "npm-run-all": "~4.1.5",
+    "null-loader": "~3.0.0",
+    "prettier": "^3.0.0",
+    "sass": "^1.80.6",
+    "speed-measure-webpack-plugin": "^1.3.3",
+    "stats-webpack-plugin": "^0.7.0",
+    "storybook-react-router": "^1.0.8",
+    "url-loader": "~2.1.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "format": "./node_modules/.bin/prettier --write ./src/components/AdaptiveForm/AddressView/CityStateView/CityStateView.js",
+    "lint": "./node_modules/.bin/eslint -c .eslintrc ./src/components/AdaptiveForm/AddressView/LocationSearchInput/LocationSearchInput.js --fix",
+    "jss": "jss",
+    "start": "npm-run-all --serial bootstrap:disconnected --parallel start:react start:proxy start:watch-components",
+    "start:connected:mocked": "scjss-verify-setup && npm-run-all --serial \"bootstrap:connected -- --mock true\" start:react start:watch-components",
+    "start:connected": "scjss-verify-setup && npm-run-all --serial bootstrap:connected start:react start:watch-components",
+    "start:connected-ssr": "scjss-verify-setup && npm-run-all --serial bootstrap:connected --parallel start:react start:watch-components start:http-renderer",
+    "start:holygrail": "scjss-verify-setup && npm-run-all --serial bootstrap:connected --parallel start:watch-components start:http-renderer-holygrail",
+    "start:http-renderer-holygrail": "cross-env-shell NODE_ENV=development JSS_RENDER_ENGINE=http \"node scripts/holygrail.js\"",
+    "start:rendering-host": "cross-env-shell NODE_ENV=development JSS_RENDER_ENGINE=http \"node scripts/http-renderer.js\"",
+    "build": "npm-run-all --serial bootstrap:connected build:client build:server",
+    "build:rendering-host": "npm-run-all --serial bootstrap:connected build:client:rendering-host build:server",
+    "scaffold": "node scripts/scaffold-component.js",
+    "start:react": "react-scripts start",
+    "start:proxy": "node scripts/disconnected-mode-proxy.js",
+    "start:watch-components": "node scripts/generate-component-factory.js --watch",
+    "build:client": "cross-env-shell PUBLIC_URL=$npm_package_config_sitecoreDistPath \"react-scripts build\"",
+    "build:client:rendering-host": "cross-env-shell PUBLIC_URL=$npm_package_config_tunnelUrl \"react-scripts build\"",
+    "build:server": "cross-env-shell NODE_ENV=production \"webpack --config server/server.webpack.config.js\"",
+    "bootstrap:connected": "node scripts/bootstrap.js",
+    "bootstrap:disconnected": "node scripts/bootstrap.js --disconnected",
+    "graphql:update": "node -r babel-register ./scripts/update-graphql-fragment-data.js",
+    "test": "react-scripts test --watchAll=false --env=jsdom",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "deploy-storybook": "storybook-to-aws-s3 --bucket-path=drx-storybook/"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  },
+  "eslintConfig": {
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  }
+}

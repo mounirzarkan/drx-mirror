@@ -1,0 +1,32 @@
+.ccl__e__confirmation {
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ccl__e__confirmation-icon-close {
+  position: absolute;
+  top: 2em;
+  right: 2em;
+  cursor: pointer;
+}
+
+.ccl__e__confirmation-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// overwrite - bootstrap modal adds padding to counter the removal of a scrollbar
+.site {
+  &.modal-open {
+    padding: 0 !important;
+  }
+  #root {
+    .modal.show {
+      padding: 0 !important;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "releaseVersion": "V1",
+  "stage": "${opt:stage}",
+  "region": "${opt:region}",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda HeaderFooter Service",
+  "Name": "Cochlear DRX APIG Lambda HeaderFooter Service",
+  "Function": "DRX HeaderFooter Service",
+  "Environment": "DEV",
+  "Product": "API Gateway",
+  "secretName": "cochlear-drx-dev-headerfooter",
+  "RedisPort": "6379",
+  "RedisHostname": "master.cochlear-drx-redis.seorg1.apse2.cache.amazonaws.com",
+  "userSessionPrefix": "drx-dev-",
+  "subnets": [
+    "subnet-0b1ae4abdb36eca70",
+    "subnet-0134e8c7d8be18b93",
+    "subnet-02b58e10aaf504744"
+  ],
+  "securityGroups": ["sg-046031c5a116bf4b1"],
+  "vpc": "vpc-040fd0d5dddd78527",
+  "logLevel": "TRACE",
+  "cloudWatchNameSpace": "DRX-DEV",
+  "createAlarms": "false",
+  "AlarmSNS": "",
+  "cacheSeconds" : 21600,
+  "scApiKey" :"%7BC373F5B9-AE6C-4E7B-B746-EEACB3D8EA0C%7D",
+  "scEndpoint": "https://cd.sit.cms.cochlear.cloud/api/cochlear",
+  "isScHttpAgent": "true"
+}

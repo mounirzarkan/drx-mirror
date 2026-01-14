@@ -1,0 +1,11 @@
+.ccl__list-edit-mode {
+  &__form {
+    &__add {
+      // @extend .ccl__text;
+      // @extend .ccl__text--interactive-text;
+    }
+    &__submit {
+      margin-top: 25px;
+    }
+  }
+}

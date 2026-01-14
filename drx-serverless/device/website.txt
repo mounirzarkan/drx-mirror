@@ -1,0 +1,1 @@
+https://<WEBSITE>/<BASEPATH>drx/drx/v1/hello

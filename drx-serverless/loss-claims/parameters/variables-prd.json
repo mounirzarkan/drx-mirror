@@ -1,0 +1,16 @@
+{
+  "releaseVersion": "V1",
+  "owner": "DRX",
+  "description": "Cochlear DRX API Gateway Lambda Loss Claims Service",
+  "name": "Cochlear DRX APIG Lambda Service Loss Claims Service",
+  "function": "Loss Claims Service",
+  "environment": "PRD",
+  "product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "ERROR",
+  "createAlarms": "true",
+  "appConfigApplicationId": "npbi26a",
+  "appConfigEnvironmentId": "gn051xu",
+  "appConfigUrl": "http://localhost:2772/applications/DRX_APP_CONFIG_PRD/environments/PRD/configurations"
+}

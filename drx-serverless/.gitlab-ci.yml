@@ -1,0 +1,376 @@
+image: registry.cochlear.dev/devops/gitlab-ci-build-image:3musketeers
+  
+include:
+  - project: 'devops/devops-common/codacy-template'
+    file: 'codacy_coverage_MR.yml'
+    ref: master
+    dependencies:
+      - 'Tests'
+
+services:
+  - name: registry.cochlear.dev/devops/gitlab-ci-build-image:docker-20.10.12-dind
+    alias: docker
+
+variables:
+  DOCKER_HOST: tcp://docker:2376
+  DOCKER_DRIVER: overlay2
+  RUNNER_TAG: cross-account
+  COVERAGE_PATH: coverage/lcov.info
+
+stages:
+  - setup-environment
+  - run-tests
+  - test
+  - coverage
+  - apiauthorizor
+  - features
+
+before_script:
+  - docker login -u gitlab-ci-token -p $CI_JOB_TOKEN registry.cochlear.dev
+  - cp $aws_infra_parameters ./aws_infra_parameters
+  - cp $aws_resource_parameters ./aws_resource_parameters
+  - cp $lambda_common_env_parameters ./lambda_common_env_parameters
+
+'Setup Environment':
+  stage: setup-environment
+  environment:
+    name: $CI_COMMIT_BRANCH
+  rules:
+    - if: '$CI_COMMIT_BRANCH =~ /^(develop|sit|master|production)$/ || $CI_PIPELINE_SOURCE == "web"'
+  script:
+    - echo "Setup or Update AWS resources for custom domain name and path"
+    - make build-environment
+  tags:
+    - $RUNNER_TAG
+
+'Run Unit Tests':
+  stage: run-tests
+  allow_failure: false
+  environment:
+    name: $CI_COMMIT_BRANCH
+  rules:
+    - if: '$CI_COMMIT_BRANCH =~ /^(develop|sit|master|production)$/ || $CI_PIPELINE_SOURCE == "web"'
+  script:
+    - make tests ${PROVIDER}
+  artifacts:
+    when: always
+    reports:
+      junit:
+        - ${PROVIDER}/test-results.xml
+  parallel:
+    matrix:
+      - PROVIDER:
+          - account
+          - address
+          - apiauthorizer
+          - auth
+          - cache-refresh
+          - device
+          - header-footer
+          - orders
+          - regions
+          - service-requests
+          - uhmenu
+          - utils
+          - webcase
+          - enquiry
+          - subscriptions
+          - loss-claims
+          - clinics
+          - manuals
+  tags:
+    - $RUNNER_TAG
+
+'Tests':
+  stage: test
+  allow_failure: true
+  only:
+    - merge_requests
+    - $CI_OPEN_MERGE_REQUESTS
+  script:
+    - make tests
+  tags:
+    - $RUNNER_TAG
+  artifacts:
+    when: always
+    paths:
+      - coverage/
+      - test-results.xml
+    reports:
+      junit: test-results.xml
+      coverage_report:
+        coverage_format: cobertura
+        path: test-results.xml
+  coverage: /All files[^|]*\|[^|]*\s+([\d\.]+)/
+
+'Build API Authorizer':
+  stage: apiauthorizor
+  environment:
+    name: $CI_COMMIT_BRANCH
+  variables:
+    PROVIDER: 'apiauthorizer'
+  rules:
+    - if: '$CI_COMMIT_BRANCH =~ /^(develop|sit|master|production)$/ || $CI_PIPELINE_SOURCE == "web"'
+  script:
+    - echo "Build API Authorizer"
+    - ls
+    - make build-apiauthorizer
+  tags:
+    - $RUNNER_TAG
+
+'Build Features Staging':
+  stage: features
+  environment:
+    name: $CI_COMMIT_BRANCH
+  rules:
+    - if: '$CI_COMMIT_BRANCH =~ /^(develop|sit|master)$/ || $CI_PIPELINE_SOURCE == "web"'
+  script:
+    - echo "Build features $PROVIDER"
+    - ls
+    - make build-features
+  tags:
+    - $RUNNER_TAG
+  parallel:
+    matrix:
+      - PROVIDER:
+          - account
+          - address
+          - auth
+          - cache-refresh
+          - device
+          - service-requests
+          - header-footer
+          - orders
+          - regions
+          - uhmenu
+          - utils
+          - webcase
+          - enquiry
+          - subscriptions
+          - loss-claims
+          - clinics
+          - manuals
+
+'Build Features Prod':
+  stage: features
+  environment:
+    name: $CI_COMMIT_BRANCH
+  rules:
+    - if: '$CI_COMMIT_BRANCH =~ /^(production)$/'
+  script:
+    - echo "Build features $PROVIDER"
+    - ls
+    - make build-features
+  tags:
+    - $RUNNER_TAG
+  parallel:
+    matrix:
+      - PROVIDER:
+          - account
+          - address
+          - auth
+          - device
+          - service-requests
+          - header-footer
+          - orders
+          - uhmenu
+          - utils
+          - regions
+          - webcase
+          - enquiry
+          - subscriptions
+          - loss-claims
+          - clinics
+          - manuals
+# "🚀  Only Changed":
+#   stage: check-point
+#   environment:
+#     name: $CI_COMMIT_BRANCH
+#   rules:
+#     - if: '$ENVIRONMENT =~ /^dev|^sit|^uat|^prd/ && ($CI_PIPELINE_SOURCE == "push" || $CI_PIPELINE_SOURCE == "merge_request_event")'
+#       changes:
+#         - apiauthorizer/**/*
+#         - header-footer/**/*
+#         - account/**/*
+#         - address/**/*
+#         - device/**/*
+#         - profile/**/*
+#         - auth/**/*
+#         - uhmenu/**/*
+#         - cache-refresh/**/*
+#         - orders/**/*
+#         - utils/**/*
+#       when: manual
+#       allow_failure: false
+#   script:
+#     - echo "Deploying only changed lambdas"
+#     - make cancel-job
+#   tags:
+#     - "it_shared"
+
+# "💯  All Lambdas":
+#   stage: check-point
+#   environment:
+#     name: $CI_COMMIT_BRANCH
+#   rules:
+#     - if: "$ENVIRONMENT =~ /^dev|^sit|^uat|^prd/"
+#       when: manual
+#       allow_failure: false
+#   script:
+#     - echo "Deploying all lambdas"
+#     - make cancel-job
+#   tags:
+#     - "it_shared"
+
+# "💯 Deploy All Lambdas: [apiauthorizer]":
+#   needs: ["💯  All Lambdas"]
+#   stage: all-lambdas
+#   environment:
+#     name: $CI_COMMIT_BRANCH
+#   variables:
+#     PROVIDER: "apiauthorizer"
+#   rules:
+#     - if: "$ENVIRONMENT =~ /^dev|^sit|^uat|^prd/"
+#   script:
+#     - make serverless-deploy-version SLS_PROJECT_NAME="drx-${PROVIDER}-lambda"
+#     - make apply-alias SLS_PROJECT_NAME="drx-${PROVIDER}-lambda"
+#   tags:
+#     - "it_shared"
+
+# "💯 Deploy All Lambdas: [cache-refresh]": # cache-refresh Not Deployed to PRD
+#   needs: ["💯  All Lambdas"]
+#   stage: all-lambdas
+#   environment:
+#     name: $CI_COMMIT_BRANCH
+#   variables:
+#     PROVIDER: "cache-refresh"
+#     PROJECT: "redisCache"
+#     BASEPATH: "cache"
+#   rules:
+#     - if: "$ENVIRONMENT =~ /^dev|^sit|^uat/"
+#   script:
+#     - make serverless-deploy PROJECT=${PROJECT}
+#     - make update-dns PROJECT=${PROJECT} BASEPATH=${BASEPATH}
+#     - make clear-stack PROJECT=${PROJECT}
+#   tags:
+#     - "it_shared"
+
+# "💯 Deploy All Lambdas":
+#   needs: ["💯  All Lambdas"]
+#   stage: all-lambdas
+#   environment:
+#     name: $CI_COMMIT_BRANCH
+#   rules:
+#     - if: '$ENVIRONMENT =~ /^dev|^sit|^uat|^prd/'
+#   script:
+#     - make serverless-deploy PROJECT="${PROVIDER//-}"
+#     - make update-dns PROJECT="${PROVIDER//-}" BASEPATH="${PROVIDER//-}"
+#     - make clear-stack PROJECT="${PROVIDER//-}"
+#   parallel:
+#     matrix:
+#       - PROVIDER:
+#           - header-footer
+#           - account
+#           - address
+#           - device
+#           - profile
+#           - auth
+#           - uhmenu
+#           - orders
+#           - utils
+#   tags:
+#     - "it_shared"
+
+# "🚀  Deploy Only Changed [apiauthorizer]":
+#   needs: ["🚀  Only Changed"]
+#   stage: changed-lambdas
+#   environment:
+#     name: $CI_COMMIT_BRANCH
+#   variables:
+#     PROVIDER: "apiauthorizer"
+#   rules:
+#     - if: '$ENVIRONMENT =~ /^dev|^sit|^uat|^prd/ && ($CI_PIPELINE_SOURCE == "push" || $CI_PIPELINE_SOURCE == "merge_request_event")'
+#       changes:
+#         - ${PROVIDER}/**/*
+#       when: manual
+#       allow_failure: false
+#   script:
+#     - make serverless-deploy-version SLS_PROJECT_NAME="drx-${PROVIDER}-lambda"
+#     - make apply-alias SLS_PROJECT_NAME="drx-${PROVIDER}-lambda"
+#   tags:
+#     - "it_shared"
+
+# "🚀  Deploy Only Changed [cache-refresh]": # cache-refresh Not Deployed to PRD
+#   needs: ["🚀  Only Changed"]
+#   stage: changed-lambdas
+#   environment:
+#     name: $CI_COMMIT_BRANCH
+#   variables:
+#     PROVIDER: "cache-refresh"
+#     PROJECT: "redisCache"
+#     BASEPATH: "cache"
+#   rules:
+#     - if: '$ENVIRONMENT =~ /^dev|^sit|^uat/ && ($CI_PIPELINE_SOURCE == "push" || $CI_PIPELINE_SOURCE == "merge_request_event")'
+#       changes:
+#         - ${PROVIDER}/**/*
+#       when: manual
+#       allow_failure: false
+#   script:
+#     - make serverless-deploy PROJECT=${PROJECT}
+#     - make update-dns PROJECT=${PROJECT} BASEPATH=${BASEPATH}
+#     - make clear-stack PROJECT=${PROJECT}
+#   tags:
+#     - "it_shared"
+
+# "🚀  Deploy Only Changed":
+#   needs: ["🚀  Only Changed"]
+#   stage: changed-lambdas
+#   environment:
+#     name: $CI_COMMIT_BRANCH
+#   rules:
+#     - if: '$ENVIRONMENT =~ /^dev|^sit|^uat|^prd/ && ($CI_PIPELINE_SOURCE == "push" || $CI_PIPELINE_SOURCE == "merge_request_event")'
+#       changes:
+#         - ${PROVIDER}/**/*
+#       when: manual
+#       allow_failure: false
+#   script:
+#     - make serverless-deploy PROJECT="${PROVIDER//-}"
+#     - make update-dns PROJECT="${PROVIDER//-}" BASEPATH="${PROVIDER//-}"
+#     - make clear-stack PROJECT="${PROVIDER//-}"
+#   parallel:
+#     matrix:
+#       - PROVIDER:
+#           - header-footer
+#           - account
+#           - address
+#           - device
+#           - profile
+#           - auth
+#           - uhmenu
+#           - orders
+#           - utils
+#   tags:
+#     - "it_shared"
+
+# "Slack Notification":
+#   stage: notification
+#   environment:
+#     name: $CI_MERGE_REQUEST_TARGET_BRANCH_NAME
+#   rules:
+#     - if: '$ENVIRONMENT =~ /^dev|^sit|^uat|^prd/ && $CI_PIPELINE_SOURCE == "merge_request_event"'
+#       changes:
+#         - apiauthorizer/**/*
+#         - header-footer/**/*
+#         - account/**/*
+#         - address/**/*
+#         - device/**/*
+#         - profile/**/*
+#         - auth/**/*
+#         - uhmenu/**/*
+#         - cache-refresh/**/*
+#         - orders/**/*
+#         - utils/**/*
+#   script:
+#     - make slack
+#   tags:
+#     - "it_shared"

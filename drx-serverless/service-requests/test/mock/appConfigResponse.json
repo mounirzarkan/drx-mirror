@@ -1,0 +1,62 @@
+{
+  "errorUsers": {
+    "account": {
+      "getUserInfo": [],
+      "patchUserInfo": []
+    },
+    "address": {
+      "getAddress": [],
+      "postAddress": []
+    },
+    "device": {
+      "getDevice": [],
+      "getDevicesList": []
+    },
+    "orders": {
+      "getOrderHeaders": [],
+      "getOrderLines": []
+    },
+    "serviceRequests": {
+      "getServiceRequests": [],
+      "getServiceRequest": []
+    }
+  },
+  "successUsers": {
+    "lambdaMock": {
+      "account": [],
+      "address": [],
+      "device": [],
+      "orders": []
+    },
+    "sage": {
+      "account": [],
+      "address": [],
+      "device": [],
+      "orders": []
+    }
+  },
+  "features": {
+    "sage": {
+      "enabled": true,
+      "countryCode": {
+        "US": true,
+        "PR": false,
+        "CA": false,
+        "GB": false,
+        "IE": false,
+        "AU": false,
+        "NZ": false,
+        "IT": false,
+        "JP": false,
+        "FR": false,
+        "KR": false,
+        "BE": false,
+        "DE": false,
+        "NL": false
+      }
+    }
+  },
+  "variables": {
+    "orderLimit": 60
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "source": "sitecore",
+  "countryCode": "uk",
+  "langCode": "en",
+  "mobileMenuMenuText": "Menu",
+  "mobileMenuCloseText": "Close Menu",
+  "footerCopyright": "Copyright © 2019 Cochlear Ltd. All rights reserved",
+  "features": {
+    "universalHeader": true
+  },
+  "headerMainNavigation": {
+    "home": {
+      "href": "/uk/en/home",
+      "text": "Home",
+      "alternativeTitle": "cochlear.com"
+    },
+    "professional": {
+      "href": "/uk/en/professionals",
+      "text": "Professionals",
+      "alternativeTitle": "cochlear.com"
+    }
+  },
+  "headerLinks": [
+    {
+      "href": "/uk/en/connect/find-a-clinic",
+      "text": "Find a clinic",
+      "target": ""
+    },
+    {
+      "href": "/uk/en/connect/contact-us",
+      "text": "Contact us",
+      "target": ""
+    },
+    {
+      "href": "/uk/en/about-us",
+      "text": "About Us",
+      "target": ""
+    },
+    {
+      "href": "https://store.mycochlear.com/store/index.php",
+      "text": "Store",
+      "target": "_blank"
+    }
+  ],
+  "homepageLink": {
+    "text": "Home",
+    "href": "/uk/en/home",
+    "linkTarget": "none",
+    "target": ""
+  },
+  "loginLink": {
+    "href": "",
+    "linkTarget": "none",
+    "target": ""
+  },
+  "mobileHeaderLinks": [
+    {
+      "href": "https://cochlear.force.com/Recipient/CIM_RecipientPortalLogin",
+      "text": "Customer login",
+      "target": ""
+    },
+    {
+      "href": "/uk/en/about-us",
+      "text": "About Us",
+      "target": ""
+    },
+    {
+      "href": "https://store.mycochlear.com/store/index.php",
+      "text": "Store",
+      "target": "_blank"
+    },
+    {
+      "href": "/uk/en/professionals",
+      "text": "Switch to professional site",
+      "target": ""
+    }
+  ],
+  "mobileMenuContact": {
+    "text": "Contact",
+    "href": "/uk/en/connect/contact-us",
+    "target": ""
+  },
+  "mobileMenuClinicfinder": {
+    "text": "Clinic Finder",
+    "href": "/uk/en/connect/find-a-clinic",
+    "target": ""
+  },
+  "footerLinks": {
+    "column1": [
+      {
+        "href": "",
+        "text": "Investors",
+        "target": ""
+      },
+      {
+        "href": "/uk/en/corporate/careers",
+        "text": "Careers",
+        "target": ""
+      }
+    ],
+    "column2": [
+      {
+        "href": "/uk/en/corporate/media/media-releases",
+        "text": "Media",
+        "target": ""
+      },
+      {
+        "href": "/uk/en/corporate/global-warnings",
+        "text": "Global warnings",
+        "target": ""
+      },
+      {
+        "href": "/uk/en/home/products-and-accessories/cochlear-nucleus-system/nucleus-implant-reliability",
+        "text": "Reliability reporting",
+        "target": ""
+      }
+    ],
+    "column3": [
+      {
+        "href": "/privacy",
+        "text": "Privacy",
+        "target": "_blank"
+      },
+      {
+        "href": "/uk/en/corporate/terms-of-use",
+        "text": "Terms of use",
+        "target": ""
+      }
+    ]
+  },
+  "footerSocialLinks": [],
+  "configUrls": {
+    "COCHLEAR_COOKIE_DOMAIN": ".cochlear.cloud",
+    "AUTH_UH_DROPDOWN_MENU": "https://authapi.cochlear.com/sit-drx-uhmenu/v1/headerList",
+    "AUTH_REVOKE": "https://authapi.cochlear.com/sit-drx-auth/v1/revoke",
+    "AUTH_AUTHORIZE": "https://authapi.cochlear.com/sit-drx-auth/v1/authorize",
+    "AUTH_CIM_RECIPIENT_LOGOUT": "https://sit01-cochlear.cs102.force.com/Recipient/CIM_RecipientLogout",
+    "COCHLEAR_DRX_MAIN": "https://dmsit.cx.nonp.cochlear.cloud",
+    "STORE_LOGOUT": "https://bfrl-004.sandbox.us01.dx.commercecloud.salesforce.com/s/Cochlear",
+    "COCHLEAR_MCR": "https://recipients-sit.mycochlear.com",
+    "ASSETS_ENDPOINT": "",
+    "AUTHORIZE_USER_APP": "'https://authnz-sit.cx.nonp.cochlear.cloud/",
+    "AUTHORIZE_USER_APP_AUTHORIZE_PATH": "authorize"
+  }
+}

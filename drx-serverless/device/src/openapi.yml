@@ -1,0 +1,908 @@
+openapi: 3.0.0
+info:
+  title: Cochlear API Documentation
+  description: >-
+    The __Digital API__ provides various data access and other services to
+    __Content Management System__, __SalesForce__ and __Google Search__ associated data. All
+    traffic is over an encrypted
+    [TLS](https://en.wikipedia.org/wiki/Transport_Layer_Security) connection.
+
+
+    Responses from the services are typically of
+    [Content-Type](https://www.w3.org/Protocols/rfc1341/4_Content-Type.html)
+    `application/json` (exceptions are indicated in the documentation) and all
+    clients must accept this response type. All endpoints also accept
+    `application/json` data as the preferred format.
+
+
+    Successful responses to __CAAS API__ requests will return one of the
+    following [http status
+    codes](http://en.wikipedia.org/wiki/List_of_HTTP_status_codes):
+
+
+    * __200__ - Successful request.
+
+
+    * __201__ - Successful request resulting in the modification (insert or
+    update) of a server side resource.
+
+
+    Where a request results in a non-2xx (i.e. unsuccessful) response code, it
+    will typically be accompanied by a content body containing the standard 
+    error fields:
+
+
+    * __error__: &quot;error&quot;
+
+    * __error_description__: Human readable error description
+
+    * __error_code__: Machine readable error code
+
+
+    Note that if the `error_code` is absent, the client should fall back on the
+    http status code to determine the correct response.
+  version: 1.0.0
+  termsOfService: 'http://swagger.io/terms/'
+  contact:
+    email: txu@cochlear.com
+servers:
+  - url: 'https://authapi.cochlear.com/dev-'
+    description: Non Production Server
+  - url: 'https://authapi.cochlear.com'
+    description: Non Production Server
+  - url: 'https://api.cochlear.com'
+    description: Production
+tags:
+  - name: WCMS
+    description: WCMS Content Endpoint
+  - name: SalesForce Clinic Finder
+    description: SalesForce Endpoint
+  - name: GSA Search
+    description: GSA Search Endpoint
+  - name: SalesForce FAQ Endpoint
+    description: SalesForce FAQ Endpoint
+  - name: DRX Devices
+    description: DRX Devices Endpoints
+paths:
+  '/contentservice/api/content/{version}/{country}/{language}/{path}':
+    get:
+      tags:
+        - WCMS
+      summary: Get JSON format of content
+      description: This method will provide json content from content service
+      parameters:
+        - name: version
+          in: path
+          schema:
+            type: string
+            example: v1
+          required: true
+          description: path from content services
+          allowReserved: true
+        - name: country
+          in: path
+          schema:
+            type: string
+            example: us_new
+          required: true
+          description: path from content services
+          allowReserved: true
+        - name: language
+          in: path
+          schema:
+            type: string
+            example: en
+          required: true
+          description: path from content services
+          allowReserved: true
+        - name: path
+          in: path
+          schema:
+            type: string
+            example: home
+          allowReserved: false
+          required: true
+          description: path from content services
+      responses:
+        '200':
+          description: Success
+        '400':
+          description: Invalid status value
+  /force/ClinicFinder/ClinicFinder:
+    get:
+      tags:
+        - SalesForce Clinic Finder
+      summary: Get JSON format of clinicfinder data
+      description: This method will provide json content from content service
+      parameters:
+        - name: ReqData
+          in: query
+          schema:
+            type: string
+            example:
+              latValue: 40.7474
+              longValue: -73.9751
+              productHash: 1
+              clinicHash: 2
+              radius: 10
+              rk: 2
+          required: true
+          description: path from content services
+          allowReserved: true
+      responses:
+        '200':
+          description: Success
+        '400':
+          description: Invalid status value
+  '/search/{parameters}':
+    get:
+      tags:
+        - GSA Search
+      summary: Get JSON format of GSA
+      description: This method will provide json content from GSA
+      parameters:
+        - name: parameters
+          in: path
+          schema:
+            type: string
+            example: >-
+              search?client=cochlear_iframe&output=xml_no_dtd&proxystylesheet=cochlear_iframe&ie=UTF-8&access=p&proxyreload=1&filter=0&numgm=1&q=cochlear&countrylib=intl&getfields=*&emdstyle=true&site=cochlear_intl
+          required: true
+          description: Information to search in GSA
+          allowReserved: false
+      responses:
+        '200':
+          description: Success
+        '400':
+          description: Invalid status value
+  /forcely/article/search:
+    get:
+      tags:
+        - SalesForce FAQ Endpoint
+      summary: 'Salesforce integration for FAQ , Email'
+      description: This method will provide search result from salesforce FAQ
+      parameters:
+        - name: type
+          in: query
+          schema:
+            type: string
+            example: popular
+            enum:
+              - popular
+              - featured
+              - keyword
+          required: true
+          description: 'Mandatory. It must be one of keywords popular, featured, keyword'
+          allowReserved: true
+        - name: language
+          in: query
+          schema:
+            type: string
+            example: en_US
+          description: Optional.  Default to en_US.
+          allowReserved: true
+        - name: iso2code
+          in: query
+          schema:
+            type: string
+            example: US
+          description: Optional.  ISO2 code format. Default to US
+          allowReserved: true
+        - name: count
+          in: query
+          schema:
+            type: string
+            example: 5
+          description: Default to 5. (Ignored when type is keyword)
+          allowReserved: true
+        - name: keyword
+          in: query
+          schema:
+            type: string
+            example: test
+          description: >-
+            Mandatory only when type is keyword. Ignore when type is other than
+            keyword
+          allowReserved: true
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                    description: status code
+                  data:
+                    type: object
+                    description: feedback from salesforce
+                    properties:
+                      searchRecords:
+                        type: array
+                        description: feedback from salesforce
+                        items:
+                          type: object
+                          description: feedback from salesforce
+                          properties:
+                            urlName:
+                              type: string
+                              example: Viv-Test-3
+                              description: Url Name from salesforce
+                            title:
+                              type: string
+                              example: Viv-Test-3
+                              description: title from salesforce
+                            summary:
+                              type: string
+                              example: Viv-Test-3
+                              description: title from salesforce
+                            publishStatus:
+                              type: string
+                              example: online
+                              description: publish status from salesforce
+                            lastPublishedDate:
+                              type: string
+                              example: 2018-05-06T03:46:00.000Z
+                              description: publish status from salesforce
+                            lastModifiedDate:
+                              type: string
+                              example: 2018-05-06T03:46:00.000Z
+                              description: publish status from salesforce
+                            language:
+                              type: string
+                              example: en_US
+                              description: publish status from salesforce
+                            knowledgeArticleId:
+                              type: string
+                              example: kA26E0000001SRSAY
+                              description: publish status from salesforce
+                            id:
+                              type: string
+                              example: ka2626E0000008PTiQAM
+                              description: publish status from salesforce
+                            firstPublishedDate:
+                              type: string
+                              example: 2018-05-06T03:46:00.000Z
+                              description: publish status from salesforce
+                            articleType:
+                              type: string
+                              example: Knowledge_Article__Kav
+                              enum:
+                                - Knowledge_Article__Kav
+                                - FAQ__Kav
+                                - Troubleshooting__Kav
+                              description: publish status from salesforce
+                            articleNumber:
+                              type: string
+                              example: 000002903
+                              description: article Number from salesforce
+        '400':
+          description: Invalid status value
+  /forcely/article/searchbyid:
+    get:
+      tags:
+        - SalesForce FAQ Endpoint
+      summary: 'Salesforce integration for FAQ , Email'
+      description: This method will get article details from salesforce
+      parameters:
+        - name: KnowledgeArticleId
+          in: query
+          schema:
+            type: string
+            example: kA1E00000000cPpKAI
+          required: true
+          description: Mandatory. Article ID from salesforce
+          allowReserved: true
+        - name: id
+          in: query
+          schema:
+            type: string
+            example: ka16E0000008jrAQAQ
+          required: true
+          description: Mandatory.  Article ID from salesforce
+          allowReserved: true
+        - name: ArticleType
+          in: query
+          schema:
+            type: string
+            example: FAQ__kav
+          required: true
+          description: Mantory. article type from salesforce
+          allowReserved: true
+        - name: language
+          in: query
+          schema:
+            type: string
+            example: en-US
+          description: language for this article
+          allowReserved: true
+      responses:
+        '200':
+          description: Success
+          content:
+            Troubleshooting:
+              schema:
+                $ref: '#/components/schemas/article_Troubleshooting__Kav'
+            FAQ:
+              schema:
+                $ref: '#/components/schemas/article_FAQ__Kav'
+            KnowledgeArticle:
+              schema:
+                $ref: '#/components/schemas/article_KnowledgeArticle__Kav'
+
+        '400':
+          description: Invalid status value
+  '/forcely/article/attachment/{articleId}/{AttachmentID}':
+    get:
+      tags:
+        - SalesForce FAQ Endpoint
+      summary: 'Salesforce integration for FAQ , Email'
+      description: This method will get the attachment salesforce
+      parameters:
+        - name: articleId
+          in: path
+          schema:
+            type: string
+            example: ka26E0000008PVAQA2
+          required: true
+          description: Mandatory.
+          allowReserved: true
+        - name: AttachmentID
+          in: path
+          schema:
+            type: string
+            example: File_2__Body__s
+          description: Mandatory.
+          required: true
+      responses:
+        '200':
+          description: Success
+          headers:
+            Content-Type:
+              schema:
+                type: string
+          content:
+            'application/pdf:':
+              schema:
+                type: string
+                format: binary
+        '400':
+          description: Invalid status value
+  /forcely/article/feedback:
+    post:
+      tags:
+        - SalesForce FAQ Endpoint
+      summary: 'Salesforce integration for FAQ , Email'
+      description: This method will get the attachment salesforce
+      requestBody:
+        description: Optional description in *Markdown*
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                Article_ID__c:
+                  type: string
+                  example: kA224000000XZSrCAO
+                Article_Number__c:
+                  type: string
+                  example: 000002608
+                Article_Title__c:
+                  type: string
+                  example: How do I process a return order?
+                Feedback_Source__c:
+                  type: string
+                  example: Search
+                Session_ID__c:
+                  type: string
+                  example: random uuid
+                Deflection__c:
+                  type: string
+                  example: false
+                  enum:
+                    - true
+                    - false
+                Keyword_Searched__c:
+                  type: string
+                  example: Cochlear
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  id:
+                    type: string
+                    description: status code
+                    example: a3G6E0000002kWXkUAM"
+                  success:
+                    type: boolean
+                  error:
+                    type: array
+                    items:
+                      type: object
+        '400':
+          description: Invalid status value
+  /forcely/webtomail:
+    post:
+      tags:
+        - SalesForce FAQ Endpoint
+      summary: 'Salesforce integration for FAQ , Email'
+      description: This method will get the attachment salesforce
+      requestBody:
+        description: Optional description in *Markdown*
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                firstName:
+                  type: string
+                  example: Test07
+                lastName:
+                  type: string
+                  example: Email07
+                email:
+                  type: string
+                  example: test01@test.com
+                inquiryReason:
+                  type: string
+                  example: 2
+                country:
+                  type: string
+                  example: US
+                comment:
+                  type: string
+                  example: I need some more information about the product
+      responses:
+        '200':
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: string
+                    description: status code
+                  data:
+                    type: object
+                    description: feedback from salesforce
+                    properties:
+                      success:
+                        type: string
+                        example: true
+                        description: feedback from salesforce
+                      data:
+                        type: object
+                        description: feedback from salesforce
+                        properties:
+                          request_id:
+                            type: string
+                            example: a1Z6E0000001yPjqUAE
+                            description: id from salesforce
+        '400':
+          description: Invalid status value
+  '/drx-devices/v1/devices':
+    get:
+      tags:
+        - DRX Devices
+      summary: Get devices in JSON format
+      description: This method will provide device list of a recipient
+      responses:
+        '200':
+          description: Successful request, returns list of devices
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/device_listing'
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+        '400':
+          description: could not find account
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+  '/drx-devices/v1/serviceRequest':
+    post:
+      tags:
+        - DRX Devices
+      summary: Post trouble shooting service request
+      description: This method will handle DRX device trouble shooting service request
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/service_request'
+      responses:
+        '200':
+          description: Successful request, returns list of devices
+        '401':
+          description: Unauthorized
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+        '400':
+          description: invalid request
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+        '403':
+          description: Forbidden
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+        '500':
+          description: Internal Server Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/error'
+
+components:
+  schemas:
+    article_Troubleshooting__Kav:
+      type: object
+      properties:
+        ArticleNumber:
+          type: string
+          description: article number
+          example: a3G6E0000002kWXkUAM"
+        Title:
+          type: string
+        File_1__Name__s:
+          type: string
+          description: 'Attachment 1 name, null means no attachment'
+        File_1__ContentType__s:
+          type: string
+          description: 'Attachment 1 Content Type, null means no attachment'
+        File_2__Name__s:
+          type: string
+          description: refer to File_1_Name__s description
+        File_2__ContentType__s:
+          type: string
+          description: refer to File_1_ContentType__s description
+        File_3__Name__s:
+          type: string
+          description: refer to File_1_Name__s description
+        File_3__ContentType__s:
+          type: string
+          description: refer to File_1_ContentType__s description
+        Issue__c:
+          type: string
+          description: troubleshooting type of content Issue
+        Resolution__c:
+          type: string
+          description: 'troubleshooting type of content, Resoultion'
+    article_KnowledgeArticle__Kav:
+      type: object
+      properties:
+        ArticleNumber:
+          type: string
+          description: article number
+          example: a3G6E0000002kWXkUAM"
+        Title:
+          type: string
+        File_1__Name__s:
+          type: string
+          description: 'Attachment 1 name, null means no attachment'
+        File_1__ContentType__s:
+          type: string
+          description: 'Attachment 1 Content Type, null means no attachment'
+        File_2__Name__s:
+          type: string
+          description: refer to File_1_Name__s description
+        File_2__ContentType__s:
+          type: string
+          description: refer to File_1_ContentType__s description
+        File_3__Name__s:
+          type: string
+          description: refer to File_1_Name__s description
+        File_3__ContentType__s:
+          type: string
+          description: refer to File_1_ContentType__s description
+        Resolution__c:
+          type: string
+          description: Knowledge article type of content Resolution
+    article_FAQ__Kav:
+      type: object
+      properties:
+        ArticleNumber:
+          type: string
+          description: article number
+          example: a3G6E0000002kWXkUAM"
+        Title:
+          type: string
+        File_1__Name__s:
+          type: string
+          description: 'Attachment 1 name, null means no attachment'
+        File_1__ContentType__s:
+          type: string
+          description: 'Attachment 1 Content Type, null means no attachment'
+        File_2__Name__s:
+          type: string
+          description: refer to File_1_Name__s description
+        File_2__ContentType__s:
+          type: string
+          description: refer to File_1_ContentType__s description
+        File_3__Name__s:
+          type: string
+          description: refer to File_1_Name__s description
+        File_3__ContentType__s:
+          type: string
+          description: refer to File_1_ContentType__s description
+        Question_c:
+          type: string
+          description: FAQ article type of content Question
+        Answer__c:
+          type: string
+          description: FAQ article type of content Answer
+    device_listing:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: true
+          description: status of the api call
+        data:
+          type: object
+          properties:
+            soundProcessors:
+              type: array
+              items:
+                $ref: '#/components/schemas/soundProcessorItem'
+            remoteAssistants:
+              type: array
+              items:
+                $ref: '#/components/schemas/remoteAssistantItem'
+            implants:
+              type: array
+              items:
+                $ref: '#/components/schemas/implantItem'
+            accessories:
+              type: array
+              items:
+                $ref: '#/components/schemas/accessoryItem'
+    soundProcessorItem:
+      type: object
+      properties:
+        name:
+          type: string
+          example: CP800
+        customerFacingName:
+          type: string
+          example: Nucleus 5
+        fittingDate:
+          type: string
+          example: 1593561600000
+          description: the number of milliseconds since January 1, 1970, 00:00:00 GMT represented by this Date, for example 1593561600000 (2020 July 01)
+        productFamily:
+          type: string
+          example: Nucleus
+          description: name of the product family, one of Nucleus, Baha, Carina, Hybrid, Osia, VistaFix
+        deviceType:
+          type: string
+          example: Sound processor
+          description: type of the device, Sound processor, Remote Assistant, Implant, or Accessory
+        serialNumber:
+          type: string
+          example: 1010094690849
+          description: serial number of the device
+        productName:
+          type: string
+          example: CP800 SERIES PROCESSING UNIT (BROWN), REFURBISHED
+        earSide:
+          type: string
+          example: Right
+          description: the side of ear this device is used on
+        productDescription:
+          type: string
+          example: CP800 SERIES PROCESSING UNIT (SAND), REFURBISHED
+        underWarranty:
+          type: boolean
+          description: flag to indicate if this sound processor is currently under warranty or not.
+        latestWarrantyDate:
+          type: string
+          example: 1593561600000
+          description: warranty expiry date, the number of milliseconds since January 1, 1970, 00:00:00 GMT represented by this Date, for example 1593561600000 (2020 July 01)
+        isSupported:
+          type: boolean
+          description: Is this device supported for service request.
+        deviceStatus:
+          type: string
+          example: current
+          description: status of the device, such as Current, Return, Pending, Shipped
+        colour:
+          type: string
+          example: BROWN
+    accessoryItem:
+      type: object
+      properties:
+        name:
+          type: string
+        fittingDate:
+          type: string
+          example: 1010094690849
+          description: serial number of the device
+        productFamily:
+          type: string
+          example: Nucleus 5
+          description: Nucleus 5
+        deviceType:
+          type: string
+          example: Accessory
+        serialNumber:
+          type: string
+        accessoryType:
+          type: string
+        productName:
+          type: string
+        productDescription:
+          type: string
+          example: CP800 SERIES COIL (BLACK)
+        latestWarrantyDate:
+          type: string
+          example: 1593561600000
+          description: warranty expiry date, the number of milliseconds since January 1, 1970, 00:00:00 GMT represented by this Date, for example 1593561600000 (2020 July 01)
+        deviceStatus:
+          type: string
+          example: current
+          description: status of the device, such as Current, Return, Pending, Shipped
+    remoteAssistantItem:
+      type: object
+      properties:
+        name:
+          type: string
+        productFamily:
+          type: string
+        deviceType:
+          type: string
+        serialNumber:
+          type: string
+        productName:
+          type: string
+        earSide:
+          type: string
+        productDescription:
+          type: string
+        latestWarrantyDate:
+          type: string
+          example: 1593561600000
+          description: warranty expiry date, the number of milliseconds since January 1, 1970, 00:00:00 GMT represented by this Date, for example 1593561600000 (2020 July 01)
+    implantItem:
+      type: object
+      properties:
+        name:
+          type: string
+          example: CI24RE
+        customerFacingName:
+          type: string
+          example: N/A
+        surgeryDate:
+          type: string
+          example: 1010094690849
+          description: serial number of the device
+        productFamily:
+          type: string
+          example: Nucleus
+        deviceType:
+          type: string
+          example: Implant
+        serialNumber:
+          type: string
+        productName:
+          type: string
+          example: COCHLEAR IMPLANT,CI24RE (CA)
+        earSide:
+          type: string
+          example: Right
+        productDescription:
+          type: string
+          example: COCHLEAR IMPLANT,CI24RE (CA)
+        latestWarrantyDate:
+          type: string
+          example: 1593561600000
+          description: warranty expiry date, the number of milliseconds since January 1, 1970, 00:00:00 GMT represented by this Date, for example 1593561600000 (2020 July 01)
+    service_request:
+      type: object
+      properties:
+        serialNumber:
+          type: string
+        productName:
+          type: string
+        productDescription:
+          type: string
+        deviceType:
+          type: string
+        earSide:
+          type: string
+        fittingDate:
+          type: string
+        lastWarrantyDate:
+          type: string
+        firstName:
+          type: string
+        lastName:
+          type: string
+        dob:
+          type: string
+        email:
+          type: string
+        clinic:
+          type: string
+        audiologist:
+          type: string
+        problemCatalogue:
+          type: string
+        problemDescription:
+          type: string
+        termsConditionTicked:
+          type: boolean
+        shippingAddress:
+          $ref: '#/components/schemas/shipping_address'
+    shipping_address:
+      type: object
+      properties:
+        address1:
+          type: string
+        address2:
+          type: string
+        address3:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        postcode:
+          type: string
+        country:
+          type: string
+
+    error:
+      type: object
+      properties:
+        success:
+          type: boolean
+          example: false
+          description: status of the api call, should always be false in error
+        errors:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: INVALID_REQUEST
+              errorCode:
+                type: string
+                description: if not specified, client could use http status code instead.
+              detail:
+                type: string
+                example: could not find the account

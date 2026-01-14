@@ -1,0 +1,92 @@
+{
+  "success": true,
+  "data": {
+    "uhmenu": {
+      "initial": "RD",
+      "email": "usrecipient01@gmail.com",
+      "uhmenuTitle": "My profile",
+      "logoutLabel": "Log out",
+      "dropDownList": [
+        {
+          "label": "About me",
+          "url": "/account/my-profile/about-me",
+          "target": "_self",
+          "icon": "chevron"
+        },
+        {
+          "label": "Account information",
+          "url": "/wps/myportal/myrecipient/myprofile/?sectionLink=password",
+          "target": "_self",
+          "icon": "external"
+        },
+        {
+          "label": "My devices",
+          "url": "/wps/myportal/myrecipient/myequipment",
+          "target": "_self",
+          "icon": "external"
+        },
+        {
+          "label": "My service requests",
+          "url": "/wps/myportal/myrecipient/myprofile/?sectionLink=sr",
+          "target": "_self",
+          "icon": "external"
+        },
+        {
+          "label": "My orders",
+          "url": "/wps/myportal/myrecipient/myprofile/?sectionLink=order",
+          "target": "_self",
+          "icon": "external"
+        },
+        {
+          "label": "View MyCochlear",
+          "url": "/wps/myportal/myrecipient/",
+          "target": "_self",
+          "icon": "external"
+        },
+        {
+          "label": "What's new in your profile",
+          "url": "",
+          "target": "_self",
+          "icon": ""
+        }
+      ],
+      "whatsnew": {
+        "toggle": "on",
+        "popup": {
+          "label": "What's new in your profile",
+          "close": "Dismiss"
+        },
+        "version": "3",
+        "closeBtn": "Close this window",
+        "content": [
+          {
+            "image": {
+              "href": "81437f55-ff49-4f09-9f1e-8ceb1eab5ad4/whatsnew_personal_details%402x.png?MOD=AJPERES",
+              "alt-text": "personal details"
+            },
+            "title": "New look personal details",
+            "text": "We have a new and simpler way for you to view and edit your personal details. Just select About me from your profile menu and check your details.",
+            "button": {
+              "text": "See what’s changed",
+              "action": "next",
+              "style": "primary"
+            }
+          },
+          {
+            "image": {
+              "href": "82c41505-3c3b-4da3-9ab7-5743c0cc6c41/whatsnew_access_mycochlear_dashboard%402x.png?MOD=AJPERES",
+              "alt-text": "access mycochlear dashboard"
+            },
+            "title": "You still have access to My Cochlear",
+            "text": "If at any time you need to see your information in the old view, just select View MyCochlear from your profile menu.",
+            "button": {
+              "text": "OK, got it",
+              "action": "close",
+              "style": "primary"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

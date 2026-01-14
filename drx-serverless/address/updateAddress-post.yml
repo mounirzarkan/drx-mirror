@@ -1,0 +1,67 @@
+
+type: object
+required:
+    - customerIdentifier
+    - street1
+    - city
+    - state
+    - stateCode
+    - postalCode
+    - countryIso2Code
+properties:
+    addressId:
+        oneOf:
+            - type: string
+            - type: "null"
+    customerIdentifier:
+        type: string
+    street1:
+        type: string
+    street2:
+        oneOf:
+            - type: string
+            - type: "null"
+    street3:
+        oneOf:
+            - type: string
+            - type: "null"
+    street4:
+        oneOf:
+            - type: string
+            - type: "null"
+    city:
+        oneOf:
+            - type: string
+            - type: "null"
+    state:
+        oneOf:
+            - type: string
+            - type: "null"
+    stateCode:
+        oneOf:
+            - type: string
+            - type: "null"        
+    postalCode:
+        oneOf:
+            - type: string
+            - type: "null"
+    isBilling:
+        oneOf:
+            - type: boolean
+            - type: "null"
+    isShipping:
+        oneOf:
+            - type: boolean
+            - type: "null"
+    isMailing:
+        oneOf:
+            - type: boolean
+            - type: "null"
+    countryIso2Code:
+        type: string
+    modifiedByApp:
+        description: which app made this change
+        oneOf:
+            - type: string
+            - type: "null"
+

@@ -1,0 +1,4 @@
+.env
+.env.auth
+.env.assume
+.env.ssm

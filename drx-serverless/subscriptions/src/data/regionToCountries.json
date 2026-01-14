@@ -1,0 +1,381 @@
+{
+    "CAM": {
+      "fields": [
+        {
+          "name": "US"
+        },
+        {
+          "name": "CA"
+        }
+      ]
+    },
+    "EMEA": {
+      "fields": [
+        {
+          "name": "AE"
+        },
+        {
+          "name": "AL"
+        },
+        {
+          "name": "AM"
+        },
+        {
+          "name": "AT"
+        },
+        {
+          "name": "BA"
+        },
+        {
+          "name": "BE"
+        },
+        {
+          "name": "BG"
+        },
+        {
+          "name": "BH"
+        },
+        {
+          "name": "BY"
+        },
+        {
+          "name": "CH"
+        },
+        {
+          "name": "CI"
+        },
+        {
+          "name": "CY"
+        },
+        {
+          "name": "CZ"
+        },
+        {
+          "name": "DE"
+        },
+        {
+          "name": "DK"
+        },
+        {
+          "name": "DZ"
+        },
+        {
+          "name": "EE"
+        },
+        {
+          "name": "EG"
+        },
+        {
+          "name": "ES"
+        },
+        {
+          "name": "ET"
+        },
+        {
+          "name": "FI"
+        },
+        {
+          "name": "FR"
+        },
+        {
+          "name": "GB"
+        },
+        {
+          "name": "GH"
+        },
+        {
+          "name": "GR"
+        },
+        {
+          "name": "HR"
+        },
+        {
+          "name": "HU"
+        },
+        {
+          "name": "IE"
+        },
+        {
+          "name": "IL"
+        },
+        {
+          "name": "IQ"
+        },
+        {
+          "name": "IR"
+        },
+        {
+          "name": "IS"
+        },
+        {
+          "name": "IT"
+        },
+        {
+          "name": "JO"
+        },
+        {
+          "name": "KE"
+        },
+        {
+          "name": "KG"
+        },
+        {
+          "name": "KW"
+        },
+        {
+          "name": "KZ"
+        },
+        {
+          "name": "LB"
+        },
+        {
+          "name": "LI"
+        },
+        {
+          "name": "LT"
+        },
+        {
+          "name": "LU"
+        },
+        {
+          "name": "LV"
+        },
+        {
+          "name": "LY"
+        },
+        {
+          "name": "MA"
+        },
+        {
+          "name": "MD"
+        },
+        {
+          "name": "ME"
+        },
+        {
+          "name": "MK"
+        },
+        {
+          "name": "MR"
+        },
+        {
+          "name": "MT"
+        },
+        {
+          "name": "NA"
+        },
+        {
+          "name": "NG"
+        },
+        {
+          "name": "NL"
+        },
+        {
+          "name": "NO"
+        },
+        {
+          "name": "OM"
+        },
+        {
+          "name": "PL"
+        },
+        {
+          "name": "PS"
+        },
+        {
+          "name": "PT"
+        },
+        {
+          "name": "QA"
+        },
+        {
+          "name": "RO"
+        },
+        {
+          "name": "RS"
+        },
+        {
+          "name": "RU"
+        },
+        {
+          "name": "SA"
+        },
+        {
+          "name": "SD"
+        },
+        {
+          "name": "SE"
+        },
+        {
+          "name": "SK"
+        },
+        {
+          "name": "SN"
+        },
+        {
+          "name": "SY"
+        },
+        {
+          "name": "TJ"
+        },
+        {
+          "name": "TM"
+        },
+        {
+          "name": "TN"
+        },
+        {
+          "name": "TR"
+        },
+        {
+          "name": "TZ"
+        },
+        {
+          "name": "UA"
+        },
+        {
+          "name": "UG"
+        },
+        {
+          "name": "UZ"
+        },
+        {
+          "name": "XK"
+        },
+        {
+          "name": "YE"
+        },
+        {
+          "name": "ZA"
+        }
+      ]
+    },
+    "APAC": {
+      "fields": [
+        {
+          "name": "AU"
+        },
+        {
+          "name": "BD"
+        },
+        {
+          "name": "BN"
+        },
+        {
+          "name": "CN"
+        },
+        {
+          "name": "HK"
+        },
+        {
+          "name": "IN"
+        },
+        {
+          "name": "ID"
+        },
+        {
+          "name": "JP"
+        },
+        {
+          "name": "MY"
+        },
+        {
+          "name": "MV"
+        },
+        {
+          "name": "NP"
+        },
+        {
+          "name": "NZ"
+        },
+        {
+          "name": "PK"
+        },
+        {
+          "name": "PH"
+        },
+        {
+          "name": "SG"
+        },
+        {
+          "name": "KR"
+        },
+        {
+          "name": "LK"
+        },
+        {
+          "name": "TW"
+        },
+        {
+          "name": "TH"
+        },
+        {
+          "name": "VN"
+        }
+      ]
+    },
+    "CLASA": {
+      "fields": [
+        {
+          "name": "AR"
+        },
+        {
+          "name": "BO"
+        },
+        {
+          "name": "CL"
+        },
+        {
+          "name": "CO"
+        },
+        {
+          "name": "CR"
+        },
+        {
+          "name": "CU"
+        },
+        {
+          "name": "DO"
+        },
+        {
+          "name": "EC"
+        },
+        {
+          "name": "GT"
+        },
+        {
+          "name": "HN"
+        },
+        {
+          "name": "MX"
+        },
+        {
+          "name": "PA"
+        },
+        {
+          "name": "PE"
+        },
+        {
+          "name": "PY"
+        },
+        {
+          "name": "SR"
+        },
+        {
+          "name": "SV"
+        },
+        {
+          "name": "TT"
+        },
+        {
+          "name": "UY"
+        },
+        {
+          "name": "VE"
+        },
+        {
+          "name": "NI"
+        }
+      ]
+    }
+  }

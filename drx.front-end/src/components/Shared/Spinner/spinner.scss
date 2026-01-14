@@ -1,0 +1,51 @@
+// Animations and keyframes
+// --------------------------------------------
+@mixin keyframes($animation-name) {
+  @keyframes #{$animation-name} {
+    @content;
+  }
+}
+
+@mixin animation($str) {
+  animation: #{$str};
+}
+
+.ccl-e-spinner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  height: 100vh;
+  height: 100%;
+  &__content {
+    text-align: center;
+  }
+  &__loading {
+    margin: 0 auto;
+    display: block;
+    width: 46px;
+    height: 46px;
+    &:after {
+      @include animation('lds-dual-ring 1.2s linear infinite');
+      content: ' ';
+      display: block;
+      width: 46px;
+      height: 46px;
+      margin: 1px;
+      border-radius: 50%;
+      border: 5px solid $grey;
+      border-color: $grey transparent $grey transparent;
+    }
+  }
+}
+
+@include keyframes(lds-dual-ring) {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}

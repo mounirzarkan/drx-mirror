@@ -1,0 +1,20 @@
+{
+  "@odata.context": "$metadata#OrderStatus(OrderType,OrderId,LastUpdateDate,OrderStatus,GathDocStartDate,OrderCreationDate,ShippingUrl,InsAuthStartDate,PrepShipStartDate,RecipientId,ShippedDate,TrackingNumber)",
+  "@odata.count": 1,
+  "value": [
+    {
+      "OrderType": "CAM-SALE",
+      "OrderId": 68435181,
+      "LastUpdateDate": "2023-11-29",
+      "OrderStatus": "Closed",
+      "GathDocStartDate": null,
+      "OrderCreationDate": "2023-11-29",
+      "ShippingUrl": "http://wwwapps.ups.com/WebTracking/track?track=yes&trackNums=",
+      "InsAuthStartDate": null,
+      "PrepShipStartDate": "2023-11-29",
+      "RecipientId": "281408500859708",
+      "ShippedDate": "2023-11-29",
+      "TrackingNumber": "1Z8131840214400299"
+    }
+  ]
+}

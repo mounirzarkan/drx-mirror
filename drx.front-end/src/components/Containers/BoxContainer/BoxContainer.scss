@@ -1,0 +1,25 @@
+@include tablet {
+  .content__box {
+    padding: 30px 40px 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    border-top: 3px solid $primary;
+    &--tabs {
+      padding: 0 40px 20px;
+      border-top: 0;
+    }
+  }
+}
+
+.content__box {
+  &--tabs {
+    position: relative;
+    > .form__wrapper {
+      &:first-of-type {
+        margin-top: 20px;
+        @include tablet {
+          margin-top: 30px;
+        }
+      }
+    }
+  }
+}

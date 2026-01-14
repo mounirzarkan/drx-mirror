@@ -1,0 +1,37 @@
+// General colors
+
+$brand-primary: $color-lightmode-semantic-baseline-brandprimary;
+$brand-primary-hover: $color-lightmode-semantic-baseline-brandprimary-25;
+$digital-primary: $color-lightmode-semantic-baseline-digitalprimary;
+$digital-primary-hover: $color-lightmode-semantic-baseline-digitalprimaryapp;
+$secondary: $color-base-brandxtra-brandnavy;
+
+$background: $color-lightmode-semantic-background-default;
+$border: $color-lightmode-semantic-interactiveforeground-neutrallite;
+$border-hover: $color-lightmode-semantic-interactiveforeground-neutral;
+
+// Text colors
+
+$text: $secondary;
+$text-disabled: $color-lightmode-semantic-typography-disabled;
+$text-error: $color-lightmode-semantic-status-error;
+$text-success: $color-lightmode-semantic-status-success;
+
+// Link colors
+
+$link: $color-lightmode-semantic-typography-interactive;
+$link-invert: $white;
+
+$link-hover: $digital-primary-hover;
+$link-hover-border: $digital-primary-hover;
+
+// Typography
+
+$family-primary: $family-sans-serif;
+$family-secondary: $textstyle__base__family-secondary;
+$family-code: $family-monospace;
+
+$size-small: $size-7;
+$size-normal: $size-6;
+$size-medium: $size-5;
+$size-large: $size-4;

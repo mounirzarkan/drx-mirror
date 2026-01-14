@@ -1,0 +1,49 @@
+.ccl-address-list-view .ccl-e-detail-action-bar__title {
+  font-family: $family-secondary;
+}
+
+.ccl__select-input-country {
+  .option-country-flag {
+    img {
+      height: 24px;
+      max-width: none;
+    }
+  }
+}
+
+.ccl-e-detail-action-bar__action {
+  text-decoration: none;
+  & .ccl-e-icon-label__text {
+    font-size: 1rem;
+    text-transform: lowercase;
+  }
+}
+
+.ccl-e-form-button-bar {
+  z-index: 0;
+  // this needs to be updated in the CDS for form buttons bar
+  // font and linehight reset
+  .ccl-e-pop-over-prompt {
+    line-height: 0;
+    font-size: 0;
+  }
+}
+
+.ccl__view-edit-mode--form-view {
+  // widen buttons to suit styleguide
+  // this needs to be updated in the CDS for form buttons bar
+  .ccl-e-form-button-bar .ccl__button {
+    width: calc(100% - 1rem);
+    margin-bottom: 1.5rem;
+  }
+  .ccl-e-form-button-bar .ccl__button:last-child {
+    margin-right: 0;
+    margin-bottom: 0;
+  }
+  @include tablet {
+    .ccl-e-form-button-bar .ccl__button {
+      width: 12.5rem;
+      margin-right: 2.25rem;
+    }
+  }
+}

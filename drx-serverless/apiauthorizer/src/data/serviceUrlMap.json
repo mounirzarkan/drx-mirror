@@ -1,0 +1,92 @@
+{
+  "account": [
+    {
+      "path": "/account-V1",
+      "resource": "/"
+    }
+  ],
+  "address": [
+    {
+      "path": "/address-V1",
+      "resource": "/"
+    }
+  ],
+  "regions": [
+    {
+      "path": "/address-V1/",
+      "resource": "/regions"
+    }
+  ],
+  "device": [
+    {
+      "path": "/device-V1",
+      "resource": "/"
+    },
+    {
+      "path": "/device-V1/",
+      "resource": "/single"
+    }
+  ],
+  "serviceRequest": [
+    {
+      "path": "/device-V1/",
+      "resource": "/service-requests"
+    }
+  ],
+  "sageServiceRequests": [
+    {
+      "path": "/service-requests-V1",
+      "resource": "/"
+    },
+    {
+      "path": "/service-requests-V1",
+      "resource": "/{serviceRequestId}"
+    }
+  ],
+  "uhmenu": [
+    {
+      "path": "/uhmenu-V1",
+      "resource": "/"
+    }
+  ],
+  "utils": [
+    {
+      "path": "/utils-V1",
+      "resource": "/"
+    },
+    {
+      "path": "/utils-V1/",
+      "resource": "/convert-phone/{phoneNumber}"
+    },
+    {
+      "path": "/utils-V1/",
+      "resource": "/cache/{key}"
+    },
+    {
+      "path": "/utils-V1/",
+      "resource": "/cache"
+    },
+    {
+      "path": "/utils-V1/",
+      "resource": "/send-mail"
+    },
+    {
+      "path": "/utils-V1/",
+      "resource": "/update-login"
+    },
+    {
+      "path": "/utils-V1/",
+      "resource": "/address-config/{country}/{lng}"
+    }
+  ],
+  "orders": [
+    {
+      "path": "/orders-V1",
+      "resource": "/"
+    },
+    {
+      "path": "/orders-V1/",
+      "resource": "/{orderId}/lines"
+    }
+  ]
+}

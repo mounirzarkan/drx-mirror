@@ -1,0 +1,42 @@
+---
+AWSTemplateFormatVersion: '2010-09-09'
+Description: This template create SNS notification
+Parameters:
+
+  Project:
+    Description: The Project Name
+    Type: String
+    Default: cochlear-drx
+
+  Environment:
+    Description: Environment 
+    Type: String
+    Default: dev    
+
+
+Resources:
+  SNSNotificationTopic:
+    Type: AWS::SNS::Topic
+    Properties:
+      DisplayName:
+        Fn::Join:
+        - " "
+        - - Ref: Project
+          - Ref: Environment
+          - error
+          - notification
+
+      TopicName:
+        Fn::Join:
+        - "-"
+        - - Ref: Project
+          - Ref: Environment
+          - error
+          - notification
+Outputs:
+  NotificationSNSTopic:
+    Value:
+      Ref: SNSNotificationTopic
+    Export:
+      Name:
+        Fn::Sub: "${AWS::StackName}-${AWS::Region}-sns-topic"

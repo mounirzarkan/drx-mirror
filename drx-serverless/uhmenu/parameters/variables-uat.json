@@ -1,0 +1,14 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "kevlee@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Uhmenu Service",
+  "Name": "Cochlear DRX APIG Lambda Uhmenu Service",
+  "Function": "Uhmenu Service",
+  "Environment": "UAT",
+  "Product": "API Gateway",
+  "userSessionSeconds": 21600,
+  "tokenSessionSeconds": 7200,
+  "logLevel": "INFO",
+  "createAlarms": "true",
+  "isScHttpAgent": "true"
+}

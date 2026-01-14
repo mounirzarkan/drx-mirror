@@ -1,0 +1,15 @@
+{
+  "releaseVersion": "V1",
+  "Owner": "mzarkan@cochlear.com",
+  "Description": "Cochlear DRX API Gateway Lambda Regions Service",
+  "Name": "Cochlear DRX APIG Lambda Regions Service",
+  "Function": "Regions Service",
+  "Environment": "UAT",
+  "Product": "API Gateway",
+  "logLevel": "INFO",
+  "createAlarms": "true",
+  "cacheSeconds": 86400,
+  "secretCacheSeconds": 300,
+  "appName": "region",
+  "isScHttpAgent": "true"
+}

@@ -1,0 +1,66 @@
+template:
+  type: file
+  path: apigateway-mapping-proxy.j2
+dependencies:
+  - {{ stack_group_config.environment }}/infra/apigateway-custom-domain.yaml
+
+parameters:
+  DomainName: !stack_output {{ stack_group_config.environment }}/infra/apigateway-custom-domain.yaml::DomainName
+  DestDomainName: !stack_output {{ stack_group_config.environment }}/infra/apigateway-custom-domain.yaml::DomainName
+  # PatientDestEndpointV1: "account-{{ stack_group_config.environment }}-v1"
+  # PatientPathV1: "v1/account"
+  apiGatewayStageName: {{ stack_group_config.environment }}
+  basePath: drx
+  logRetention: "1"
+  project: !environment_variable PROJECT_CODE
+# https://cltd-confluence.cochlear.com/display/DRP/API+naming+conventions
+sceptre_user_data:
+  PathProxy:
+    - name: "accountV1"
+      endpoint: "account-V1"
+      path: "v1/patients/me"
+    - name: "addressV1"
+      endpoint: "address-V1"
+      path: "v1/patients/me/address"
+    - name: "deviceV1"
+      endpoint: "device-V1"
+      path: "v1/patients/me/devices"
+    - name: "serviceRequestsV1"
+      endpoint: "service-requests-V1"
+      path: "v1/patients/me/service-requests"
+    - name: "uhmenuV1"
+      endpoint: "uhmenu-V1"
+      path: "v1/contents/menu"
+    - name: "footerheaderV1"
+      endpoint: "header-footer-V1"
+      path: "v1/contents/header-footer"
+    - name: "authV1"
+      endpoint: "auth-V1"
+      path: "v1/auth"
+    - name: "cacherefreshV1"
+      endpoint: "cache-refresh-V1"
+      path: "v1/cache-refresh"
+    - name: "ordersV1"
+      endpoint: "orders-V1"
+      path: "v1/patients/me/orders"
+    - name: "regionsV1"
+      endpoint: "regions-V1"
+      path: "v1/utils/regions"
+    - name: "utilsV1"
+      endpoint: "utils-V1"
+      path: "v1/utils"
+    - name: "manualsV1"
+      endpoint: "manuals-V1"
+      path: "v1/manuals"
+    - name: "enquiryV1"
+      endpoint: "enquiry-V1"
+      path: "v1/enquiry"
+    - name: "clinics"
+      endpoint: "clinics-V1"
+      path: "v1/clinics"
+    - name: "subscriptions"
+      endpoint: "subscriptions-V1"
+      path: "v1/subscriptions"
+    - name: "lossclaims"
+      endpoint: "loss-claims-V1"
+      path: "v1/loss-claims"

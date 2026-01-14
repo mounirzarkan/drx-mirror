@@ -1,0 +1,80 @@
+{
+  "accounts": [
+    {
+      "phones": [
+        {
+          "type": null,
+          "phoneNumber": "masked by logUtils",
+          "ocSms": null,
+          "note": null,
+          "isValid": true,
+          "isPrimary": true,
+          "isOCSmsGiven": false,
+          "isChanged": false,
+          "index": 1,
+          "displayLabel": "Preferred",
+          "country": null,
+          "areaCodeAndNumber": null
+        }
+      ],
+      "partyId": "57534994",
+      "customerIdentifier": "185629645430134",
+      "accountType": "Recipient",
+      "account": {
+        "attributes": {
+          "type": "Account"
+        },
+        "PersonTitle": null,
+        "FirstName": "masked by logUtils",
+        "LastName": "GTUSR303938",
+        "MiddleName": null,
+        "Suffix": null,
+        "Alternate_First_Name__pc": null,
+        "Alternate_Last_Name__pc": null,
+        "Description": null,
+        "PersonEmail": "fef3627765@fef3627765.data",
+        "Date_of_Birth__pc": "1966-03-19",
+        "Date_of_Death__pc": null,
+        "Gender__pc": "Male",
+        "AccountNumber": "7245393",
+        "Product_Family_for_SP1__c": null,
+        "Product_Family_for_SP2__c": null,
+        "Latest_Product_for_SP_1__c": null,
+        "Latest_Product_for_SP_2__c": null,
+        "Customer_Facing_Product_Name_1__c": null,
+        "Customer_Facing_Product_Name_2__c": null,
+        "Ear_Side_of_Latest_SP_1__c": null,
+        "Ear_Side_of_Latest_SP_2__c": null,
+        "Contract_First_Start_Date_1__c": null,
+        "Contract_First_Start_Date_2__c": null,
+        "Upgrade_Eligible_Date_1__c": null,
+        "Upgrade_Eligible_Date_2__c": null,
+        "Eligible_Upgrade_Left__c": null,
+        "Eligible_Upgrade_Right__c": null,
+        "Hearing_Loss_Type__c": null,
+        "Other_Type__c": null,
+        "Party_ID__c": "57534994",
+        "Privacy_Consent__pc": null,
+        "Marketing_Consent__pc": "Given",
+        "Marketing_Consent_Cochlear_Family__pc": "Given",
+        "Clinic_Consent_MapLog__pc": "Given",
+        "Name": "LVMNQ303938 GTUSR303938",
+        "BillingStreet": "365 Victorian Cir",
+        "BillingPostalCode": "30157-5672",
+        "BillingCity": "DALLAS",
+        "BillingState": "GA",
+        "BillingCountry": "United States",
+        "ISO2_Code__c": "US",
+        "Patient_Id__pc": null,
+        "Fiscal_Code__c": null,
+        "Bi_Lateral__pc": null,
+        "Primary_Insurance_Company__pc": null,
+        "Primary_Policy_Number__pc": null,
+        "Secondary_Insurance_Company__pc": null,
+        "Secondary_Policy_Number__pc": null,
+        "Tertiary_Insurance_Company__pc": null,
+        "Tertiary_Policy_Number__pc": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "item": {
+    "id": "11C607D32F414E0BB690FC7F2CC44990",
+    "name": "DRX Footer",
+    "path": "/sitecore/content/drx/us/Configuration/Footer/DRX Footer",
+    "Shared": {
+      "data": {
+        "copyright": {
+          "value": "Copyright © 2021 Cochlear Ltd. All rights reserved"
+        },
+        "columnOneLinks": {
+          "links": [
+            {
+              "name": "Investors",
+              "link": {
+                "url": "https://cd.sit.cms.cochlear.cloud/us/en/corporate/investors/investors",
+                "target": ""
+              }
+            },
+            {
+              "name": "Careers",
+              "link": {
+                "url": "https://cd.sit.cms.cochlear.cloud/us/en/corporate/investors/investors",
+                "target": ""
+              }
+            }
+          ]
+        },
+        "columnTwoLinks": {
+          "links": [
+            {
+              "name": "Media",
+              "link": {
+                "url": "https://cd.sit.cms.cochlear.cloud/us/en/corporate/media-center/media-center",
+                "target": ""
+              }
+            },
+            {
+              "name": "Global warnings",
+              "link": {
+                "url": "https://cd.sit.cms.cochlear.cloud/us/en/corporate/global-warnings/global-warnings",
+                "target": ""
+              }
+            },
+            {
+              "name": "Reliability reporting",
+              "link": {
+                "url": "",
+                "target": ""
+              }
+            }
+          ]
+        },
+        "columnThreeLinks": {
+          "links": [
+            {
+              "name": "Privacy",
+              "link": {
+                "url": "https://cd.sit.cms.cochlear.cloud/corporate/privacy/en",
+                "target": "_blank"
+              }
+            },
+            {
+              "name": "Terms of use",
+              "link": {
+                "url": "https://cd.sit.cms.cochlear.cloud/au/en/corporate/terms-of-use",
+                "target": ""
+              }
+            }
+          ]
+        },
+        "socials": {
+          "links": [
+            {
+              "name": "Facebook",
+              "title": {
+                "value": "Connect with us on Facebook"
+              },
+              "image": {
+                "value": "<image thumbnailsrc=\"https://cochlearmediaportal.stylelabs.cloud/api/gateway/13637/thumbnail\" src=\"https://mss-p-007-delivery.stylelabs.cloud/api/public/content/8a6ba205972d4fd182c8e1b99b6b61b0?v=e23e0b79\" mediaid=\"\" stylelabs-content-type=\"Image\" alt=\"Facebook logo\" height=\"68\" width=\"68\" vspace=\"\" hspace=\"\" stylelabs-content-id=\"13637\" />",
+                "src": null,
+                "alt": "Facebook logo",
+                "id": "980FFBD2114D43429B74BF56914EEBF4",
+                "width": 68
+              },
+              "link": {
+                "url": "https://www.facebook.com/Cochlear/",
+                "target": "_blank"
+              }
+            },
+            {
+              "name": "Instagram",
+              "title": {
+                "value": "Connect with us on Instagram"
+              },
+              "image": {
+                "value": "<image stylelabs-content-id=\"27732\" thumbnailsrc=\"https://cochlearmediaportal.stylelabs.cloud/api/gateway/27732/thumbnail\" src=\"https://mss-p-007-delivery.stylelabs.cloud/api/public/content/05cb5b517fb04023a8c641474053ceb4?v=26d42928\" mediaid=\"\" stylelabs-content-type=\"Image\" height=\"100\" width=\"100\" alt=\"Instagram logo\" vspace=\"\" hspace=\"\" />",
+                "src": null,
+                "alt": "Instagram logo",
+                "id": "980FFBD2114D43429B74BF56914EEBF4",
+                "width": 100
+              },
+              "link": {
+                "url": "https://www.instagram.com/cochlear_global",
+                "target": "_blank"
+              }
+            },
+            {
+              "name": "LinkedIn",
+              "title": {
+                "value": "Connect with us on LinkedIn"
+              },
+              "image": {
+                "value": "<image thumbnailsrc=\"https://cochlearmediaportal.stylelabs.cloud/api/gateway/27872/thumbnail\" src=\"https://mss-p-007-delivery.stylelabs.cloud/api/public/content/402753700756412abe7db70adb2f5417?v=48476ce8\" mediaid=\"\" stylelabs-content-type=\"Image\" alt=\"YouTube logo\" height=\"100\" width=\"100\" vspace=\"\" hspace=\"\" stylelabs-content-id=\"27872\" />",
+                "src": null,
+                "alt": "YouTube logo",
+                "id": "980FFBD2114D43429B74BF56914EEBF4",
+                "width": 100
+              },
+              "link": {
+                "url": "https://www.linkedin.com/company/cochlear/",
+                "target": "_blank"
+              }
+            },
+            {
+              "name": "Twitter",
+              "title": {
+                "value": "Connect with us on Twitter"
+              },
+              "image": {
+                "value": "<image thumbnailsrc=\"https://cochlearmediaportal.stylelabs.cloud/api/gateway/13797/thumbnail\" src=\"https://mss-p-007-delivery.stylelabs.cloud/api/public/content/4fe81b5e65cb4b1b98128b789e8e0824?v=57132a14\" mediaid=\"\" stylelabs-content-type=\"Image\" alt=\"Twitter logo\" height=\"68\" width=\"68\" vspace=\"\" hspace=\"\" />",
+                "src": null,
+                "alt": "Twitter logo",
+                "id": "980FFBD2114D43429B74BF56914EEBF4",
+                "width": 68
+              },
+              "link": {
+                "url": "https://twitter.com/CochlearGlobal",
+                "target": "_blank"
+              }
+            },
+            {
+              "name": "Youtube",
+              "title": {
+                "value": "Connect with us on Youtube"
+              },
+              "image": {
+                "value": "<image thumbnailsrc=\"https://cochlearmediaportal.stylelabs.cloud/api/gateway/13626/thumbnail\" src=\"https://mss-p-007-delivery.stylelabs.cloud/api/public/content/cdd2477a961b4e1e9f60bb131e35fe1e?v=5fe72000\" mediaid=\"\" stylelabs-content-type=\"Image\" alt=\"YouTube logo\" height=\"68\" width=\"68\" vspace=\"\" hspace=\"\" />",
+                "src": null,
+                "alt": "YouTube logo",
+                "id": "980FFBD2114D43429B74BF56914EEBF4",
+                "width": 68
+              },
+              "link": {
+                "url": "https://www.youtube.com/CochlearGlobal",
+                "target": "_blank"
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

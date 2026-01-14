@@ -1,0 +1,47 @@
+type: object
+properties:
+    request:
+        type: object
+        properties:
+            customerIdentifier:
+                type: string
+                description: encrypted cochlear id
+            modifiedByApp:
+                type: string
+                description: which app made this change
+            account:
+                type: object
+                properties:
+                    firstName:
+                        type: string
+                    lastName:
+                        type: string
+                    dateOfBirth:
+                        type: string
+                    email:
+                        type: string
+                    familyConsent:
+                        type: string
+                    phones:
+                        type: object
+                        properties:
+                            phone:
+                                type: object
+                                properties:
+                                    callingCode: 
+                                        type: string
+                                    number:
+                                        type: string
+                            mobile:
+                                type: object
+                                properties:
+                                    callingCode: 
+                                        type: string
+                                    number: 
+                                        type: string
+                                    ocSms: 
+                                        type: string
+        required:
+            - customerIdentifier
+            - modifiedByApp
+            - account

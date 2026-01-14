@@ -1,0 +1,5637 @@
+{
+  "success": true,
+  "data": {
+    "contracts": [
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rXmAAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYIAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rY3AAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYHAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1629331200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYDAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1629331200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rY1AAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rXhAAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1549843200000,
+        "installBaseId": null,
+        "expirationDate": 1581292800000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2441531",
+        "accessoryId": "a0h1j0000006k8nAAA"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1549411200000,
+        "installBaseId": null,
+        "expirationDate": 1580860800000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2441549",
+        "accessoryId": "a0h1j0000006mmCAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rY8AAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rY6AAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": "a0E1j0000042CykEAE",
+        "expirationDate": 1716249600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYaAAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYQAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": "a0E1j000003pyRVEAY",
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1629331200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYSAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1629331200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYVAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYBAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rXrAAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j000001VBedAAG"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYRAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rXiAAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYWAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1629331200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rYCAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rY2AAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1629331200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rY7AAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1621641600000,
+        "installBaseId": null,
+        "expirationDate": 1653091200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "3134439",
+        "accessoryId": "a0h1j0000023rXsAAI"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1512432000000,
+        "installBaseId": "a0E2400000iLuIgEAK",
+        "expirationDate": 1607040000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2107252",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1564185600000,
+        "installBaseId": null,
+        "expirationDate": 1595721600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537814",
+        "accessoryId": "a0h1j000000qbCMAAY"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSTAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSXAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1573084800000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uTAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7ufAAA"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSHAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSgAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSMAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSOAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597190400000,
+        "installBaseId": null,
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237612",
+        "accessoryId": "a0h1j000000rCStAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1573084800000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uPAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSQAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7udAAA"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSfAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1573084800000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uRAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1573084800000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uSAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCT3AAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7ucAAA"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSjAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": "a0E1j000000djJeEAI",
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597190400000,
+        "installBaseId": null,
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237612",
+        "accessoryId": "a0h1j000000rCSzAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597190400000,
+        "installBaseId": null,
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237612",
+        "accessoryId": "a0h1j000000rCT1AAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597276800000,
+        "installBaseId": null,
+        "expirationDate": 1660262400000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237662",
+        "accessoryId": "a0h1j000000rE34AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE2vAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCSrAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSPAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCStAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE33AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1573344000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE37AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCT1AAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uZAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uQAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSZAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCT0AAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSRAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uaAAA"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": "a0E1j000000dnadEAA",
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSYAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uWAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSdAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": "a0E1j000000deFqEAI",
+        "expirationDate": 1660003200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSDAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCSuAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSLAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCSvAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uVAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1573084800000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uXAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597276800000,
+        "installBaseId": null,
+        "expirationDate": 1660262400000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237662",
+        "accessoryId": "a0h1j000000rE2wAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSUAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCT4AAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7ubAAA"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7ugAAA"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSaAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCScAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSWAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCSzAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCSwAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSkAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": "a0E1j000000djJZEAY",
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSlAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCT5AAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1573084800000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7ueAAA"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSKAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSbAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCT2AAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597276800000,
+        "installBaseId": null,
+        "expirationDate": 1660262400000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237662",
+        "accessoryId": "a0h1j000000rE2zAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": "a0h1j000000rCSsAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE2zAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597190400000,
+        "installBaseId": null,
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237611",
+        "accessoryId": "a0h1j000000rCSGAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSGAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSFAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597276800000,
+        "installBaseId": null,
+        "expirationDate": 1660262400000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237662",
+        "accessoryId": "a0h1j000000rE33AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE32AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": null,
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": "a0h1j000000r7uYAAQ"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE2wAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1573344000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE35AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597190400000,
+        "installBaseId": null,
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237611",
+        "accessoryId": "a0h1j000000rCSKAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSnAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE38AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": "a0E1j000000dnaiEAA",
+        "expirationDate": 1660262400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE39AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1660348800000,
+        "installBaseId": "a0E1j000000dnaYEAQ",
+        "expirationDate": 1691798400000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237662",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1573344000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE31AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSIAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSSAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1573344000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE2uAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": "a0E1j000000djL8EAI",
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537867",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565395200000,
+        "installBaseId": "a0E1j000000deFvEAI",
+        "expirationDate": 1596931200000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537848",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597190400000,
+        "installBaseId": null,
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237611",
+        "accessoryId": "a0h1j000000rCSQAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1573257600000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSoAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": "a0E1j000000dnaYEAQ",
+        "expirationDate": 1660262400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1573344000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE2xAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSVAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1660348800000,
+        "installBaseId": "a0E1j000000dnaiEAA",
+        "expirationDate": 1691798400000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237662",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597276800000,
+        "installBaseId": "a0E1j000000dnadEAA",
+        "expirationDate": 1660262400000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237662",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE2rAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE36AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE34AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": "a0E1j000000djIgEAI",
+        "expirationDate": 1660176000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": null
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSmAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537866",
+        "accessoryId": "a0h1j000000rCSeAAM"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565568000000,
+        "installBaseId": null,
+        "expirationDate": 1597104000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537865",
+        "accessoryId": "a0h1j000000rCSJAA2"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1597190400000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE2yAAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1597276800000,
+        "installBaseId": null,
+        "expirationDate": 1660262400000,
+        "description": "CUSTOMER:  Michael Babbitt  Warranty/Extended Warranty Contract",
+        "coverageStatus": "SIGNED",
+        "contractType": "Extended Warranty",
+        "contractNumber": "W3237662",
+        "accessoryId": "a0h1j000000rE39AAE"
+      },
+      {
+        "terminatedDate": null,
+        "startDate": 1565654400000,
+        "installBaseId": null,
+        "expirationDate": 1573344000000,
+        "description": "CUSTOMER : Michael Babbitt Warranty/Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "2537869",
+        "accessoryId": "a0h1j000000rE2tAAE"
+      }
+    ],
+    "accessories": [
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (3 M, BROWN) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835234",
+          "modelNumber": "CP1000",
+          "itemId": "2740809",
+          "description": "CP1000 MAGNET (3 M, BROWN) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000006k8nAAA",
+        "fittingDate": 1549843200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (3 M, BROWN) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835234",
+          "modelNumber": "CP1000",
+          "itemId": "2740809",
+          "description": "CP1000 MAGNET (3 M, BROWN) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000006mmCAAQ",
+        "fittingDate": 1550275200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 KOALA CLIP PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544859",
+          "modelNumber": "CP1000",
+          "itemId": "2336769",
+          "description": "CP1000 KOALA CLIP PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000qbC9AAI",
+        "fittingDate": 1564185600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (CARBON)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285983",
+          "modelNumber": "CP900",
+          "itemId": "798673",
+          "description": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (CARBON)"
+        },
+        "name": "CP900",
+        "lotNumber": "VAU0001053-230000",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000qbCMAAY",
+        "fittingDate": 1564185600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EVERYDAY CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206780",
+          "modelNumber": "CP800",
+          "itemId": "473668",
+          "description": "CP800 SERIES EVERYDAY CASE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uPAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uQAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "COCHLEAR NUCLEUS SAFETY LINE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z467062",
+          "modelNumber": "CP900",
+          "itemId": "1470756",
+          "description": "COCHLEAR NUCLEUS SAFETY LINE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uRAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MICROPHONE COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P729647",
+          "modelNumber": "CP1000",
+          "itemId": "2374758",
+          "description": "CP1000 MICROPHONE COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uSAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uTAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "N7 VIDEO BOOKLET - CAM",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "P1238446",
+          "modelNumber": "Unknown",
+          "itemId": "3256782",
+          "description": "N7 VIDEO BOOKLET - CAM"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uUAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uVAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uWAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uXAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uYAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 AQUA+PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544583",
+          "modelNumber": "CP1000",
+          "itemId": "2442780",
+          "description": "CP1000 AQUA+PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uZAAQ",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uaAAA",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7ubAAA",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 CHARGER PLUG PACK PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P730907",
+          "modelNumber": "CP1000",
+          "itemId": "2374753",
+          "description": "CP1000 CHARGER PLUG PACK PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7ucAAA",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 AQUA+ COIL, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P789746",
+          "modelNumber": "CP1000",
+          "itemId": "2493780",
+          "description": "CP1000 AQUA+ COIL, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7udAAA",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544858",
+          "modelNumber": "CP1000",
+          "itemId": "2336756",
+          "description": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7ueAAA",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 Y BATTERY CHARGER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544580",
+          "modelNumber": "CP1000",
+          "itemId": "2362751",
+          "description": "CP1000 Y BATTERY CHARGER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7ufAAA",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7ugAAA",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CAM - Nucleus Upgrade Kit",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "FCM607",
+          "modelNumber": "Unknown",
+          "itemId": "1408754",
+          "description": "CAM - Nucleus Upgrade Kit"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000r7uhAAA",
+        "fittingDate": 1565395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSDAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "N7 VIDEO BOOKLET - CAM",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "P1238446",
+          "modelNumber": "Unknown",
+          "itemId": "3256782",
+          "description": "N7 VIDEO BOOKLET - CAM"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSEAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSFAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSGAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EVERYDAY CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206780",
+          "modelNumber": "CP800",
+          "itemId": "473668",
+          "description": "CP800 SERIES EVERYDAY CASE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSHAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 Y BATTERY CHARGER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544580",
+          "modelNumber": "CP1000",
+          "itemId": "2362751",
+          "description": "CP1000 Y BATTERY CHARGER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSIAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 CHARGER PLUG PACK PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P730907",
+          "modelNumber": "CP1000",
+          "itemId": "2374753",
+          "description": "CP1000 CHARGER PLUG PACK PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSJAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSKAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSLAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSMAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CAM - Nucleus Upgrade Kit",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "FCM607",
+          "modelNumber": "Unknown",
+          "itemId": "1408754",
+          "description": "CAM - Nucleus Upgrade Kit"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSNAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544858",
+          "modelNumber": "CP1000",
+          "itemId": "2336756",
+          "description": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSOAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSPAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSQAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MICROPHONE COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P729647",
+          "modelNumber": "CP1000",
+          "itemId": "2374758",
+          "description": "CP1000 MICROPHONE COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSRAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSSAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSTAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSUAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSVAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EVERYDAY CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206780",
+          "modelNumber": "CP800",
+          "itemId": "473668",
+          "description": "CP800 SERIES EVERYDAY CASE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSWAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 AQUA+ COIL, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P789746",
+          "modelNumber": "CP1000",
+          "itemId": "2493780",
+          "description": "CP1000 AQUA+ COIL, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSXAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSYAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "COCHLEAR NUCLEUS SAFETY LINE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z467062",
+          "modelNumber": "CP900",
+          "itemId": "1470756",
+          "description": "COCHLEAR NUCLEUS SAFETY LINE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSZAA2",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544858",
+          "modelNumber": "CP1000",
+          "itemId": "2336756",
+          "description": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSaAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 EARHOOK, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544866",
+          "modelNumber": "CP1000",
+          "itemId": "2336765",
+          "description": "CP1000 EARHOOK, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSbAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 AQUA+PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544583",
+          "modelNumber": "CP1000",
+          "itemId": "2442780",
+          "description": "CP1000 AQUA+PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCScAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSdAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 Y BATTERY CHARGER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544580",
+          "modelNumber": "CP1000",
+          "itemId": "2362751",
+          "description": "CP1000 Y BATTERY CHARGER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSeAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSfAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSgAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "N7 VIDEO BOOKLET - CAM",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "P1238446",
+          "modelNumber": "Unknown",
+          "itemId": "3256782",
+          "description": "N7 VIDEO BOOKLET - CAM"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCShAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CAM - Nucleus Upgrade Kit",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "FCM607",
+          "modelNumber": "Unknown",
+          "itemId": "1408754",
+          "description": "CAM - Nucleus Upgrade Kit"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSiAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSjAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSkAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSlAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 CHARGER PLUG PACK PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P730907",
+          "modelNumber": "CP1000",
+          "itemId": "2374753",
+          "description": "CP1000 CHARGER PLUG PACK PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSmAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSnAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MICROPHONE COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P729647",
+          "modelNumber": "CP1000",
+          "itemId": "2374758",
+          "description": "CP1000 MICROPHONE COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSoAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSrAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSsAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCStAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544858",
+          "modelNumber": "CP1000",
+          "itemId": "2336756",
+          "description": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSuAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 Y BATTERY CHARGER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544580",
+          "modelNumber": "CP1000",
+          "itemId": "2362751",
+          "description": "CP1000 Y BATTERY CHARGER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSvAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 CHARGER PLUG PACK PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P730907",
+          "modelNumber": "CP1000",
+          "itemId": "2374753",
+          "description": "CP1000 CHARGER PLUG PACK PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSwAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "N7 VIDEO BOOKLET - CAM",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "P1238446",
+          "modelNumber": "Unknown",
+          "itemId": "3256782",
+          "description": "N7 VIDEO BOOKLET - CAM"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSxAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CAM - Nucleus Upgrade Kit",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "FCM607",
+          "modelNumber": "Unknown",
+          "itemId": "1408754",
+          "description": "CAM - Nucleus Upgrade Kit"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSyAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCSzAAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MICROPHONE COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P729647",
+          "modelNumber": "CP1000",
+          "itemId": "2374758",
+          "description": "CP1000 MICROPHONE COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCT0AAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCT1AAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EVERYDAY CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206780",
+          "modelNumber": "CP800",
+          "itemId": "473668",
+          "description": "CP800 SERIES EVERYDAY CASE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCT2AAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCT3AAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCT4AAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rCT5AAM",
+        "fittingDate": 1565568000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 CHARGER PLUG PACK PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P730907",
+          "modelNumber": "CP1000",
+          "itemId": "2374753",
+          "description": "CP1000 CHARGER PLUG PACK PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2rAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CAM - Nucleus Upgrade Kit",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "FCM607",
+          "modelNumber": "Unknown",
+          "itemId": "1408754",
+          "description": "CAM - Nucleus Upgrade Kit"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2sAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2tAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544858",
+          "modelNumber": "CP1000",
+          "itemId": "2336756",
+          "description": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2uAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2vAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2wAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MICROPHONE COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P729647",
+          "modelNumber": "CP1000",
+          "itemId": "2374758",
+          "description": "CP1000 MICROPHONE COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2xAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 Y BATTERY CHARGER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544580",
+          "modelNumber": "CP1000",
+          "itemId": "2362751",
+          "description": "CP1000 Y BATTERY CHARGER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2yAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE2zAAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "N7 VIDEO BOOKLET - CAM",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "P1238446",
+          "modelNumber": "Unknown",
+          "itemId": "3256782",
+          "description": "N7 VIDEO BOOKLET - CAM"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE30AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EVERYDAY CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206780",
+          "modelNumber": "CP800",
+          "itemId": "473668",
+          "description": "CP800 SERIES EVERYDAY CASE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE31AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE32AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 M, BLACK) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835228",
+          "modelNumber": "CP1000",
+          "itemId": "2740815",
+          "description": "CP1000 MAGNET (2 M, BLACK) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE33AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE34AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544863",
+          "modelNumber": "CP1000",
+          "itemId": "2336761",
+          "description": "CP1000 SNUGFIT, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE35AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE36AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544858",
+          "modelNumber": "CP1000",
+          "itemId": "2336756",
+          "description": "CP1000 TAMPER-RESISTANT EARHOOK, SMALL PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE37AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB4820988A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE38AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j000000rE39AAE",
+        "fittingDate": 1565654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CAM - Nucleus Externals",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "FCM606",
+          "modelNumber": "Unknown",
+          "itemId": "1383751",
+          "description": "CAM - Nucleus Externals"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rXcAAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 BATTERY HOLDER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z491369",
+          "modelNumber": "CP1000",
+          "itemId": "2316755",
+          "description": "CP1000 BATTERY HOLDER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rXhAAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 Y BATTERY CHARGER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544580",
+          "modelNumber": "CP1000",
+          "itemId": "2362751",
+          "description": "CP1000 Y BATTERY CHARGER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rXiAAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB6252011A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rXmAAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rXrAAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB6260397A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rXsAAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MICROPHONE COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P729647",
+          "modelNumber": "CP1000",
+          "itemId": "2374758",
+          "description": "CP1000 MICROPHONE COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rY1AAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 (I), BLACK) - SINGLE PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P1473250",
+          "modelNumber": "CP1000",
+          "itemId": "4220780",
+          "description": "CP1000 MAGNET (2 (I), BLACK) - SINGLE PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rY2AAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": "1981204639",
+        "productName": "COCHLEAR WIRELESS MINI MICROPHONE 2+ US",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P770848",
+          "modelNumber": "BAHA 6",
+          "itemId": "2180759",
+          "description": "COCHLEAR WIRELESS MINI MICROPHONE 2+ US"
+        },
+        "name": "BAHA 6",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rY3AAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "AUDIO ACCCESSORIES"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rY6AAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "STORAGE CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z342010",
+          "modelNumber": "CP900",
+          "itemId": "1027701",
+          "description": "STORAGE CASE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rY7AAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 BATTERY COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z491364",
+          "modelNumber": "CP1000",
+          "itemId": "2310751",
+          "description": "CP1000 BATTERY COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rY8AAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, BLACK, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597489",
+          "modelNumber": "CP1000",
+          "itemId": "2372753",
+          "description": "CP1000 COIL, BLACK, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYBAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "ZEPHYR BY DRY & STORE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "FUZ150",
+          "modelNumber": "L34",
+          "itemId": "7145",
+          "description": "ZEPHYR BY DRY & STORE"
+        },
+        "name": "L34",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYCAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "ZEPHYR BY DRY & STORE"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EVERYDAY CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206780",
+          "modelNumber": "CP800",
+          "itemId": "473668",
+          "description": "CP800 SERIES EVERYDAY CASE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYDAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "PLUS ONE CARD",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "FUN1961",
+          "modelNumber": "Unknown",
+          "itemId": "1487758",
+          "description": "PLUS ONE CARD"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYGAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 USB BATTERY CHARGER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544581",
+          "modelNumber": "CP1000",
+          "itemId": "2361753",
+          "description": "CP1000 USB BATTERY CHARGER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYHAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 CHARGER PLUG PACK PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P730907",
+          "modelNumber": "CP1000",
+          "itemId": "2374753",
+          "description": "CP1000 CHARGER PLUG PACK PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYIAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 BATTERY COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z491364",
+          "modelNumber": "CP1000",
+          "itemId": "2310751",
+          "description": "CP1000 BATTERY COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYQAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 BATTERY HOLDER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z491369",
+          "modelNumber": "CP1000",
+          "itemId": "2316755",
+          "description": "CP1000 BATTERY HOLDER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYRAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 EARHOOK, MEDIUM PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544867",
+          "modelNumber": "CP1000",
+          "itemId": "2336766",
+          "description": "CP1000 EARHOOK, MEDIUM PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYSAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MICROPHONE COVER PACKED, BLACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P729647",
+          "modelNumber": "CP1000",
+          "itemId": "2374758",
+          "description": "CP1000 MICROPHONE COVER PACKED, BLACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYVAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544550",
+          "modelNumber": "CP1000",
+          "itemId": "2364752",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (BLACK)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB6306714A",
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYWAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "N7 VIDEO BOOKLET - CAM",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "P1238446",
+          "modelNumber": "Unknown",
+          "itemId": "3256782",
+          "description": "N7 VIDEO BOOKLET - CAM"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYXAAY",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (2 (I), BLACK) - SINGLE PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P1473250",
+          "modelNumber": "CP1000",
+          "itemId": "4220780",
+          "description": "CP1000 MAGNET (2 (I), BLACK) - SINGLE PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j0000023rYaAAI",
+        "fittingDate": 1621641600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": "2281022438",
+        "productName": "COCHLEAR WIRELESS MINI MICROPHONE 2+ US",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P770848",
+          "modelNumber": "BAHA 6",
+          "itemId": "2180759",
+          "description": "COCHLEAR WIRELESS MINI MICROPHONE 2+ US"
+        },
+        "name": "BAHA 6",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1j000002tzHBAAY",
+        "fittingDate": 1649721600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "AUDIO ACCCESSORIES"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000CnePKAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MAGNET (3 M, SAND) - BULK PACK",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P835232",
+          "modelNumber": "CP1000",
+          "itemId": "2740811",
+          "description": "CP1000 MAGNET (3 M, SAND) - BULK PACK"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000CoXLYAA3",
+        "fittingDate": 1514160000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MAGNETS - CP1000"
+      },
+      {
+        "serialNumber": "1781261237",
+        "productName": "COCHLEAR WIRELESS PHONE CLIP, US",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "94771",
+          "modelNumber": "BAHA 6",
+          "itemId": "1308761",
+          "description": "COCHLEAR WIRELESS PHONE CLIP, US"
+        },
+        "name": "BAHA 6",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000CpCzHAAV",
+        "fittingDate": 1514592000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "AUDIO ACCCESSORIES"
+      },
+      {
+        "serialNumber": "1781298799",
+        "productName": "COCHLEAR WIRELESS MINI MICROPHONE 2+ US",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P770848",
+          "modelNumber": "BAHA 6",
+          "itemId": "2180759",
+          "description": "COCHLEAR WIRELESS MINI MICROPHONE 2+ US"
+        },
+        "name": "BAHA 6",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000CpD0nAAF",
+        "fittingDate": 1514592000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "AUDIO ACCCESSORIES"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 EARMOULD ADAPTOR PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544860",
+          "modelNumber": "CP1000",
+          "itemId": "2336758",
+          "description": "CP1000 EARMOULD ADAPTOR PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000CpD30AAF",
+        "fittingDate": 1514592000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "ACOUSTIC COMPONENTS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 BATTERY HOLDER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z491369",
+          "modelNumber": "CP1000",
+          "itemId": "2316755",
+          "description": "CP1000 BATTERY HOLDER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000CpD3LAAV",
+        "fittingDate": 1514592000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 BATTERY COVER PACKED, SAND",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z491367",
+          "modelNumber": "CP1000",
+          "itemId": "2326765",
+          "description": "CP1000 BATTERY COVER PACKED, SAND"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000CpD54AAF",
+        "fittingDate": 1514592000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES BILATERAL PERSONAL AUDIO CABLE (3.5MM)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z208292",
+          "modelNumber": "CP800",
+          "itemId": "476741",
+          "description": "CP800 SERIES BILATERAL PERSONAL AUDIO CABLE (3.5MM)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000Cq7lAAAR",
+        "fittingDate": 1515283200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES BILATERAL PERSONAL AUDIO CABLE (3.5MM)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z208292",
+          "modelNumber": "CP800",
+          "itemId": "476741",
+          "description": "CP800 SERIES BILATERAL PERSONAL AUDIO CABLE (3.5MM)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000Cq7lqAAB",
+        "fittingDate": 1515283200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL CABLE (6 CM, SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z207511",
+          "modelNumber": "CP800",
+          "itemId": "473630",
+          "description": "CP800 SERIES COIL CABLE (6 CM, SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000Dn0keAAB",
+        "fittingDate": 1523923200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EARHOOK (LARGE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206745",
+          "modelNumber": "CP800",
+          "itemId": "476608",
+          "description": "CP800 SERIES EARHOOK (LARGE)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000ELOU5AAP",
+        "fittingDate": 1530403200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL CABLE (6 CM, SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z207511",
+          "modelNumber": "CP800",
+          "itemId": "473630",
+          "description": "CP800 SERIES COIL CABLE (6 CM, SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000EgIerAAF",
+        "fittingDate": 1534723200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL CABLE (6 CM, SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z207511",
+          "modelNumber": "CP800",
+          "itemId": "473630",
+          "description": "CP800 SERIES COIL CABLE (6 CM, SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000EgIf5AAF",
+        "fittingDate": 1534723200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COMPACT RECHARGEABLE BATTERY MODULE (MAIZE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285990",
+          "modelNumber": "CP900",
+          "itemId": "804666",
+          "description": "CP900 SERIES COMPACT RECHARGEABLE BATTERY MODULE (MAIZE)"
+        },
+        "name": "CP900",
+        "lotNumber": "VAU0000776-210000",
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000Fl2AjAAJ",
+        "fittingDate": 1544832000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COMPACT RECHARGEABLE BATTERY MODULE (MAIZE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285990",
+          "modelNumber": "CP900",
+          "itemId": "804666",
+          "description": "CP900 SERIES COMPACT RECHARGEABLE BATTERY MODULE (MAIZE)"
+        },
+        "name": "CP900",
+        "lotNumber": "VAU0000776-210000",
+        "latestWarrantyDate": null,
+        "id": "a0h1p00000Fl2K0AAJ",
+        "fittingDate": 1544832000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206950",
+          "modelNumber": "CP800",
+          "itemId": "473614",
+          "description": "CP800 SERIES COIL (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "C",
+        "latestWarrantyDate": null,
+        "id": "a0h240000011FAhAAM",
+        "fittingDate": 1436140800000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL MAGNET (2 M, SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z218510",
+          "modelNumber": "CP800",
+          "itemId": "476693",
+          "description": "CP800 SERIES COIL MAGNET (2 M, SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000148c6AAA",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL MAGNETS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES SOUND PROCESSOR BATTERY CHARGER",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z196071",
+          "modelNumber": "CP800",
+          "itemId": "473658",
+          "description": "CP800 SERIES SOUND PROCESSOR BATTERY CHARGER"
+        },
+        "name": "CP800",
+        "lotNumber": "L000014295",
+        "latestWarrantyDate": null,
+        "id": "a0h24000001498XAAQ",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES LAPEL MICROPHONE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z208299",
+          "modelNumber": "CP800",
+          "itemId": "491601",
+          "description": "CP800 SERIES LAPEL MICROPHONE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000149bpAAA",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CR100 SERIES REMOTE ASSISTANT CHARGING KIT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z218960",
+          "modelNumber": "CR100",
+          "itemId": "476669",
+          "description": "CR100 SERIES REMOTE ASSISTANT CHARGING KIT"
+        },
+        "name": "CR100",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000149u3AAA",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "REMOTE ASSISTANT OTHER ACCESSORIES"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES LAPEL MICROPHONE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z208299",
+          "modelNumber": "CP800",
+          "itemId": "491601",
+          "description": "CP800 SERIES LAPEL MICROPHONE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h240000014AfFAAU",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES SOUND PROCESSOR CHARGING KIT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206776",
+          "modelNumber": "CP800",
+          "itemId": "476627",
+          "description": "CP800 SERIES SOUND PROCESSOR CHARGING KIT"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h240000014EyAAAU",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CR100 SERIES REMOTE ASSISTANT CHARGING KIT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z218960",
+          "modelNumber": "CR100",
+          "itemId": "476669",
+          "description": "CR100 SERIES REMOTE ASSISTANT CHARGING KIT"
+        },
+        "name": "CR100",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h240000014KINAA2",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "REMOTE ASSISTANT OTHER ACCESSORIES"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES SOUND PROCESSOR CHARGING KIT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206776",
+          "modelNumber": "CP800",
+          "itemId": "476627",
+          "description": "CP800 SERIES SOUND PROCESSOR CHARGING KIT"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h240000014KLJAA2",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES STANDARD TAMPER RESISTANT BATTERY COVER (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z185503",
+          "modelNumber": "CP800",
+          "itemId": "472602",
+          "description": "CP800 SERIES STANDARD TAMPER RESISTANT BATTERY COVER (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h240000014LQ9AAM",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES STANDARD TAMPER RESISTANT BATTERY COVER (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z185503",
+          "modelNumber": "CP800",
+          "itemId": "472602",
+          "description": "CP800 SERIES STANDARD TAMPER RESISTANT BATTERY COVER (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h240000014LQHAA2",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM COIL, BEIGE (6CM / 2\")",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z61008",
+          "modelNumber": "SP12",
+          "itemId": "9806",
+          "description": "FREEDOM COIL, BEIGE (6CM / 2\")"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h240000014mjKAAQ",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS WITH COIL CABLES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM COIL, BEIGE (6CM / 2\")",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z61008",
+          "modelNumber": "SP12",
+          "itemId": "9806",
+          "description": "FREEDOM COIL, BEIGE (6CM / 2\")"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h240000014mjLAAQ",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS WITH COIL CABLES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM COIL, BEIGE (6CM / 2\")",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z61008",
+          "modelNumber": "SP12",
+          "itemId": "9806",
+          "description": "FREEDOM COIL, BEIGE (6CM / 2\")"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000151WLAAY",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS WITH COIL CABLES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM COIL, BEIGE (6CM / 2\")",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z61008",
+          "modelNumber": "SP12",
+          "itemId": "9806",
+          "description": "FREEDOM COIL, BEIGE (6CM / 2\")"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000151WMAAY",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS WITH COIL CABLES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM BTE CONTROLLER, BEIGE, REFURBISHED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "REF001",
+          "modelNumber": "SP12",
+          "itemId": "94315",
+          "description": "FREEDOM BTE CONTROLLER, BEIGE, REFURBISHED"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h24000001eGAUAA2",
+        "fittingDate": 1452988800000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "CONTROLLERS (REFURBISHED)"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206950",
+          "modelNumber": "CP800",
+          "itemId": "473614",
+          "description": "CP800 SERIES COIL (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "C",
+        "latestWarrantyDate": null,
+        "id": "a0h24000001eOlWAAU",
+        "fittingDate": 1453161600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM COIL, BEIGE (6CM / 2\")",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z61008",
+          "modelNumber": "SP12",
+          "itemId": "9806",
+          "description": "FREEDOM COIL, BEIGE (6CM / 2\")"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h24000002GgpgAAC",
+        "fittingDate": 1464566400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS WITH COIL CABLES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM COIL, BEIGE (6CM / 2\")",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z61008",
+          "modelNumber": "SP12",
+          "itemId": "9806",
+          "description": "FREEDOM COIL, BEIGE (6CM / 2\")"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h24000002GgphAAC",
+        "fittingDate": 1464566400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS WITH COIL CABLES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM BTE CONTROLLER, 3 ZINC-AIR, BEIGE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "S50610",
+          "modelNumber": "SP12",
+          "itemId": "2496",
+          "description": "FREEDOM BTE CONTROLLER, 3 ZINC-AIR, BEIGE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h24000002Gh21AAC",
+        "fittingDate": 1464566400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "CONTROLLERS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM PERSONAL AUDIO CABLE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z60830",
+          "modelNumber": "SP12",
+          "itemId": "3156",
+          "description": "FREEDOM PERSONAL AUDIO CABLE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h24000002Gh22AAC",
+        "fittingDate": 1464566400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM BTE CONTROLLER, 3 ZINC-AIR, BEIGE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "S50610",
+          "modelNumber": "SP12",
+          "itemId": "2496",
+          "description": "FREEDOM BTE CONTROLLER, 3 ZINC-AIR, BEIGE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h24000002Gh6IAAS",
+        "fittingDate": 1464566400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "CONTROLLERS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM PERSONAL AUDIO CABLE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z60830",
+          "modelNumber": "SP12",
+          "itemId": "3156",
+          "description": "FREEDOM PERSONAL AUDIO CABLE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h24000002Gh6JAAS",
+        "fittingDate": 1464566400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z407015",
+          "modelNumber": "CP800",
+          "itemId": "1200722",
+          "description": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "19487",
+        "latestWarrantyDate": null,
+        "id": "a0h24000007ReXAAA0",
+        "fittingDate": 1491264000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EVERYDAY CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206780",
+          "modelNumber": "CP800",
+          "itemId": "473668",
+          "description": "CP800 SERIES EVERYDAY CASE"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiBTAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, SAND, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597499",
+          "modelNumber": "CP1000",
+          "itemId": "2581779",
+          "description": "CP1000 COIL, SAND, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiBUAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CAM - Nucleus Upgrade Kit",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "FCM607",
+          "modelNumber": "Unknown",
+          "itemId": "1408754",
+          "description": "CAM - Nucleus Upgrade Kit"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiBVAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, LARGE PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544865",
+          "modelNumber": "CP1000",
+          "itemId": "2336764",
+          "description": "CP1000 SNUGFIT, LARGE PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiCTAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 SNUGFIT, LARGE PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544865",
+          "modelNumber": "CP1000",
+          "itemId": "2336764",
+          "description": "CP1000 SNUGFIT, LARGE PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiD4AAJ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": "1781286188",
+        "productName": "COCHLEAR WIRELESS MINI MICROPHONE 2+ US",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P770848",
+          "modelNumber": "BAHA 6",
+          "itemId": "2180759",
+          "description": "COCHLEAR WIRELESS MINI MICROPHONE 2+ US"
+        },
+        "name": "BAHA 6",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiDOAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "AUDIO ACCCESSORIES"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544553",
+          "modelNumber": "CP1000",
+          "itemId": "2568784",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (SAND)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB3955411A",
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiDbAAJ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "NUCLEUS 7 TRUE WIRELESS USER GUIDE ENGLISH CAM",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "P963655",
+          "modelNumber": "Unknown",
+          "itemId": "2941781",
+          "description": "NUCLEUS 7 TRUE WIRELESS USER GUIDE ENGLISH CAM"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiDcAAJ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 Y BATTERY CHARGER PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544580",
+          "modelNumber": "CP1000",
+          "itemId": "2362751",
+          "description": "CP1000 Y BATTERY CHARGER PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiEIAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 CHARGER PLUG PACK PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P730907",
+          "modelNumber": "CP1000",
+          "itemId": "2374753",
+          "description": "CP1000 CHARGER PLUG PACK PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiEJAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 COIL, SAND, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z597499",
+          "modelNumber": "CP1000",
+          "itemId": "2581779",
+          "description": "CP1000 COIL, SAND, 6CM"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiEKAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "N7 VIDEO BOOKLET - CAM",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "P1238446",
+          "modelNumber": "Unknown",
+          "itemId": "3256782",
+          "description": "N7 VIDEO BOOKLET - CAM"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiELAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 EARHOOK, LARGE PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544868",
+          "modelNumber": "CP1000",
+          "itemId": "2336767",
+          "description": "CP1000 EARHOOK, LARGE PACKED"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiEaAAJ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 MICROPHONE COVER PACKED, SAND",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P729650",
+          "modelNumber": "CP1000",
+          "itemId": "2374757",
+          "description": "CP1000 MICROPHONE COVER PACKED, SAND"
+        },
+        "name": "CP1000",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiFHAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z544553",
+          "modelNumber": "CP1000",
+          "itemId": "2568784",
+          "description": "CP1000 STANDARD RECHARGEABLE BATTERY MODULE PACKED (SAND)"
+        },
+        "name": "CP1000",
+        "lotNumber": "GB3955411A",
+        "latestWarrantyDate": null,
+        "id": "a0h2400000CeiFIAAZ",
+        "fittingDate": 1512432000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP1000"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL MAGNET (3 M, SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z218515",
+          "modelNumber": "CP800",
+          "itemId": "476698",
+          "description": "CP800 SERIES COIL MAGNET (3 M, SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE000000805eFIAQ",
+        "fittingDate": 1362355200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL MAGNETS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL CABLE (6 CM, SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z207511",
+          "modelNumber": "CP800",
+          "itemId": "473630",
+          "description": "CP800 SERIES COIL CABLE (6 CM, SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0hE00000080sSbIAI",
+        "fittingDate": 1362355200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z196072",
+          "modelNumber": "CP800",
+          "itemId": "473616",
+          "description": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "L000023872",
+        "latestWarrantyDate": null,
+        "id": "a0hE000000825s5IAA",
+        "fittingDate": 1333929600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM PERSONAL AUDIO CABLE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z60830",
+          "modelNumber": "SP12",
+          "itemId": "3156",
+          "description": "FREEDOM PERSONAL AUDIO CABLE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE00000082gV2IAI",
+        "fittingDate": 1317945600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM PERSONAL AUDIO CABLE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z60830",
+          "modelNumber": "SP12",
+          "itemId": "3156",
+          "description": "FREEDOM PERSONAL AUDIO CABLE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE0000008SWhPIAW",
+        "fittingDate": 1329696000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206950",
+          "modelNumber": "CP800",
+          "itemId": "473614",
+          "description": "CP800 SERIES COIL (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0hE0000008SuO4IAK",
+        "fittingDate": 1362355200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL MAGNET (3 M, SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z218515",
+          "modelNumber": "CP800",
+          "itemId": "476698",
+          "description": "CP800 SERIES COIL MAGNET (3 M, SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE0000008SuO5IAK",
+        "fittingDate": 1362355200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL MAGNETS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM PERSONAL AUDIO CABLE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z60830",
+          "modelNumber": "SP12",
+          "itemId": "3156",
+          "description": "FREEDOM PERSONAL AUDIO CABLE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE0000008TJ2WIAW",
+        "fittingDate": 1341878400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - FREEDOM"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM BTE CONTROLLER, BEIGE, REFURBISHED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "REF001",
+          "modelNumber": "SP12",
+          "itemId": "94315",
+          "description": "FREEDOM BTE CONTROLLER, BEIGE, REFURBISHED"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE0000008TM9aIAG",
+        "fittingDate": 1328227200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "CONTROLLERS (REFURBISHED)"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206950",
+          "modelNumber": "CP800",
+          "itemId": "473614",
+          "description": "CP800 SERIES COIL (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0hE0000008TSoXIAW",
+        "fittingDate": 1362355200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z196072",
+          "modelNumber": "CP800",
+          "itemId": "473616",
+          "description": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "L000026774",
+        "latestWarrantyDate": null,
+        "id": "a0hE0000008TVhqIAG",
+        "fittingDate": 1344643200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COIL CABLE (6 CM, SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z207511",
+          "modelNumber": "CP800",
+          "itemId": "473630",
+          "description": "CP800 SERIES COIL CABLE (6 CM, SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0hE0000008UA1eIAG",
+        "fittingDate": 1362355200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EARHOOK (LARGE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206745",
+          "modelNumber": "CP800",
+          "itemId": "476608",
+          "description": "CP800 SERIES EARHOOK (LARGE)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE0000009donBIAQ",
+        "fittingDate": 1402963200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES EARHOOK (LARGE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206745",
+          "modelNumber": "CP800",
+          "itemId": "476608",
+          "description": "CP800 SERIES EARHOOK (LARGE)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE0000009doocIAA",
+        "fittingDate": 1402963200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM BTE CONTROLLER, 3 ZINC-AIR, BEIGE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "S50610",
+          "modelNumber": "SP12",
+          "itemId": "2496",
+          "description": "FREEDOM BTE CONTROLLER, 3 ZINC-AIR, BEIGE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE000000C7unKIAR",
+        "fittingDate": 1411257600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "CONTROLLERS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES BATTERY HOLDER",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z198041",
+          "modelNumber": "CP800",
+          "itemId": "476677",
+          "description": "CP800 SERIES BATTERY HOLDER"
+        },
+        "name": "CP800",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0hE000000C9NdhIAF",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES COMPACT RECHARGEABLE BATTERY MODULE (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z202218",
+          "modelNumber": "CP800",
+          "itemId": "471608",
+          "description": "CP800 SERIES COMPACT RECHARGEABLE BATTERY MODULE (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "L000013103",
+        "latestWarrantyDate": null,
+        "id": "a0hE000000C9NdmIAF",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES BATTERY HOLDER",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z198041",
+          "modelNumber": "CP800",
+          "itemId": "476677",
+          "description": "CP800 SERIES BATTERY HOLDER"
+        },
+        "name": "CP800",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0hE000000C9NdnIAF",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z196072",
+          "modelNumber": "CP800",
+          "itemId": "473616",
+          "description": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "L000015508",
+        "latestWarrantyDate": null,
+        "id": "a0hE000000C9NdvIAF",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z196072",
+          "modelNumber": "CP800",
+          "itemId": "473616",
+          "description": "CP800 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SAND)"
+        },
+        "name": "CP800",
+        "lotNumber": "L000015508",
+        "latestWarrantyDate": null,
+        "id": "a0hE000000C9Ne6IAF",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP800 SERIES BILATERAL PERSONAL AUDIO CABLE (3.5MM)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z208292",
+          "modelNumber": "CP800",
+          "itemId": "476741",
+          "description": "CP800 SERIES BILATERAL PERSONAL AUDIO CABLE (3.5MM)"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE000000C9NeHIAV",
+        "fittingDate": null,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP800"
+      },
+      {
+        "serialNumber": null,
+        "productName": "FREEDOM PERSONAL AUDIO CABLE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z60830",
+          "modelNumber": "SP12",
+          "itemId": "3156",
+          "description": "FREEDOM PERSONAL AUDIO CABLE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0hE000000C9UfuIAF",
+        "fittingDate": 1416009600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - FREEDOM"
+      }
+    ],
+    "implants": [
+      {
+        "surgeryDate": 1127347200000,
+        "serialNumber": "1020050074025",
+        "productName": "COCHLEAR IMPLANT,CI24RE (CA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z60353",
+          "modelNumber": "CI24RE",
+          "itemId": "73",
+          "description": "COCHLEAR IMPLANT,CI24RE (CA)"
+        },
+        "name": "CI24RE",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0EE0000006ZwK7MAK",
+        "earSide": "Right",
+        "deviceType": "Implant",
+        "deviceStatus": "Current",
+        "customerFacingName": "CI24RE"
+      },
+      {
+        "surgeryDate": 1294876800000,
+        "serialNumber": "1020120309011",
+        "productName": "COCHLEAR IMPLANT MODEL CI512 WITH CONTOUR ADVANCE ELECTRODE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z209051",
+          "modelNumber": "CI512",
+          "itemId": "475605",
+          "description": "COCHLEAR IMPLANT MODEL CI512 WITH CONTOUR ADVANCE ELECTRODE"
+        },
+        "name": "CI512",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0EE0000006cHeIMAU",
+        "earSide": "Left",
+        "deviceType": "Implant",
+        "deviceStatus": "Current",
+        "customerFacingName": "CI512"
+      }
+    ],
+    "remoteAssistants": [
+      {
+        "serialNumber": "1040250465113",
+        "productName": "CR310 REMOTE CONTROL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z569903",
+          "modelNumber": "CR310",
+          "itemId": "2346771",
+          "description": "CR310 REMOTE CONTROL PACKED"
+        },
+        "name": "CR310",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000deFvEAI",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      },
+      {
+        "serialNumber": "1040250465168",
+        "productName": "CR310 REMOTE CONTROL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z569903",
+          "modelNumber": "CR310",
+          "itemId": "2346771",
+          "description": "CR310 REMOTE CONTROL PACKED"
+        },
+        "name": "CR310",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000dnadEAA",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      },
+      {
+        "serialNumber": "1040250675727",
+        "productName": "CR310 REMOTE CONTROL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z569903",
+          "modelNumber": "CR310",
+          "itemId": "2346771",
+          "description": "CR310 REMOTE CONTROL PACKED"
+        },
+        "name": "CR310",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000003pyRVEAY",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      },
+      {
+        "serialNumber": "1040250105439",
+        "productName": "CR310 REMOTE CONTROL PACKED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z569903",
+          "modelNumber": "CR310",
+          "itemId": "2346771",
+          "description": "CR310 REMOTE CONTROL PACKED"
+        },
+        "name": "CR310",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E2400000iLuJoEAK",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      },
+      {
+        "serialNumber": "1040200292900",
+        "productName": "CR110 REMOTE ASSISTANT (WHITE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z159280",
+          "modelNumber": "CR100",
+          "itemId": "470603",
+          "description": "CR110 REMOTE ASSISTANT (WHITE)"
+        },
+        "name": "CR100",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0EE000000DWURjMAP",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      }
+    ],
+    "soundProcessors": [
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010142916989",
+        "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732093",
+          "modelNumber": "CP1000",
+          "itemId": "2313759",
+          "description": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000deFqEAI",
+        "fittingDate": 1565395200000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Black"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010142921006",
+        "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732093",
+          "modelNumber": "CP1000",
+          "itemId": "2313759",
+          "description": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000djIgEAI",
+        "fittingDate": 1565568000000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Black"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010142921655",
+        "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732093",
+          "modelNumber": "CP1000",
+          "itemId": "2313759",
+          "description": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000djJZEAY",
+        "fittingDate": 1565568000000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Black"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010142921662",
+        "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732093",
+          "modelNumber": "CP1000",
+          "itemId": "2313759",
+          "description": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000djJeEAI",
+        "fittingDate": 1565568000000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Black"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010142922690",
+        "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732093",
+          "modelNumber": "CP1000",
+          "itemId": "2313759",
+          "description": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000djL8EAI",
+        "fittingDate": 1565568000000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Black"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010142922713",
+        "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732093",
+          "modelNumber": "CP1000",
+          "itemId": "2313759",
+          "description": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000dnaYEAQ",
+        "fittingDate": 1565654400000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Black"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010142922898",
+        "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732093",
+          "modelNumber": "CP1000",
+          "itemId": "2313759",
+          "description": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j000000dnaiEAA",
+        "fittingDate": 1565654400000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Black"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010140859240",
+        "productName": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732093",
+          "modelNumber": "CP1000",
+          "itemId": "2313759",
+          "description": "CP1000 PROCESSING UNIT BULK, BLACK, PLATINUM DETAIL"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E1j0000042CykEAE",
+        "fittingDate": 1621641600000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Black"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010140330985",
+        "productName": "CP1000 PROCESSING UNIT BULK, SAND",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P732101",
+          "modelNumber": "CP1000",
+          "itemId": "2313762",
+          "description": "CP1000 PROCESSING UNIT BULK, SAND"
+        },
+        "name": "CP1000",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E2400000iLuIgEAK",
+        "fittingDate": 1512432000000,
+        "earSide": "Right",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 7",
+        "colour": "Sand"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010050127097",
+        "productName": "FREEDOM PROCESSING UNIT, BEIGE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "S50609",
+          "modelNumber": "SP12",
+          "itemId": "2254",
+          "description": "FREEDOM PROCESSING UNIT, BEIGE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0EE0000006ZwK8MAK",
+        "fittingDate": 1134086400000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Freedom",
+        "colour": "N/A"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010050135184",
+        "productName": "FREEDOM PROCESSING UNIT, BEIGE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "S50609",
+          "modelNumber": "SP12",
+          "itemId": "2254",
+          "description": "FREEDOM PROCESSING UNIT, BEIGE"
+        },
+        "name": "SP12",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0EE0000006ZwK9MAK",
+        "fittingDate": 1129852800000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Freedom",
+        "colour": "N/A"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010092450735",
+        "productName": "CP800 SERIES PROCESSING UNIT (SAND), REFURBISHED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z185553R",
+          "modelNumber": "CP800",
+          "itemId": "551616",
+          "description": "CP800 SERIES PROCESSING UNIT (SAND), REFURBISHED"
+        },
+        "name": "CP800",
+        "lotNumber": "C",
+        "latestWarrantyDate": null,
+        "id": "a0EE0000006cHeKMAU",
+        "fittingDate": 1362355200000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 5",
+        "colour": "Sand"
+      },
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010090636636",
+        "productName": "CP800 SERIES PROCESSING UNIT (SAND), REFURBISHED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z185553R",
+          "modelNumber": "CP800",
+          "itemId": "551616",
+          "description": "CP800 SERIES PROCESSING UNIT (SAND), REFURBISHED"
+        },
+        "name": "CP800",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0EE000000BtbnRMAR",
+        "fittingDate": 1359331200000,
+        "earSide": "Left",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 5",
+        "colour": "Sand"
+      }
+    ]
+  }
+}

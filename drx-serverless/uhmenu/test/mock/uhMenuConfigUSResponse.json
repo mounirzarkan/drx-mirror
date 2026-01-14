@@ -1,0 +1,95 @@
+{
+  "item": {
+    "id": "50277EA9C3994F3290CCCF9D6BB88834",
+    "name": "DRX Header",
+    "path": "/sitecore/content/drx/us/Configuration/Header/DRX Header",
+    "useUniversalHeader": {
+      "value": false
+    },
+    "uhmenuTitle": {
+      "value": ""
+    },
+    "logoutLabel": {
+      "value": ""
+    },
+    "dropDownList": {
+      "links": [
+        {
+          "name": "About Us",
+          "link": {
+            "linkType": "internal",
+            "url": "/account/my-profile/about-me"
+          }
+        },
+        {
+          "name": "Customer Login",
+          "link": {
+            "linkType": "external",
+            "url": "https://cochlear.force.com/Recipient/CIM_RecipientPortalLogin"
+          }
+        }
+      ]
+    },
+    "whatsNewToggle": {
+      "value": true
+    },
+    "whatsNewCloseButton": {
+      "value": "close button"
+    },
+    "whatsNewPopupClose": {
+      "value": "close popup"
+    },
+    "whatsNewPopupLabel": {
+      "value": "close label"
+    },
+    "whatsNewVersion": {
+      "value": "v30"
+    },
+    "whatsNewContent": {
+      "slides": [
+        {
+          "url": "/cochlear-us-drx/configuration/header/whats-new/slide-1",
+          "name": "slide 1",
+          "buttonAction": {
+            "value": "button action"
+          },
+          "buttonStyle": {
+            "value": "button style"
+          },
+          "text": {
+            "value": "content text"
+          },
+          "title": {
+            "value": "content title"
+          },
+          "jmage": {
+            "alt": "Form",
+            "src": "/-/media/6590e6716d5e449ca85d9d4ba36dc56b.ashx",
+            "id": "A3F6966498BE43FAB1B922C0DBCF1B4A"
+          }
+        },
+        {
+          "url": "/cochlear-us-drx/configuration/header/whats-new/slide-2",
+          "name": "slide 2",
+          "buttonAction": {
+            "value": "action"
+          },
+          "buttonStyle": {
+            "value": "style"
+          },
+          "text": {
+            "value": "content text"
+          },
+          "title": {
+            "value": "content title"
+          },
+          "jmage": {
+            "alt": "Form",
+            "src": "/-/media/6590e6716d5e449ca85d9d4ba36dc56b.ashx",
+            "id": "A3F6966498BE43FAB1B922C0DBCF1B4A"
+          }
+        }
+      ]
+    }
+  }
+}

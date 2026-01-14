@@ -1,0 +1,1210 @@
+{
+  "success": true,
+  "data": {
+    "soundProcessors": [
+      {
+        "surgeryDate": null,
+        "serialNumber": "1010115702268",
+        "productName": "CP910 PROCESSING UNIT (MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285970",
+          "modelNumber": "CP900",
+          "itemId": "798665",
+          "description": "CP910 PROCESSING UNIT (MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": "A",
+        "latestWarrantyDate": null,
+        "id": "a0E9E000000BQzpUAG",
+        "fittingDate": 1457654400000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 6",
+        "colour": "Mocha"
+      },
+      {
+        "serialNumber": "1010116548407",
+        "productName": "CP910 PROCESSING UNIT (WHITE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285971",
+          "modelNumber": "CP900",
+          "itemId": "798666",
+          "description": "CP910 PROCESSING UNIT (WHITE)"
+        },
+        "name": "CP900",
+        "underWarranty": false,
+        "latestWarrantyDate": 1374796800000,
+        "isSupported": true,
+        "fittingDate": 1280188800000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 6",
+        "colour": "White"
+      },
+      {
+        "serialNumber": "1010093682906",
+        "productName": "CP800 SERIES PROCESSING UNIT (WHITE), REFURBISHED",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285971",
+          "modelNumber": "CP900",
+          "itemId": "798666",
+          "description": "CP800 SERIES PROCESSING UNIT (WHITE), REFURBISHED"
+        },
+        "name": "CP800",
+        "underWarranty": true,
+        "latestWarrantyDate": 1627796870000,
+        "isSupported": false,
+        "fittingDate": 1402272000000,
+        "earSide": "Left",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Nucleus 5",
+        "colour": "White"
+      },
+      {
+        "serialNumber": "1010051671964",
+        "productName": "FREEDOM PROCESSING UNIT, BROWN",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285971",
+          "modelNumber": "CP900",
+          "itemId": "798666",
+          "description": "FREEDOM PROCESSING UNIT, BROWN"
+        },
+        "name": "SP12",
+        "underWarranty": false,
+        "latestWarrantyDate": 1374796800000,
+        "isSupported": false,
+        "fittingDate": 1280188800000,
+        "earSide": "Unknown",
+        "deviceType": "Speech Processor",
+        "deviceStatus": "Current",
+        "customerFacingName": "Freedom",
+        "colour": "Brown"
+      }
+    ],
+    "remoteAssistants": [
+      {
+        "serialNumber": "1040230806107",
+        "productName": "CR230 REMOTE ASSISTANT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z294703",
+          "modelNumber": "CR230",
+          "itemId": "830691",
+          "description": "CR230 REMOTE ASSISTANT"
+        },
+        "name": "CR230",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0E9E000000BR0DUAW",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      },
+      {
+        "serialNumber": "1040230807036",
+        "productName": "CR230 REMOTE ASSISTANT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z294703",
+          "modelNumber": "CR230",
+          "itemId": "830691",
+          "description": "CR230 REMOTE ASSISTANT"
+        },
+        "name": "CR230",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0E9E000000BR2rUAG",
+        "earSide": "Unknown",
+        "deviceType": "Remote Assistant",
+        "deviceStatus": "Current"
+      }
+    ],
+    "implants": [],
+    "contracts": [
+      {
+        "terminatedDate": null,
+        "startDate": 1457654400000,
+        "installBaseId": "a0E9E000000BQzpUAG",
+        "expirationDate": 1552176000000,
+        "description": "CUSTOMER: Jacqueline Charlton Warranty and Extended Warranty Contract",
+        "coverageStatus": "ACTIVE",
+        "contractType": "Warranty",
+        "contractNumber": "EW1154261",
+        "accessoryId": null
+      }
+    ],
+    "accessories": [
+      {
+        "serialNumber": null,
+        "productName": "REMOTE ASSISTANT BELT CASE (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z332268",
+          "modelNumber": "CP900",
+          "itemId": "1076693",
+          "description": "REMOTE ASSISTANT BELT CASE (BLACK)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCVlQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COIL CABLE (6 CM, SMOKE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285887",
+          "modelNumber": "CP900",
+          "itemId": "1092714",
+          "description": "CP900 SERIES COIL CABLE (6 CM, SMOKE)"
+        },
+        "name": "CP900",
+        "lotNumber": "C",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCVmQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COIL (SMOKE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285925",
+          "modelNumber": "CP900",
+          "itemId": "1115721",
+          "description": "CP900 SERIES COIL (SMOKE)"
+        },
+        "name": "CP900",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCVnQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "AQUA+",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z463273",
+          "modelNumber": "CP900",
+          "itemId": "1468760",
+          "description": "AQUA+"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCVoQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY HOLDER",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z339275",
+          "modelNumber": "CP900",
+          "itemId": "1095714",
+          "description": "BATTERY HOLDER"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCWNQA4",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COIL (MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285927",
+          "modelNumber": "CP900",
+          "itemId": "1115723",
+          "description": "CP900 SERIES COIL (MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCWOQA4",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP900"
+      },
+      {
+        "serialNumber": "1681045946",
+        "productName": "COCHLEAR WIRELESS MINI MICROPHONE 2+ GB",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "P770845",
+          "modelNumber": "BAHA 4",
+          "itemId": "2180756",
+          "description": "COCHLEAR WIRELESS MINI MICROPHONE 2+ GB"
+        },
+        "name": "BAHA 4",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCZcQAO",
+        "fittingDate": 1466208000000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "AUDIO ACCCESSORIES"
+      },
+      {
+        "serialNumber": null,
+        "productName": "NUCLEUS 6 EXTERNAL KITS",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "CCN6CP900",
+          "modelNumber": "Unknown",
+          "itemId": "1253751",
+          "description": "NUCLEUS 6 EXTERNAL KITS"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCd0QAG",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "C-COCHLEAR NUCLEUS CP900 SOUND PROCESSOR KIT A (CORE)",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "CCN6-CP900",
+          "modelNumber": "Unknown",
+          "itemId": "1237752",
+          "description": "C-COCHLEAR NUCLEUS CP900 SOUND PROCESSOR KIT A (CORE)"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCd1QAG",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "STORAGE CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z342010",
+          "modelNumber": "CP900",
+          "itemId": "1027701",
+          "description": "STORAGE CASE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCd2QAG",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COIL (SMOKE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285925",
+          "modelNumber": "CP900",
+          "itemId": "1115721",
+          "description": "CP900 SERIES COIL (SMOKE)"
+        },
+        "name": "CP900",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCd3QAG",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "MONITOR EARPHONES (160 cm)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z327110",
+          "modelNumber": "CP900",
+          "itemId": "1116717",
+          "description": "MONITOR EARPHONES (160 cm)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCd4QAG",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES EARHOOK (LARGE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285996",
+          "modelNumber": "CP900",
+          "itemId": "799663",
+          "description": "CP900 SERIES EARHOOK (LARGE)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCdZQAW",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CR200 SERIES CHARGING KIT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z319245",
+          "modelNumber": "CP900",
+          "itemId": "1076694",
+          "description": "CR200 SERIES CHARGING KIT"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCdaQAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "COCHLEAR NUCLEUS SAFETY LINE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z467062",
+          "modelNumber": "CP900",
+          "itemId": "1470756",
+          "description": "COCHLEAR NUCLEUS SAFETY LINE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCdbQAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "STORAGE CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z342010",
+          "modelNumber": "CP900",
+          "itemId": "1027701",
+          "description": "STORAGE CASE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCjUQAW",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COIL CABLE (6 CM, SMOKE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285887",
+          "modelNumber": "CP900",
+          "itemId": "1092714",
+          "description": "CP900 SERIES COIL CABLE (6 CM, SMOKE)"
+        },
+        "name": "CP900",
+        "lotNumber": "C",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCjVQAW",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "NUCLEUS 6 EXTERNAL KITS",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "CCN6CP900",
+          "modelNumber": "Unknown",
+          "itemId": "1253751",
+          "description": "NUCLEUS 6 EXTERNAL KITS"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCjvQAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY CHARGING KIT (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z342011",
+          "modelNumber": "CP900",
+          "itemId": "1047699",
+          "description": "BATTERY CHARGING KIT (BLACK)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCjwQAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "DRY & STORE - EU",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z325644",
+          "modelNumber": "CP800",
+          "itemId": "797667",
+          "description": "DRY & STORE - EU"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCqOQAW",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "ZEPHYR BY DRY & STORE"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY CHARGER (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z341685",
+          "modelNumber": "CP900",
+          "itemId": "1052698",
+          "description": "BATTERY CHARGER (BLACK)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCqPQAW",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "NUCLEUS AQUA+ COIL, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z463269",
+          "modelNumber": "CP900",
+          "itemId": "1502756",
+          "description": "NUCLEUS AQUA+ COIL, 6CM"
+        },
+        "name": "CP900",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCqQQAW",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "C-COCHLEAR NUCLEUS CR230 REMOTE ASSISTANT - KIT",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "CCN6-CR230",
+          "modelNumber": "Unknown",
+          "itemId": "1239759",
+          "description": "C-COCHLEAR NUCLEUS CR230 REMOTE ASSISTANT - KIT"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCr1QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 STANDARD TAMPER RESISTANT BATTERY COVER (MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285980",
+          "modelNumber": "CP900",
+          "itemId": "798672",
+          "description": "CP900 STANDARD TAMPER RESISTANT BATTERY COVER (MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCr2QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285986",
+          "modelNumber": "CP900",
+          "itemId": "804664",
+          "description": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": "17799",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCr3QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "STORAGE CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z342010",
+          "modelNumber": "CP900",
+          "itemId": "1027701",
+          "description": "STORAGE CASE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCr4QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "STORAGE CASE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z342010",
+          "modelNumber": "CP900",
+          "itemId": "1027701",
+          "description": "STORAGE CASE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCr5QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COIL CABLE (6 CM, MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285889",
+          "modelNumber": "CP900",
+          "itemId": "1092716",
+          "description": "CP900 SERIES COIL CABLE (6 CM, MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": "C",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCr6QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COIL (MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285927",
+          "modelNumber": "CP900",
+          "itemId": "1115723",
+          "description": "CP900 SERIES COIL (MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCw9QAG",
+        "fittingDate": 1492214400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COILS - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCxAQAW",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SMOKE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285984",
+          "modelNumber": "CP900",
+          "itemId": "798674",
+          "description": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SMOKE)"
+        },
+        "name": "CP900",
+        "lotNumber": "17516",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCxBQAW",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY CHARGER (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z341685",
+          "modelNumber": "CP900",
+          "itemId": "1052698",
+          "description": "BATTERY CHARGER (BLACK)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FCxYQAW",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES COIL CABLE (6 CM, MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285889",
+          "modelNumber": "CP900",
+          "itemId": "1092716",
+          "description": "CP900 SERIES COIL CABLE (6 CM, MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": "D",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD2rQAG",
+        "fittingDate": 1492473600000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL CABLES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SMOKE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285984",
+          "modelNumber": "CP900",
+          "itemId": "798674",
+          "description": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (SMOKE)"
+        },
+        "name": "CP900",
+        "lotNumber": "17516",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD3kQAG",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CR200 SERIES CHARGING KIT",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z319245",
+          "modelNumber": "CP900",
+          "itemId": "1076694",
+          "description": "CR200 SERIES CHARGING KIT"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD3lQAG",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "DRY & STORE - EU",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z325644",
+          "modelNumber": "CP800",
+          "itemId": "797667",
+          "description": "DRY & STORE - EU"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD44QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "ZEPHYR BY DRY & STORE"
+      },
+      {
+        "serialNumber": null,
+        "productName": "REMOTE ASSISTANT BELT CASE (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z332268",
+          "modelNumber": "CP900",
+          "itemId": "1076693",
+          "description": "REMOTE ASSISTANT BELT CASE (BLACK)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD45QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES MAGNET (2 M, CARBON)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285908",
+          "modelNumber": "CP900",
+          "itemId": "1091707",
+          "description": "CP900 SERIES MAGNET (2 M, CARBON)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD46QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL MAGNETS - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "MONITOR EARPHONES (160 cm)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z327110",
+          "modelNumber": "CP900",
+          "itemId": "1116717",
+          "description": "MONITOR EARPHONES (160 cm)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD47QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "AQUA+",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z463273",
+          "modelNumber": "CP900",
+          "itemId": "1468760",
+          "description": "AQUA+"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD48QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "NUCLEUS AQUA+ COIL, 6CM",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z463269",
+          "modelNumber": "CP900",
+          "itemId": "1502756",
+          "description": "NUCLEUS AQUA+ COIL, 6CM"
+        },
+        "name": "CP900",
+        "lotNumber": "B",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD49QAG",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES MAGNET (2 M, MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285911",
+          "modelNumber": "CP900",
+          "itemId": "1091704",
+          "description": "CP900 SERIES MAGNET (2 M, MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FD98QAG",
+        "fittingDate": 1492214400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL MAGNETS - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "C-COCHLEAR NUCLEUS CP900 SERIES RECHARGEABLE BATTERY SYSTEM - KIT",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "CCN6-RB",
+          "modelNumber": "Unknown",
+          "itemId": "1238774",
+          "description": "C-COCHLEAR NUCLEUS CP900 SERIES RECHARGEABLE BATTERY SYSTEM - KIT"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDA6QAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES EARHOOK (LARGE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285996",
+          "modelNumber": "CP900",
+          "itemId": "799663",
+          "description": "CP900 SERIES EARHOOK (LARGE)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDA7QAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY CHARGING KIT (BLACK)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z342011",
+          "modelNumber": "CP900",
+          "itemId": "1047699",
+          "description": "BATTERY CHARGING KIT (BLACK)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDA8QAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES MAGNET (2 M, SMOKE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285909",
+          "modelNumber": "CP900",
+          "itemId": "1091706",
+          "description": "CP900 SERIES MAGNET (2 M, SMOKE)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDA9QAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL MAGNETS - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "COCHLEAR NUCLEUS SAFETY LINE",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z467062",
+          "modelNumber": "CP900",
+          "itemId": "1470756",
+          "description": "COCHLEAR NUCLEUS SAFETY LINE"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDAAQA4",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "C-COCHLEAR NUCLEUS CP900 SERIES RECHARGEABLE BATTERY SYSTEM - KIT",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "CCN6-RB",
+          "modelNumber": "Unknown",
+          "itemId": "1238774",
+          "description": "C-COCHLEAR NUCLEUS CP900 SERIES RECHARGEABLE BATTERY SYSTEM - KIT"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDAVQA4",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY COVER LOCKING TOOL",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z206768",
+          "modelNumber": "CP800",
+          "itemId": "476625",
+          "description": "BATTERY COVER LOCKING TOOL"
+        },
+        "name": "CP800",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDAWQA4",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "MISCELLANEOUS"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES SNUGFIT (MEDIUM, MAIZE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z299514",
+          "modelNumber": "CP900",
+          "itemId": "800685",
+          "description": "CP900 SERIES SNUGFIT (MEDIUM, MAIZE)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDEyQAO",
+        "fittingDate": 1471046400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "C-COCHLEAR NUCLEUS CR230 REMOTE ASSISTANT - KIT",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "CCN6-CR230",
+          "modelNumber": "Unknown",
+          "itemId": "1239759",
+          "description": "C-COCHLEAR NUCLEUS CR230 REMOTE ASSISTANT - KIT"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDGfQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 STANDARD TAMPER RESISTANT BATTERY COVER (SMOKE)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285978",
+          "modelNumber": "CP900",
+          "itemId": "798670",
+          "description": "CP900 STANDARD TAMPER RESISTANT BATTERY COVER (SMOKE)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDGgQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES MAGNET (2 M, CARBON)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285908",
+          "modelNumber": "CP900",
+          "itemId": "1091707",
+          "description": "CP900 SERIES MAGNET (2 M, CARBON)"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDGhQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "COIL MAGNETS - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "BATTERY HOLDER",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z339275",
+          "modelNumber": "CP900",
+          "itemId": "1095714",
+          "description": "BATTERY HOLDER"
+        },
+        "name": "CP900",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDGiQAO",
+        "fittingDate": 1457395200000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "OTHER ACCESSORIES - CP900"
+      },
+      {
+        "serialNumber": null,
+        "productName": "C-COCHLEAR NUCLEUS CP900 SOUND PROCESSOR KIT A (CORE)",
+        "productFamily": "Unknown",
+        "product": {
+          "partNumber": "CCN6-CP900",
+          "modelNumber": "Unknown",
+          "itemId": "1237752",
+          "description": "C-COCHLEAR NUCLEUS CP900 SOUND PROCESSOR KIT A (CORE)"
+        },
+        "name": "Unknown",
+        "lotNumber": null,
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDH3QAO",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": null
+      },
+      {
+        "serialNumber": null,
+        "productName": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (MOCHA)",
+        "productFamily": "Nucleus",
+        "product": {
+          "partNumber": "Z285986",
+          "modelNumber": "CP900",
+          "itemId": "804664",
+          "description": "CP900 SERIES STANDARD RECHARGEABLE BATTERY MODULE (MOCHA)"
+        },
+        "name": "CP900",
+        "lotNumber": "17799",
+        "latestWarrantyDate": null,
+        "id": "a0h9E000000FDH4QAO",
+        "fittingDate": 1457654400000,
+        "deviceType": "Accessory",
+        "deviceStatus": "Current",
+        "accessoryType": "BATTERIES - CP900"
+      }
+    ]
+  }
+}

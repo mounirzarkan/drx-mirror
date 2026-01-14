@@ -1,0 +1,117 @@
+{
+  "messages": {
+    "empty": "Enter %field%",
+    "invalid": "Please enter a valid %field%"
+  },
+
+  "profileFields": {
+    "submission": "",
+    "fields": {
+      "firstName": {
+        "displayName": "address line 1",
+        "api": "firstName",
+        "optional": false,
+        "readonly": false,
+        "fieldType": "text"
+      },
+
+      "lastName": {
+        "displayName": "address line 1",
+        "api": "lastName",
+        "optional": false,
+        "readonly": false,
+        "fieldType": "text",
+        "validation": {
+          "type": "regex",
+          "regex": "/^[a-z]+$/i",
+          "message": "this is the error message"
+        }
+      },
+
+      "dob": {
+        "displayName": "Date of birth",
+        "api": "dob",
+        "optional": true,
+        "readonly": false,
+        "fieldType": "dateTime"
+      },
+
+      "email": {
+        "displayName": "mobile number",
+        "apiField": "email",
+        "optional": true,
+        "readonly": false,
+        "fieldType": "phone",
+        "validation": {
+          "type": "api",
+          "url": "/validateUser?userName=",
+          "message": "this is the error message"
+        }
+      },
+
+      "phone": {
+        "displayName": "mobile number",
+        "api": "phone",
+        "optional": true,
+        "readonly": false,
+        "fieldType": "phone",
+        "validation": "/validateUser?userName="
+      }
+    }
+  },
+
+  "address": {
+    "submission": "/v1/address",
+    "melissaData": true,
+    "melissaDataUrl": "http://xxx.api.com",
+    "fields": {
+      "search": {
+        "displayName": "search",
+        "api": "street1",
+        "fieldType": "text"
+      },
+
+      "street1": {
+        "displayName": "address line 1",
+        "melissaData": "",
+        "api": "street1",
+        "fieldType": "text"
+      },
+
+      "street2": {
+        "displayName": "address line 2",
+        "melissaData": "",
+        "api": "street2",
+        "fieldType": "text"
+      },
+
+      "street3": {
+        "displayName": "address line 2",
+        "api": "street3",
+        "melissaData": "",
+        "fieldType": "text"
+      },
+
+      "postalCode": {
+        "displayName": "Postcode",
+        "api": "street3",
+        "melissaData": "",
+        "fieldType": "dropdown"
+      },
+
+      "city": {
+        "displayName": "Town/City",
+        "melissaData": "",
+        "readonly": true,
+        "visible": true
+      },
+
+      "state": {
+        "displayName": "State",
+        "melissaData": "AdministrativeArea",
+        "readonly": false,
+        "visible": true
+      }
+    }
+  }
+}

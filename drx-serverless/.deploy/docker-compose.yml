@@ -1,0 +1,50 @@
+version: "3.4"
+
+services:
+  aws:
+    image: registry.cochlear.dev/devops/gitlab-ci-build-image:alpine-awscli
+    entrypoint: "/bin/bash -c"
+    env_file:
+      - .env
+      - .env.auth
+      - .env.assume
+      # - .env.local
+  sceptre: 
+    image: registry.cochlear.dev/devops/gitlab-ci-build-image:amazonlinux-terraform-sceptre
+    entrypoint: "/bin/bash -c"
+    env_file:
+      - .env
+      - .env.auth
+      # - .env.local
+      - .env.assume
+    volumes:
+      - ./..:/work
+
+  cicd:
+    image: registry.cochlear.dev/devops/gitlab-ci-build-image:amazonlinux-nodejs-20-gitlab-ci-build
+    working_dir: /work 
+    entrypoint: ["/bin/bash","-c"]
+    env_file:
+      - .env
+      - .env.auth
+      - .env.assume
+    volumes:
+      - ./..:/work
+  slack:
+    image: technosophos/slack-notify
+    working_dir: /work 
+    entrypoint: ["/bin/bash","-c"]
+    env_file:
+      - .env
+      - .env.auth
+      - .env.assume
+    volumes:
+      - ./..:/work    
+  shell:
+    image: technosophos/slack-notify
+    working_dir: /work 
+    entrypoint: ["/bin/bash"]
+    env_file:
+      - .env
+    volumes:
+      - ./..:/work

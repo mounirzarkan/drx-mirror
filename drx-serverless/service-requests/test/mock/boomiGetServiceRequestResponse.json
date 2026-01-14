@@ -1,0 +1,65 @@
+{
+  "id": "18447376",
+  "serviceRequestNumber": "7773180",
+  "createdDate": "2024-07-19",
+  "status": "Open",
+  "asset": {
+    "id": "79154702",
+    "startDate": "2022-04-12",
+    "device": {
+      "serialNumber": "1010151697322",
+      "product": {
+        "id": "4477781",
+        "name": "Cp1150 Sound Processor (Silver) - Single Pack",
+        "type": "Speech Processor",
+        "partNumber": "P1320275",
+        "description": "CP1150 SOUND PROCESSOR (SILVER) - SINGLE PACK"
+      }
+    }
+  },
+  "accessoryProblems": [
+    {
+      "accessory": {
+        "id": "79154702"
+      },
+      "problemCode": "Service request for Ellis"
+    }
+  ],
+  "billingAddress": {
+    "street": ["1500 Broadway"],
+    "city": "BUFFALO",
+    "state": "NY",
+    "postalCode": "14212",
+    "countryCode": "US"
+  },
+  "billingContact": {
+    "patient": {
+      "cochlearId": "259913555448708"
+    }
+  },
+  "shippingAddress": {
+    "street": ["1500 Broadway"],
+    "city": "BUFFALO",
+    "state": "NY",
+    "postalCode": "14212",
+    "countryCode": "US"
+  },
+  "shippingContact": {
+    "patient": {
+      "cochlearId": "259913555448708"
+    }
+  },
+  "note": "\r\nFitting Date = 2024-05-01\r\nEar Side = LEFT\r\nClinic Name = NYU Medical Center\r\nAudiologist Name = Kit Frank\r\nClinic Party Id = 48224\r\n",
+  "earSide": "LEFT",
+  "activeWarranty": true,
+  "serviceRequestType": "SP Awaiting Program",
+  "poNumber": " ",
+  "patient": {
+    "cochlearId": "259913555448708",
+    "firstName": "masked by logUtils",
+    "lastName": "Garza"
+  },
+  "provider": {
+    "name": "NYU Medical Center"
+  }
+}
